@@ -1,0 +1,20 @@
+name: Publish programme catalogue
+on:
+  push:
+    paths: ['catalogue/latest.json', 'publish-catalogue.py', '.github/workflows/catalogue.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-catalogue
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 publish-catalogue.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}

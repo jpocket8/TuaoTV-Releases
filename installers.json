@@ -1,123 +1,123 @@
 {
-  "version": "0.2.10",
+  "version": "0.2.11",
   "files": [
     {
-      "name": "tuaotv-Setup-0.2.10-x64.exe",
-      "sha256": "edd42b4c865c7bc9e21816cd305b86a113ed651b9e879ce3b5b18c04df355b1f",
-      "bytes": 119898416,
+      "name": "tuaotv-Setup-0.2.11-x64.exe",
+      "sha256": "a2839fe44a7c2f79b3a566eb5f415664f279c4d2ae2ca147183133959f0c046e",
+      "bytes": 119899328,
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/desktop/win-x64-edd42b4c865c/000.bin",
+          "url": "https://tuaotv.com/downloads/desktop/win-x64-a2839fe44a7c/000.bin",
           "bytes": 25165824,
-          "sha256": "d8eac3aea39e0c055eb74ed0ae4abb46ff420fc082503b1f23b4ec466ff60fd8"
+          "sha256": "39606b0517bfdfa10cf784c4dd3281ccc4804e91744bf232aeeb74dd7a951671"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/win-x64-edd42b4c865c/001.bin",
+          "url": "https://tuaotv.com/downloads/desktop/win-x64-a2839fe44a7c/001.bin",
           "bytes": 25165824,
-          "sha256": "221f99495610bd145d150860322186552338a7ec5b88c340b6ed0a182786ffc5"
+          "sha256": "60b4d53b0029e2fb2c792deba9d8a0a5fc9eea943f2df68675de42e6e4a6f790"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/win-x64-edd42b4c865c/002.bin",
+          "url": "https://tuaotv.com/downloads/desktop/win-x64-a2839fe44a7c/002.bin",
           "bytes": 25165824,
-          "sha256": "628481149e778ef1ee3eccc9070af104baebc4721fae1446fc9d16cb9da2c038"
+          "sha256": "d401375bac9be9e816f7cb1e9fe6c3d84eae459af325b6e34e9e07b736390973"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/win-x64-edd42b4c865c/003.bin",
+          "url": "https://tuaotv.com/downloads/desktop/win-x64-a2839fe44a7c/003.bin",
           "bytes": 25165824,
-          "sha256": "609e89ccf90a4cf931d22ecd4476433086e63187e702f07d9e4e4ff19af1200c"
+          "sha256": "23950b3cacde624a402fa5593376c1478d42349642cb0ee69d6dfa02f57b7cfe"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/win-x64-edd42b4c865c/004.bin",
-          "bytes": 19235120,
-          "sha256": "726e4e27b85ef314c5adf5597feaa173cac48265fa4fae75d3c65ec1aa87296c"
+          "url": "https://tuaotv.com/downloads/desktop/win-x64-a2839fe44a7c/004.bin",
+          "bytes": 19236032,
+          "sha256": "f2b832fc1761619e2edfb9f58c347c572e98978345494e07ead5b597aa5300ef"
         }
       ]
     },
     {
-      "name": "tuaotv-0.2.10-mac-arm64.zip",
-      "sha256": "1c78bfce65516268462140b0afa15255013ee7193e8b2807ba67df6a660c3b48",
-      "bytes": 138710846,
+      "name": "tuaotv-0.2.11-mac-arm64.zip",
+      "sha256": "1dcb804192f1d74fb9502f4e41b99cc1b268e581419d1011bbbe765d4c2df816",
+      "bytes": 138712060,
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/000.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/000.bin",
           "bytes": 25165824,
-          "sha256": "79d89446440873cadb46a54879dd2438f5e2a1ce806a9d7aa94495aca39b6aee"
+          "sha256": "4b5f50d19d9468244824fae6d962e53c62394d987374f02e3ee599b9f045ed92"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/001.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/001.bin",
           "bytes": 25165824,
-          "sha256": "e766853215ff8410a766b9209cc1195a017d293b451122e680b6cfb4752bb8e6"
+          "sha256": "2afe757f38ca792a1d623aef0ea0de741893621adef9573816838d7514c66089"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/002.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/002.bin",
           "bytes": 25165824,
-          "sha256": "673e444043d44797f7ed4148f0f8331d19c224342bd884d8288d6132ed539530"
+          "sha256": "8b328528b910a4c1c47b5d88252e6e895fdf54c1c2d19a2bbd52d32e8d2a5861"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/003.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/003.bin",
           "bytes": 25165824,
-          "sha256": "0f73e85bdf8de6a1011ab58ad47252ab033ad39f70b87bc494107fd8e34224ab"
+          "sha256": "c2be5d4d08799d9c10678c7d420dec3eb61b0efe815288403d0ec48afe2853be"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/004.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/004.bin",
           "bytes": 25165824,
-          "sha256": "ebe3a97b0dac3aec41f03fb1b3686c1edaf00b066ea96d85283f24953650abfa"
+          "sha256": "eb92087e534fefd3c4fa78c005adc5ac2aa5ad0cba48947aebb557a78be2904a"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1c78bfce6551/005.bin",
-          "bytes": 12881726,
-          "sha256": "4b712ebf467b9d373bdc60a94fbe289f66794f2de730c1bd70d0ecbcd77170fa"
+          "url": "https://tuaotv.com/downloads/desktop/mac-arm64-1dcb804192f1/005.bin",
+          "bytes": 12882940,
+          "sha256": "59ff5f28056c6a757f7dbb0314a191e9ac689edb0e9136f86897d08d26a347c0"
         }
       ]
     },
     {
-      "name": "tuaotv-0.2.10-mac-x64.zip",
-      "sha256": "16f8b2852cc105d416c8c021dc7ceb565ba2e2fd7ec11bef1e8a717d93471a3a",
-      "bytes": 144493356,
+      "name": "tuaotv-0.2.11-mac-x64.zip",
+      "sha256": "1b758a94f8c15a9b6f204138c6303c9fbca407e4bfd5654e6fb55d31a19f767a",
+      "bytes": 144494580,
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/000.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/000.bin",
           "bytes": 25165824,
-          "sha256": "bc454f4bb624365fc225abcfb51a054655330f9ab3c944b90e6245c8e0526acf"
+          "sha256": "697091673d95f9317b50cb3151e3f66a705c19477688441390f57e3ff2d57c08"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/001.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/001.bin",
           "bytes": 25165824,
-          "sha256": "c6fb0b4d76270005cb4e60b9bef62d83cd715fb0da6db118652227299cf889cd"
+          "sha256": "63b68d5917c68bfc33c72c1bdc86caf59117447370946ba00ffd3bdf50690456"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/002.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/002.bin",
           "bytes": 25165824,
-          "sha256": "3b3e8402e95b2372e29eac3aac2eb1c530a359bf5bd1c305f426b795c4ef9008"
+          "sha256": "364d8e2271244fc7621af71d6a9885f4b8315db58ae6f4ad447de1ed9d1679c0"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/003.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/003.bin",
           "bytes": 25165824,
-          "sha256": "2e2776163cdfb25f7600c48078eadc9019b30e4525d0011ae458aa4904daf2b1"
+          "sha256": "a17fbe599ead2b0dec58880df95b4f4832e49e926d56d58fd7c2c9716ffe8c34"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/004.bin",
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/004.bin",
           "bytes": 25165824,
-          "sha256": "737a6c725efbf2306be61c3e77f9f7d5ca6a5c698407a06b5a918ce1c0e7cf5a"
+          "sha256": "67d8c7b92c4a3f1c88c063f530c9993e1a1870a6b7ae3b98f2f84356cab1a40f"
         },
         {
-          "url": "https://tuaotv.com/downloads/desktop/mac-x64-16f8b2852cc1/005.bin",
-          "bytes": 18664236,
-          "sha256": "3c04706793c606cf9aa4875542f1190b0209bc30167d252c8a9369991a92ae5c"
+          "url": "https://tuaotv.com/downloads/desktop/mac-x64-1b758a94f8c1/005.bin",
+          "bytes": 18665460,
+          "sha256": "a351cbc47483f0549f4bbfac12637e7e936b0106318e073034ca4100bc3d70d1"
         }
       ]
     },
     {
-      "name": "tuaotv-mobile-0.2.10.apk",
-      "sha256": "aea2074c5c0bac2a15dfc47e86370e381769509fdf4c9d07f013fdf31f48a645",
+      "name": "tuaotv-mobile-0.2.11.apk",
+      "sha256": "8e6277aff9ce5ac77441819973108dcd127706d4449586b47aea6af8678438da",
       "bytes": 21412655,
-      "url": "https://tuaotv.com/downloads/tuaotv-mobile-0.2.10.apk"
+      "url": "https://tuaotv.com/downloads/tuaotv-mobile-0.2.11.apk"
     },
     {
-      "name": "tuaotv-tv-0.2.10.apk",
-      "sha256": "fadc24acde1b0bc8cc6a1f589bf8ccd7bdbb3db8c7098fda41b030adc1d209f7",
+      "name": "tuaotv-tv-0.2.11.apk",
+      "sha256": "1577c30f7901ff8d406d594b379778ae76cd6cf0761ef5cc063c2226a147d870",
       "bytes": 21343949,
-      "url": "https://tuaotv.com/downloads/tuaotv-tv-dev-0.2.10.apk"
+      "url": "https://tuaotv.com/downloads/tuaotv-tv-dev-0.2.11.apk"
     }
   ]
 }

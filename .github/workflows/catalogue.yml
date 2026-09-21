@@ -1,7 +1,7 @@
 name: Publish programme catalogue
 on:
   push:
-    paths: ['catalogue/latest.json', 'publish-catalogue.py', '.github/workflows/catalogue.yml']
+    paths: ['catalogue/latest-v2.json', 'publish-catalogue.py', '.github/workflows/catalogue.yml']
   workflow_dispatch:
 permissions:
   contents: write

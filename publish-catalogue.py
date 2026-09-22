@@ -53,7 +53,11 @@ except urllib.error.HTTPError as e:
  if e.code!=404:raise
  release=next((r for r in api('/releases?per_page=100') if r['tag_name']==tag),None)
  if release is None:release=api('/releases','POST',{'tag_name':tag,'name':'节目列表 '+str(spec['timestamp']),'body':'节目列表数据更新，客户端自动检查。不是 App 安装包。\n\n官网：https://tuaotv.com/catalogue/latest-v2.json','draft':True,'prerelease':True,'make_latest':'false'})
-assets={a['name']:a for a in api('/releases/'+str(release['id'])+'/assets')}
+assets={};page=1
+while True:
+ batch=api('/releases/'+str(release['id'])+'/assets?per_page=100&page='+str(page));assets.update({a['name']:a for a in batch})
+ if len(batch)<100:break
+ page+=1
 for asset in files+[folder/'latest-v2.json']:
  if asset.name in assets:
   assert assets[asset.name]['digest']=='sha256:'+hashlib.sha256(asset.read_bytes()).hexdigest();continue

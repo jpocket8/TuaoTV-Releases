@@ -19,6 +19,28 @@ for i,part in enumerate(spec['parts']):
  for row in content['entries']:
   identity=row['media']['id'];assert identity not in seen;seen.add(identity)
  files.append(file)
+# The light index is optional for old releases, signed independently.
+compact_manifest=folder/'latest-v3.json'
+if compact_manifest.exists():
+ import gzip
+ env3=json.loads(compact_manifest.read_text());raw3=base64.b64decode(env3['payload'])
+ with tempfile.TemporaryDirectory() as temporary:
+  p=pathlib.Path(temporary);(p/'payload').write_bytes(raw3);(p/'signature').write_bytes(base64.b64decode(env3['signature']))
+  subprocess.run(['openssl','dgst','-sha256','-verify','update-public.pem','-signature',str(p/'signature'),str(p/'payload')],check=True)
+ index=json.loads(raw3);assert index['schema']==3 and index['timestamp']==spec['timestamp'] and index['count']==spec['count']
+ assert 1<=len(index['parts'])<=128 and sum(p['bytes'] for p in index['parts'])==index['bytes']
+ ids=set()
+ for part in index['parts']:
+  assert re.fullmatch(r'catalogue-\d{13}-index-\d{3}\.json\.gz',part['file'])
+  file=folder/part['file'];data=file.read_bytes()
+  assert len(data)==part['bytes']<=4*1024*1024 and hashlib.sha256(data).hexdigest()==part['sha256']
+  raw=gzip.decompress(data);assert len(raw)==part['uncompressedBytes']<=16*1024*1024
+  content=json.loads(raw);assert content['schema']==1 and content['timestamp']==0 and len(content['entries'])==part['count']
+  for row in content['entries']:
+   assert row['media']['id'] not in ids;ids.add(row['media']['id'])
+  files.append(file)
+ assert len(ids)==index['count']
+ files.append(compact_manifest)
 repo=os.environ['GH_REPOSITORY'];token=os.environ['GH_TOKEN'];tag='catalogue-'+str(spec['timestamp'])
 def api(endpoint,method='GET',body=None,file=None):
  url=endpoint if endpoint.startswith('https://') else 'https://api.github.com/repos/'+repo+endpoint

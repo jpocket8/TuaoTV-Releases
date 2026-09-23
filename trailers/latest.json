@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790194199781,
+  "updatedAt": 1790203478791,
   "items": [
     {
       "id": "-mnTITqqiT0",
@@ -56,12 +56,6 @@
       "ageDays": 30
     },
     {
-      "id": "mNd1gb19A-c",
-      "title": "RESIDENT EVIL – Official Trailer (4K)",
-      "channel": "Sony Pictures",
-      "ageDays": 30
-    },
-    {
       "id": "bfCgu83suHs",
       "title": "Heart of the Beast | Official Trailer 2 (2026 Movie) - Brad Pitt, J.K. Simmons, Anna Lambe",
       "channel": "Paramount Pictures",
@@ -92,10 +86,16 @@
       "ageDays": 60
     },
     {
+      "id": "mNd1gb19A-c",
+      "title": "RESIDENT EVIL – Official Trailer (4K)",
+      "channel": "Sony Pictures",
+      "ageDays": 60
+    },
+    {
       "id": "wixzainceAE",
       "title": "KLARA AND THE SUN – Official Trailer (4K)",
       "channel": "Sony Pictures",
-      "ageDays": 60
+      "ageDays": 90
     },
     {
       "id": "gM4LkaXwGuY",

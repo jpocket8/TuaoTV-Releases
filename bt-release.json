@@ -1,0 +1,49 @@
+{
+  "version": "0.2.49-bt.1",
+  "baseUrl": "https://8f783e2d.tuaotv.pages.dev",
+  "notes": "桌面 BT 功能预览版，仅提供已验证的 Mac Apple Silicon 安装包（M1/M2/M3/M4 等），要求 macOS 14 或以上。\n\n- BT 默认关闭；用户配置 Torznab 索引源并开启后，进入节目详情自动搜索。\n- 支持 Magnet/.torrent、选文件下载、暂停续传、边下边播、SRT/VTT字幕；默认强制 Peer 加密。\n- 140 项桌面测试与 4 项引擎测试通过，Mac 实际安装包播放已验证。\n- Windows、Intel Mac 未实机验证，本次不提供相应安装包；macOS 11–13 不支持本预览包。\n- 独立安装，不替换正式版自动更新渠道。Mac 包为 ad-hoc 签名，未经过 Apple 公证。\n\n下载 ZIP 并解压，将“土澳TV BT.app”移入 Applications。只使用有权访问、分享的资源；Peer 加密不等于匿名。\n\nBT-SHA256SUMS.txt 提供下载校验值。Source code 不是应用安装包。",
+  "files": [
+    {
+      "name": "tuaotv-bt-0.2.49-preview.1-mac-arm64.zip",
+      "bytes": 156072250,
+      "sha256": "68dbe1e09e7753b11e5166fac7968c9f58fcf9dd8d4736cac0a6e0d081fa3020",
+      "parts": [
+        {
+          "bytes": 25165824,
+          "sha256": "a0c1e311f5aaa918c684b28aab3e99e692ff7ab61aa46aa9a7aff3cf407e097a",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-000.bin"
+        },
+        {
+          "bytes": 25165824,
+          "sha256": "0c4657e11e6718500ab8a12934cdb2d891a75c96304223be6c59e098b45ed90c",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-001.bin"
+        },
+        {
+          "bytes": 25165824,
+          "sha256": "590e38f4e9c26f6916b9db9df3922c9714f2bd9cd261d2866c7f61e4a8a46403",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-002.bin"
+        },
+        {
+          "bytes": 25165824,
+          "sha256": "c942fe7a03e7cd8e1bedf8d6ef897fab45335dc8cee4b5e1df804a6ca7d2a06c",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-003.bin"
+        },
+        {
+          "bytes": 25165824,
+          "sha256": "8794fb0938bd4aed6006081a0b6ef1785df5827e99c1baef143105189f190bec",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-004.bin"
+        },
+        {
+          "bytes": 25165824,
+          "sha256": "31d6abd656b743cd17a54666672a8161b5bc7cb705c79cd87d6b4183f7547436",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-005.bin"
+        },
+        {
+          "bytes": 5077306,
+          "sha256": "1337ed6be5700e753f91efd697d085b1ffd1529da65e1784bb85900a9191f53b",
+          "url": "https://8f783e2d.tuaotv.pages.dev/downloads/bt-mac-arm64-006.bin"
+        }
+      ]
+    }
+  ]
+}

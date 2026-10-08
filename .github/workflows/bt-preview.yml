@@ -1,0 +1,20 @@
+name: Publish BT desktop preview
+on:
+  push:
+    branches: ['publish/bt-preview']
+    paths: ['bt-release.json', 'publish-bt.py', 'BT-SHA256SUMS.txt', '.github/workflows/bt-preview.yml']
+permissions:
+  contents: write
+concurrency:
+  group: publish-bt-preview
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 publish-bt.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}

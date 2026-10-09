@@ -53,6 +53,7 @@ def api(path, method='GET', body=None, binary=None):
 releases = api('/releases?per_page=100')
 release = next((r for r in releases if r['tag_name'] == 'v'+version or (r['draft'] and r['name'] == '土澳TV '+version)), None)
 notes = '请选择对应平台安装包，点击后由浏览器直接下载。\n\n' + '\n'.join('- '+e['name'] for e in spec['files']) + '\n\nSHA256SUMS.txt 提供校验值。此仓库仅用于安装包分发，Source code 不是应用安装包。\n\n官网：https://tuaotv.com'
+if spec.get('notes'): notes += '\n\n' + spec['notes']
 if release is None:
     release = api('/releases', 'POST', {'tag_name':'v'+version, 'name':'土澳TV '+version, 'body':notes, 'draft':True, 'prerelease':False})
 elif release['draft']:

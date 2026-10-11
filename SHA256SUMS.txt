@@ -1,8 +1,8 @@
-1d1b62c0bf4c3d1d35fee9ef9488e8ec790ff68a126ef3dd869d0016b658feae  tuaotv-mobile-0.2.74.apk
-6ebc93e6deb7265b52dec36ccc39d9d5b6a0109b0bdca8f3f9e54ee248b23d4d  tuaotv-tv-0.2.74.apk
-c20ffd3e893900b3d1b5497eb7504e3c7ec998d6af570fdfdf5d54cb1f78e84c  tuaotv-tv-original-0.2.74.apk
-2b72165307dac8fb77e58d17cabd5ff7a8714b17a0ad3baa2777aa0ffcf79e77  tuaotv-0.2.74-mac-arm64.dmg
-0acfc613efac137f3872189131e38f1d9efbdaa660032c8a69f54fa6ecbeb151  tuaotv-0.2.74-mac-arm64.zip
-999f5d76d6eaac9b66ea0f1aabd9012f28b89c7f2f13f27e58a73b1d1bade533  tuaotv-0.2.74-mac-x64.dmg
-434914a5ca970d552d3c9714f0e2c1f3870a8616feebd6924bb45daeae13193e  tuaotv-0.2.74-mac-x64.zip
-21467466b48bc2c2a7d94fc2c3e7cf8256bac1e329583d36b16f750af8a42e59  tuaotv-Setup-0.2.74-x64.exe
+7a1f85a9e2babf224bef8865ec2a57d6a281b428cd3c0f2af5d8c3fd83aabbcd  tuaotv-mobile-0.2.75.apk
+1d1a0e67a7d39e8740cd9e0df2f17450b3235b60671eae40bfe3ec17847b7f5a  tuaotv-tv-0.2.75.apk
+5ab97b33f36e5e0e723e0338e40ab576a2acfa34c07bb224cccb7f7026692e06  tuaotv-tv-original-0.2.75.apk
+c03a5c7f03ace654f78a04ac7b904f0dc80385fffd1e6fb6f9563a34255da650  tuaotv-0.2.75-mac-arm64.dmg
+d5c34729cca0d389ad65964dac814ceec1b2ac96a431bfac31dfcf36bac4546f  tuaotv-0.2.75-mac-arm64.zip
+d5f8fbd51fd9e296a065729fe2d0bd93bb6fb21985ff04d1da9cfa3a9e1ef084  tuaotv-0.2.75-mac-x64.dmg
+c3dbefd404add1d09f7a005242a85ade1cc4306b4e908a4c69eca3a9c48908f9  tuaotv-0.2.75-mac-x64.zip
+7e8fd07b915699555f193cbce4cd7c1f7527b50c2696fceb95e0171f0bb8f4cd  tuaotv-Setup-0.2.75-x64.exe

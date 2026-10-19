@@ -4,6 +4,7 @@ folder=pathlib.Path('catalogue');envelope=json.loads((folder/'latest-v2.json').r
 import subprocess,re
 payload=base64.b64decode(envelope['payload']);signature=base64.b64decode(envelope['signature'])
 import tempfile
+import time,http.client
 with tempfile.TemporaryDirectory() as temporary:
  p=pathlib.Path(temporary);(p/'payload').write_bytes(payload);(p/'signature').write_bytes(signature)
  subprocess.run(['openssl','dgst','-sha256','-verify','update-public.pem','-signature',str(p/'signature'),str(p/'payload')],check=True)
@@ -47,11 +48,21 @@ def api(endpoint,method='GET',body=None,file=None):
  assert url.startswith(('https://api.github.com/','https://uploads.github.com/'))
  data=file.read_bytes() if file else json.dumps(body).encode() if body is not None else None
  headers={'Authorization':'Bearer '+token,'User-Agent':'TuaoTV-catalogue','Accept':'application/vnd.github+json','Content-Type':'application/octet-stream' if file else 'application/json'}
- with urllib.request.urlopen(urllib.request.Request(url,data=data,headers=headers,method=method),timeout=180) as r:return json.load(r)
+ for attempt in range(4):
+  try:
+   with urllib.request.urlopen(urllib.request.Request(url,data=data,headers=headers,method=method),timeout=180) as r:return json.load(r)
+  except (http.client.IncompleteRead, urllib.error.URLError, TimeoutError) as error:
+   if method != 'GET' or (isinstance(error,urllib.error.HTTPError) and error.code < 500 and error.code != 429) or attempt == 3:raise
+   time.sleep(2 ** attempt)
+
 try:release=api('/releases/tags/'+tag)
 except urllib.error.HTTPError as e:
  if e.code!=404:raise
- release=next((r for r in api('/releases?per_page=100') if r['tag_name']==tag),None)
+ release=None
+ for page in range(1,21):
+  batch=api('/releases?per_page=5&page='+str(page))
+  release=next((r for r in batch if r['tag_name']==tag),None)
+  if release is not None or len(batch)<5:break
  if release is None:release=api('/releases','POST',{'tag_name':tag,'name':'节目列表 '+str(spec['timestamp']),'body':'节目列表数据更新，客户端自动检查。不是 App 安装包。\n\n官网：https://tuaotv.com/catalogue/latest-v2.json','draft':True,'prerelease':True,'make_latest':'false'})
 assets={};page=1
 while True:
@@ -64,3 +75,13 @@ for asset in files+[folder/'latest-v2.json']:
  api(release['upload_url'].split('{')[0]+'?name='+urllib.parse.quote(asset.name),'POST',file=asset)
 api('/releases/'+str(release['id']),'PATCH',{'draft':False,'prerelease':True,'make_latest':'false'})
 print('Published',tag)
+
+# Clients only see manifests whose immutable data release is already public.
+for name in ['latest-v2.json','latest-v3.json']:
+ source=folder/name
+ if not source.exists():continue
+ endpoint='/contents/catalogue/'+name.replace('latest-','published-')
+ current=api(endpoint)
+ encoded=base64.b64encode(source.read_bytes()).decode()
+ if base64.b64decode(current['content'])==source.read_bytes():continue
+ api(endpoint,'PUT',{'message':'Activate verified '+tag+' '+name,'sha':current['sha'],'content':encoded,'branch':'main'})

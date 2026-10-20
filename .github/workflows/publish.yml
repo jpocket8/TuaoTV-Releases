@@ -7,13 +7,19 @@ permissions:
   contents: write
 concurrency:
   group: publish-installers
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /installers.json
+            /SHA256SUMS.txt
+            /publish.py
       - name: Verify and publish installers
         env:
           GH_TOKEN: ${{ github.token }}

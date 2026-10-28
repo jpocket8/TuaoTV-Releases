@@ -10,7 +10,7 @@ folder.mkdir(exist_ok=True)
 def download(entry):
     target = folder / entry['name']
     assert target.name == entry['name']
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             digest = hashlib.sha256()
             with target.open('wb') as output:
@@ -22,12 +22,21 @@ def download(entry):
                     # Bound the entire transfer and retry individual public chunks.
                     print('Downloading', target.name, part['url'].rsplit('/', 1)[-1], flush=True)
                     chunk = target.with_suffix(target.suffix + '.part')
-                    subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location',
-                                    '--connect-timeout', '15', '--max-time', '90',
-                                    '--speed-limit', '1024', '--speed-time', '20',
-                                    '--retry', '2', '--retry-max-time', '180',
-                                    '--user-agent', 'TuaoTV-release', part['url'],
-                                    '--output', str(chunk)], check=True, timeout=210)
+                    origins = [part['url'].replace('https://tuaotv.com/', 'https://tuaotv.pages.dev/', 1), part['url']]
+                    for origin in origins:
+                        try:
+                            subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location',
+                                            '--connect-timeout', '10', '--max-time', '40',
+                                            '--speed-limit', '1024', '--speed-time', '15',
+                                            '--user-agent', 'TuaoTV-release', origin,
+                                            '--output', str(chunk)], check=True, timeout=45)
+                            assert chunk.stat().st_size == part['bytes'], 'Part size mismatch'
+                            assert hashlib.sha256(chunk.read_bytes()).hexdigest() == part['sha256'], 'Part checksum mismatch'
+                            break
+                        except Exception as error:
+                            print('Download route failed', origin, type(error).__name__, flush=True)
+                    else:
+                        raise RuntimeError('Both download routes failed: ' + part['url'])
                     with chunk.open('rb') as response:
                         while block := response.read(1024*1024):
                             size += len(block)
@@ -39,7 +48,7 @@ def download(entry):
             print('Verified', target.name, flush=True)
             return target
         except Exception:
-            if attempt == 2: raise
+            if attempt == 1: raise
             time.sleep(3)
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
     files = list(pool.map(download, spec['files']))

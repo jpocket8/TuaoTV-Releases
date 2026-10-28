@@ -1,5 +1,5 @@
 """Fetch known public installers, verify bytes, then publish a complete GitHub release."""
-import concurrent.futures, hashlib, json, os, pathlib, time, urllib.request
+import concurrent.futures, hashlib, json, os, pathlib, time, urllib.request, subprocess
 from urllib.parse import quote
 spec = json.loads(pathlib.Path('installers.json').read_text())
 version = spec['version']
@@ -18,12 +18,22 @@ def download(entry):
                     assert part['url'].startswith('https://tuaotv.com/downloads/')
                     part_digest = hashlib.sha256()
                     size = 0
-                    request = urllib.request.Request(part['url'], headers={'User-Agent': 'TuaoTV-release'})
-                    with urllib.request.urlopen(request, timeout=90) as response:
+                    # Socket timeouts alone allow a trickling connection to run forever.
+                    # Bound the entire transfer and retry individual public chunks.
+                    print('Downloading', target.name, part['url'].rsplit('/', 1)[-1], flush=True)
+                    chunk = target.with_suffix(target.suffix + '.part')
+                    subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location',
+                                    '--connect-timeout', '15', '--max-time', '90',
+                                    '--speed-limit', '1024', '--speed-time', '20',
+                                    '--retry', '2', '--retry-max-time', '180',
+                                    '--user-agent', 'TuaoTV-release', part['url'],
+                                    '--output', str(chunk)], check=True, timeout=210)
+                    with chunk.open('rb') as response:
                         while block := response.read(1024*1024):
                             size += len(block)
                             assert size <= part['bytes'], 'Oversized response'
                             part_digest.update(block); digest.update(block); output.write(block)
+                    chunk.unlink()
                     assert size == part['bytes'] and part_digest.hexdigest() == part['sha256'], 'Part checksum mismatch'
             assert target.stat().st_size == entry['bytes'] and digest.hexdigest() == entry['sha256'], 'Installer checksum mismatch'
             print('Verified', target.name, flush=True)

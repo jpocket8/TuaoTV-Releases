@@ -1,73 +1,73 @@
 {
-  "version": "0.2.128",
+  "version": "0.2.129",
   "files": [
     {
-      "name": "tuaotv-mobile-0.2.128.apk",
-      "bytes": 67080586,
-      "sha256": "01d50feba3389bf03c3ebae63f7b0efedcd5054e1c315c8fcd94ea2dfc9dcd81",
+      "name": "tuaotv-mobile-0.2.129.apk",
+      "bytes": 67056838,
+      "sha256": "de0ac4b06dd0fbc09c69da863f25bdff61ad4b0083fbf5106f83c95e69d05eba",
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/01d50feba338/000.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/de0ac4b06dd0/000.bin",
           "bytes": 25165824,
-          "sha256": "43dfa65c382503ee6ac89bac5ac5014299beb9d8e1db3494af58dfe13d51fa33"
+          "sha256": "3c64a5ab103668f1e62d06964a4e51c47c8104123e187dde952b8f323c150005"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/01d50feba338/001.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/de0ac4b06dd0/001.bin",
           "bytes": 25165824,
-          "sha256": "3a0f21059840baae4d259b4ccdc652f37ab121665437068ad1686157576d85be"
+          "sha256": "caf02d98ffe67baf22c63b5882a987a3402010e54fd713edc7305d4b61b0e684"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/01d50feba338/002.bin",
-          "bytes": 16748938,
-          "sha256": "992cd1e4c49a8ebe6dda89e3383c9ec7c86f2b70341c77324d5c0f1f87035297"
+          "url": "https://tuaotv.com/downloads/release-0.2.129/de0ac4b06dd0/002.bin",
+          "bytes": 16725190,
+          "sha256": "a31ec47f1359c9c7dfbe0ea78577d4473c9ab650389509727e92eb096c1acc4d"
         }
       ]
     },
     {
-      "name": "tuaotv-tv-0.2.128.apk",
-      "bytes": 67010844,
-      "sha256": "1ac60e19d5e02768f5c985df118ec8cfdd40baef03fec9d2102d5ee4c4ae508e",
+      "name": "tuaotv-tv-0.2.129.apk",
+      "bytes": 66988140,
+      "sha256": "d6dbc668ed640c5b6ae35e4c88b7fd0532299890c1a72166549def824ea2c1aa",
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/1ac60e19d5e0/000.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/d6dbc668ed64/000.bin",
           "bytes": 25165824,
-          "sha256": "2914953ca6fff69d31012539d303e46a4da602fd67808e8c48c1377bd9452100"
+          "sha256": "3191b1ca3c6c2db207f64d6579e1773dedb863749ef4361c9358370c6e9e02f7"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/1ac60e19d5e0/001.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/d6dbc668ed64/001.bin",
           "bytes": 25165824,
-          "sha256": "3cdf62a098580530a5c01117c886dcc5342e8cf41d9a79e775cf4ebce004fbd4"
+          "sha256": "dd5eecbbf6fdeaa9c6d73510b2e6b6e3f60b6a873c04daa5e729dd582a91896a"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/1ac60e19d5e0/002.bin",
-          "bytes": 16679196,
-          "sha256": "071a97910578b14d929707923181a685581308e925d3ae0342451c00c5a9aa62"
+          "url": "https://tuaotv.com/downloads/release-0.2.129/d6dbc668ed64/002.bin",
+          "bytes": 16656492,
+          "sha256": "cb58770a6c9f0507f0eb7355373a00759e477384b7dd4c676dc1a5d7d80edbd8"
         }
       ]
     },
     {
-      "name": "tuaotv-tv-original-0.2.128.apk",
-      "bytes": 67010844,
-      "sha256": "4974d16ba769f07bca681d9f16bc107a49e54a02f6c50d23e9a8b658652950cc",
+      "name": "tuaotv-tv-original-0.2.129.apk",
+      "bytes": 66988132,
+      "sha256": "06d98f372c983769ece182a9429bb54c41e445222ffcb125c1d1e030a0037872",
       "parts": [
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/4974d16ba769/000.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/06d98f372c98/000.bin",
           "bytes": 25165824,
-          "sha256": "680ae9e775e1fc12b9435b7022ede558f601c822d237089474891a7c59a2058e"
+          "sha256": "dbcb552436a9b70c18ca890b06308c6a54b803aca0c422cd59d7abe0b1bfefb1"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/4974d16ba769/001.bin",
+          "url": "https://tuaotv.com/downloads/release-0.2.129/06d98f372c98/001.bin",
           "bytes": 25165824,
-          "sha256": "3cdf62a098580530a5c01117c886dcc5342e8cf41d9a79e775cf4ebce004fbd4"
+          "sha256": "dd5eecbbf6fdeaa9c6d73510b2e6b6e3f60b6a873c04daa5e729dd582a91896a"
         },
         {
-          "url": "https://tuaotv.com/downloads/release-0.2.128/4974d16ba769/002.bin",
-          "bytes": 16679196,
-          "sha256": "3c31bf302092f42f4784ef2ff273a7fa8bf0732a12bfa2d909b9b3bad05df04e"
+          "url": "https://tuaotv.com/downloads/release-0.2.129/06d98f372c98/002.bin",
+          "bytes": 16656484,
+          "sha256": "824d511d561fe3c0561d54c7640ebec8729735bc3375da55afb5aee904b335d1"
         }
       ]
     }
   ],
-  "notes": "安卓：大模型工具调用抓取，规划与详情抓取并行推进，独立浏览器会话、持久队列与失败重试；检测兼容远程MCP浏览器，失败回退本地WebView；仅统计有播放地址的节目。0966真机已验证并行调度。本次仅更新安卓，桌面版未变更。",
-  "sourceCommit": "fd87bca"
+  "notes": "修复安卓豆瓣热门列表错误显示为空：先匹配节目，再按需读取完整片源；同时修复热门卡片进入详情时的片源加载。覆盖手机与两个电视渠道，保留原有节目、收藏和配置。桌面版不受此问题影响。",
+  "sourceCommit": "d22c223"
 }

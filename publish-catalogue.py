@@ -39,6 +39,10 @@ if compact_manifest.exists():
   content=json.loads(raw);assert content['schema']==1 and content['timestamp']==0 and len(content['entries'])==part['count']
   for row in content['entries']:
    assert row['media']['id'] not in ids;ids.add(row['media']['id'])
+   media=row['media'];routes=row['origins']
+   routes=routes if isinstance(routes,str) else json.dumps(routes,ensure_ascii=False,separators=(',',':'))
+   assert media['id'].strip() and media['title'].strip()
+   assert len(routes.replace('/',r'\/').encode('utf-16-le'))//2 < 200000, 'Android origin limit: '+media['id']
   files.append(file)
  assert len(ids)==index['count']
  files.append(compact_manifest)

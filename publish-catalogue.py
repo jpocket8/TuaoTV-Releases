@@ -46,7 +46,36 @@ if compact_manifest.exists():
   files.append(file)
  assert len(ids)==index['count']
  files.append(compact_manifest)
-repo=os.environ['GH_REPOSITORY'];token=os.environ['GH_TOKEN'];tag='catalogue-'+str(spec['timestamp'])
+# v4 retains the full baseline and every patch until the next weekly rollover.
+groups={spec['timestamp']:files+[folder/'latest-v2.json']}
+head=spec['timestamp']
+latest4=folder/'latest-v4.json'
+if latest4.exists():
+ from catalogue_incremental import materialize
+ def verified(path):
+  env=json.loads(path.read_text());raw=base64.b64decode(env['payload'],validate=True)
+  with tempfile.TemporaryDirectory() as tmp:
+   p=pathlib.Path(tmp);(p/'payload').write_bytes(raw);(p/'signature').write_bytes(base64.b64decode(env['signature'],validate=True))
+   subprocess.run(['openssl','dgst','-sha256','-verify','update-public.pem','-signature',str(p/'signature'),str(p/'payload')],check=True,capture_output=True)
+  return json.loads(raw)
+ v4=verified(latest4);materialize(folder,v4)
+ assert len(v4['deltas'])<=256 and len(base64.b64decode(json.loads(latest4.read_text())['payload']))<=480000
+ assert spec['timestamp']==v4['base']['timestamp'], 'Compatibility snapshot must match full baseline'
+ head=v4['timestamp']
+ for version in [v4['base']]+v4['deltas']:
+  group=groups.setdefault(version['timestamp'],[])
+  for part in version['parts']:
+   assert part['file'].startswith(f"catalogue-{version['timestamp']}-")
+   if folder/part['file'] not in group:group.append(folder/part['file'])
+ groups.setdefault(head,[]).append(latest4)
+ # A verified promoted checkpoint proves its dependencies have already been uploaded.
+ promoted=folder/'published-v4.json'
+ if promoted.exists():
+  live=verified(promoted)
+  checkpoints=[v4['base']]+v4['deltas']
+  if live['base']==v4['base'] and any(v['timestamp']==live['timestamp'] and v['contentSha256']==live['contentSha256'] for v in checkpoints):
+   groups={stamp:assets for stamp,assets in groups.items() if stamp>live['timestamp'] or stamp==head}
+repo=os.environ['GH_REPOSITORY'];token=os.environ['GH_TOKEN']
 def api(endpoint,method='GET',body=None,file=None):
  url=endpoint if endpoint.startswith('https://') else 'https://api.github.com/repos/'+repo+endpoint
  assert url.startswith(('https://api.github.com/','https://uploads.github.com/'))
@@ -59,33 +88,41 @@ def api(endpoint,method='GET',body=None,file=None):
    if method != 'GET' or (isinstance(error,urllib.error.HTTPError) and error.code < 500 and error.code != 429) or attempt == 3:raise
    time.sleep(2 ** attempt)
 
-try:release=api('/releases/tags/'+tag)
-except urllib.error.HTTPError as e:
- if e.code!=404:raise
- release=None
- for page in range(1,21):
-  batch=api('/releases?per_page=5&page='+str(page))
-  release=next((r for r in batch if r['tag_name']==tag),None)
-  if release is not None or len(batch)<5:break
- if release is None:release=api('/releases','POST',{'tag_name':tag,'name':'节目列表 '+str(spec['timestamp']),'body':'节目列表数据更新，客户端自动检查。不是 App 安装包。\n\n官网：https://tuaotv.com/catalogue/latest-v2.json','draft':True,'prerelease':True,'make_latest':'false'})
-assets={};page=1
-while True:
- batch=api('/releases/'+str(release['id'])+'/assets?per_page=100&page='+str(page));assets.update({a['name']:a for a in batch})
- if len(batch)<100:break
- page+=1
-for asset in files+[folder/'latest-v2.json']:
- if asset.name in assets:
-  assert assets[asset.name]['digest']=='sha256:'+hashlib.sha256(asset.read_bytes()).hexdigest();continue
- api(release['upload_url'].split('{')[0]+'?name='+urllib.parse.quote(asset.name),'POST',file=asset)
-api('/releases/'+str(release['id']),'PATCH',{'draft':False,'prerelease':True,'make_latest':'false'})
-print('Published',tag)
+for stamp,files in sorted(groups.items()):
+ tag='catalogue-'+str(stamp)
+ try:release=api('/releases/tags/'+tag)
+ except urllib.error.HTTPError as e:
+  if e.code!=404:raise
+  # GitHub may omit a draft from the tag endpoint; find it before retrying creation.
+  release=None
+  for page in range(1,21):
+   batch=api('/releases?per_page=100&page='+str(page))
+   release=next((r for r in batch if r['tag_name']==tag),None)
+   if release is not None or len(batch)<100:break
+  if release is None:release=api('/releases','POST',{'tag_name':tag,'name':'节目列表 '+str(stamp),'body':'节目列表数据更新，客户端自动检查。不是 App 安装包。','draft':True,'prerelease':True,'make_latest':'false'})
+ assets={};page=1
+ while True:
+  batch=api('/releases/'+str(release['id'])+'/assets?per_page=100&page='+str(page));assets.update({a['name']:a for a in batch})
+  if len(batch)<100:break
+  page+=1
+ for asset in files:
+  if asset.name in assets:
+   assert assets[asset.name]['digest']=='sha256:'+hashlib.sha256(asset.read_bytes()).hexdigest();continue
+  api(release['upload_url'].split('{')[0]+'?name='+urllib.parse.quote(asset.name),'POST',file=asset)
+ if release['draft']:api('/releases/'+str(release['id']),'PATCH',{'draft':False,'prerelease':True,'make_latest':'false'})
+ print('Published',tag)
 
-# Clients only see manifests whose immutable data release is already public.
-for name in ['latest-v2.json','latest-v3.json']:
+# Promote only after ALL dependency releases are public. Retry safely after partial uploads.
+for name in ['latest-v2.json','latest-v3.json','latest-v4.json']:
  source=folder/name
  if not source.exists():continue
  endpoint='/contents/catalogue/'+name.replace('latest-','published-')
- current=api(endpoint)
+ try:current=api(endpoint)
+ except urllib.error.HTTPError as error:
+  if error.code!=404:raise
+  current=None
  encoded=base64.b64encode(source.read_bytes()).decode()
- if base64.b64decode(current['content'])==source.read_bytes():continue
- api(endpoint,'PUT',{'message':'Activate verified '+tag+' '+name,'sha':current['sha'],'content':encoded,'branch':'main'})
+ if current and base64.b64decode(current['content'])==source.read_bytes():continue
+ body={'message':'Activate verified catalogue-'+str(head)+' '+name,'content':encoded,'branch':'main'}
+ if current:body['sha']=current['sha']
+ api(endpoint,'PUT',body)

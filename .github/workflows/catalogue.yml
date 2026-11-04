@@ -14,6 +14,29 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /publish-catalogue.py
+            /catalogue_incremental.py
+            /update-public.pem
+            /catalogue/latest-v2.json
+            /catalogue/latest-v3.json
+            /catalogue/latest-v4.json
+            /catalogue/published-v4.json
+      - name: Fetch only referenced catalogue assets
+        run: |
+          python3 - <<'PYCODE'
+          import base64,json,pathlib,subprocess
+          files=[]
+          for name in ['latest-v2.json','latest-v3.json','latest-v4.json']:
+              path=pathlib.Path('catalogue')/name
+              if not path.exists():continue
+              spec=json.loads(base64.b64decode(json.loads(path.read_text())['payload']))
+              versions=[spec['base']]+spec['deltas'] if spec['schema']==4 else [spec]
+              files.extend('/catalogue/'+p['file'] for version in versions for p in version['parts'])
+          subprocess.run(['git','sparse-checkout','add','--stdin'],input='\n'.join(files)+'\n',text=True,check=True)
+          PYCODE
       - run: python3 publish-catalogue.py
         env:
           GH_TOKEN: ${{ github.token }}

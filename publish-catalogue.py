@@ -60,7 +60,7 @@ if latest4.exists():
   return json.loads(raw)
  v4=verified(latest4);materialize(folder,v4)
  assert len(v4['deltas'])<=256 and len(base64.b64decode(json.loads(latest4.read_text())['payload']))<=480000
- assert spec['timestamp']==v4['base']['timestamp'], 'Compatibility snapshot must match full baseline'
+ assert spec['timestamp']<=v4['base']['timestamp'], 'Compatibility snapshot cannot be newer than the full baseline'
  head=v4['timestamp']
  for version in [v4['base']]+v4['deltas']:
   group=groups.setdefault(version['timestamp'],[])

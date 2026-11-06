@@ -4,9 +4,11 @@ import argparse
 import hashlib
 import json
 import random
+import re
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from learning_english import render as english_question
 
 START = date(2026, 11, 6)
 SOURCE = 'https://www.qcaa.qld.edu.au/p-10/aciq/version-9/learning-areas/p-10-mathematics'
@@ -107,11 +109,15 @@ def question(year, rng):
         choices.add(answer + rng.choice([-1, 1]) * rng.randint(1, max(3, abs(answer)//3)))
     choices = list(sorted(choices)); rng.shuffle(choices)
     identity = hashlib.sha256(f'{year}|{text}'.encode()).hexdigest()[:24]
+    # Preserve v1 IDs across translation so completed questions stay completed.
+    text, why = english_question(year, topic, a, b, answer, locals().get('values'),
+                                (x,y,slope,step) if topic==4 and year>=9 else None)
     return dict(id='math-v1-'+identity, year=year, subject='math', prompt=text,
                 options=[str(x) for x in choices], answer=choices.index(answer), explanation=why)
 
 def generate(bank, day):
     if bank.get('schema') != 1: raise ValueError('Invalid schema')
+    bank['language'] = 'en-AU'
     seen = {q['id'] for q in bank['questions']}
     dates = set(bank.get('batches', []))
     if day.isoformat() in dates: return bank
@@ -131,12 +137,21 @@ def generate(bank, day):
     return bank
 
 def validate(bank):
+    assert bank.get('language') == 'en-AU'
     ids = set()
     for q in bank['questions']:
         assert q['id'] not in ids; ids.add(q['id'])
         assert 0 <= q['year'] <= 10 and len(q['options']) == len(set(q['options'])) == 4
         assert 0 <= q['answer'] < 4 and q['prompt'] and q['explanation']
+        assert not re.search(r'[\u3400-\u9fff]',q['prompt']+q['explanation']+''.join(q['options']))
     return bank
+
+def translate_bank(bank):
+    if not bank['questions'] or bank.get('language') == 'en-AU': return bank
+    rebuilt = {**bank, 'questions':[], 'batches':[]}
+    for batch in sorted(bank['batches']): generate(rebuilt,date.fromisoformat(batch))
+    assert [(q['id'],q['options'],q['answer']) for q in bank['questions']] == [(q['id'],q['options'],q['answer']) for q in rebuilt['questions']], 'Translation must preserve identities and answers'
+    return rebuilt
 
 def main():
     parser = argparse.ArgumentParser()
@@ -144,7 +159,7 @@ def main():
     parser.add_argument('--date', type=date.fromisoformat, default=datetime.now(ZoneInfo('Australia/Brisbane')).date())
     args = parser.parse_args()
     bank = json.loads(args.output.read_text()) if args.output.exists() else dict(schema=1, subject='math', curriculum='Australian Curriculum v9 practice; approximate year alignment, not an assessment', source=SOURCE, questions=[], batches=[])
-    bank = validate(generate(bank, args.date))
+    bank = validate(generate(translate_bank(bank), args.date))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     pending = args.output.with_suffix('.pending')
     pending.write_text(json.dumps(bank, ensure_ascii=False, indent=2)+'\n')

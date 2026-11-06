@@ -6,7 +6,7 @@
       "id": "math-v1-3bcf99c7ff3b39b95ad4544e",
       "year": 0,
       "subject": "math",
-      "prompt": "数数 Counting：有 8 只考拉，又来了 4 只，一共有几只？",
+      "prompt": "There are 8 koalas. Another 4 koalas arrive. How many koalas are there now?",
       "options": [
         "10",
         "9",
@@ -14,14 +14,14 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "从 8 接着数 4 个，共 12 只。",
+      "explanation": "Add the two groups: 8 + 4 = 12 koalas.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4c9fc49647c0d9816196a044",
       "year": 0,
       "subject": "math",
-      "prompt": "数序 Counting：2、3、4，下一个数是几？",
+      "prompt": "What comes next: 2, 3, 4, ___?",
       "options": [
         "5",
         "8",
@@ -29,14 +29,14 @@
         "4"
       ],
       "answer": 0,
-      "explanation": "每次数多 1：4 后面是 5。",
+      "explanation": "Count on by 1. The number after 4 is 5.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-165953a7a71011190fb9dfae",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 10、8、7 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 10, 8 and 7 objects. How many objects are in the largest group?",
       "options": [
         "13",
         "9",
@@ -44,14 +44,14 @@
         "12"
       ],
       "answer": 2,
-      "explanation": "逐个比较三个数量，最大的数为 10。",
+      "explanation": "Compare the three numbers. The largest number is 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a4e6b388c21bf4b51817745a",
       "year": 0,
       "subject": "math",
-      "prompt": "数数 Counting：有 1 只考拉，又来了 2 只，一共有几只？",
+      "prompt": "There are 1 koalas. Another 2 koalas arrive. How many koalas are there now?",
       "options": [
         "0",
         "5",
@@ -59,14 +59,14 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "从 1 接着数 2 个，共 3 只。",
+      "explanation": "Add the two groups: 1 + 2 = 3 koalas.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-789f1397e9e3883c8ee60266",
       "year": 0,
       "subject": "math",
-      "prompt": "拿走 Take away：12 个贝壳拿走 4 个，还剩几个？",
+      "prompt": "You have 12 shells and take away 4. How many shells are left?",
       "options": [
         "8",
         "9",
@@ -74,14 +74,14 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "12 − 4 = 8。",
+      "explanation": "12 − 4 = 8 shells.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9a9c7c86f57456a513d9860a",
       "year": 0,
       "subject": "math",
-      "prompt": "拿走 Take away：11 个贝壳拿走 5 个，还剩几个？",
+      "prompt": "You have 11 shells and take away 5. How many shells are left?",
       "options": [
         "4",
         "9",
@@ -89,14 +89,14 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "11 − 5 = 6。",
+      "explanation": "11 − 5 = 6 shells.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-371d2b2a2f6648e5f03ebb76",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 4、18、12 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 4, 18 and 12 objects. How many objects are in the largest group?",
       "options": [
         "13",
         "19",
@@ -104,14 +104,14 @@
         "18"
       ],
       "answer": 3,
-      "explanation": "逐个比较三个数量，最大的数为 18。",
+      "explanation": "Compare the three numbers. The largest number is 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4938fe84a15388dc119631b9",
       "year": 0,
       "subject": "math",
-      "prompt": "数数 Counting：有 1 只考拉，又来了 4 只，一共有几只？",
+      "prompt": "There are 1 koalas. Another 4 koalas arrive. How many koalas are there now?",
       "options": [
         "2",
         "5",
@@ -119,14 +119,14 @@
         "6"
       ],
       "answer": 1,
-      "explanation": "从 1 接着数 4 个，共 5 只。",
+      "explanation": "Add the two groups: 1 + 4 = 5 koalas.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-81f5d53918c20e0571296631",
       "year": 0,
       "subject": "math",
-      "prompt": "拿走 Take away：10 个贝壳拿走 1 个，还剩几个？",
+      "prompt": "You have 10 shells and take away 1. How many shells are left?",
       "options": [
         "7",
         "12",
@@ -134,14 +134,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "10 − 1 = 9。",
+      "explanation": "10 − 1 = 9 shells.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5359c55b078d0f5b86c68318",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 12、4、6 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 12, 4 and 6 objects. How many objects are in the largest group?",
       "options": [
         "16",
         "12",
@@ -149,14 +149,14 @@
         "14"
       ],
       "answer": 1,
-      "explanation": "逐个比较三个数量，最大的数为 12。",
+      "explanation": "Compare the three numbers. The largest number is 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b8ee352470cdb73b98dfd802",
       "year": 0,
       "subject": "math",
-      "prompt": "拿走 Take away：10 个贝壳拿走 5 个，还剩几个？",
+      "prompt": "You have 10 shells and take away 5. How many shells are left?",
       "options": [
         "4",
         "6",
@@ -164,14 +164,14 @@
         "2"
       ],
       "answer": 2,
-      "explanation": "10 − 5 = 5。",
+      "explanation": "10 − 5 = 5 shells.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-44f5479843f8ca560528dcdf",
       "year": 0,
       "subject": "math",
-      "prompt": "比较大小 Compare：9 和 14 哪一个更大？",
+      "prompt": "Which number is larger: 9 or 14?",
       "options": [
         "14",
         "16",
@@ -179,14 +179,14 @@
         "15"
       ],
       "answer": 0,
-      "explanation": "14 比 9 多 5，所以更大。",
+      "explanation": "14 is 5 more than 9, so 14 is larger.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-61f41279e66ba78fb35faf74",
       "year": 0,
       "subject": "math",
-      "prompt": "比较大小 Compare：6 和 11 哪一个更大？",
+      "prompt": "Which number is larger: 6 or 11?",
       "options": [
         "9",
         "11",
@@ -194,14 +194,14 @@
         "13"
       ],
       "answer": 1,
-      "explanation": "11 比 6 多 5，所以更大。",
+      "explanation": "11 is 5 more than 6, so 11 is larger.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-83c4422f1c13c65d0d31d509",
       "year": 0,
       "subject": "math",
-      "prompt": "数数 Counting：有 7 只考拉，又来了 3 只，一共有几只？",
+      "prompt": "There are 7 koalas. Another 3 koalas arrive. How many koalas are there now?",
       "options": [
         "7",
         "11",
@@ -209,14 +209,14 @@
         "12"
       ],
       "answer": 2,
-      "explanation": "从 7 接着数 3 个，共 10 只。",
+      "explanation": "Add the two groups: 7 + 3 = 10 koalas.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-018e20057a3b2e1a7bd8daac",
       "year": 0,
       "subject": "math",
-      "prompt": "数序 Counting：5、6、7，下一个数是几？",
+      "prompt": "What comes next: 5, 6, 7, ___?",
       "options": [
         "11",
         "7",
@@ -224,14 +224,14 @@
         "5"
       ],
       "answer": 2,
-      "explanation": "每次数多 1：7 后面是 8。",
+      "explanation": "Count on by 1. The number after 7 is 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7f9f39cfe5af80ac1da5dc70",
       "year": 0,
       "subject": "math",
-      "prompt": "数序 Counting：8、9、10，下一个数是几？",
+      "prompt": "What comes next: 8, 9, 10, ___?",
       "options": [
         "11",
         "12",
@@ -239,14 +239,14 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "每次数多 1：10 后面是 11。",
+      "explanation": "Count on by 1. The number after 10 is 11.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-fe9ccd0782d3e8496f8439db",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 6、19、8 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 6, 19 and 8 objects. How many objects are in the largest group?",
       "options": [
         "23",
         "25",
@@ -254,14 +254,14 @@
         "19"
       ],
       "answer": 3,
-      "explanation": "逐个比较三个数量，最大的数为 19。",
+      "explanation": "Compare the three numbers. The largest number is 19.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-747a1ba3e7d29f9461ded092",
       "year": 0,
       "subject": "math",
-      "prompt": "比较大小 Compare：1 和 4 哪一个更大？",
+      "prompt": "Which number is larger: 1 or 4?",
       "options": [
         "3",
         "5",
@@ -269,14 +269,14 @@
         "4"
       ],
       "answer": 3,
-      "explanation": "4 比 1 多 3，所以更大。",
+      "explanation": "4 is 3 more than 1, so 4 is larger.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-29dd18590259370e0a5fe4ba",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 6、12、11 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 6, 12 and 11 objects. How many objects are in the largest group?",
       "options": [
         "16",
         "12",
@@ -284,14 +284,14 @@
         "10"
       ],
       "answer": 1,
-      "explanation": "逐个比较三个数量，最大的数为 12。",
+      "explanation": "Compare the three numbers. The largest number is 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5d6c331d001b4baf2b024c63",
       "year": 0,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 20、14、16 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 20, 14 and 16 objects. How many objects are in the largest group?",
       "options": [
         "25",
         "21",
@@ -299,14 +299,14 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "逐个比较三个数量，最大的数为 20。",
+      "explanation": "Compare the three numbers. The largest number is 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-c6c19d9ede8f107b99d2b588",
       "year": 1,
       "subject": "math",
-      "prompt": "加法 Addition：9 + 1 = ？",
+      "prompt": "What is 9 + 1?",
       "options": [
         "10",
         "7",
@@ -314,14 +314,14 @@
         "13"
       ],
       "answer": 0,
-      "explanation": "把两组合起来：9 + 1 = 10。",
+      "explanation": "Add the two amounts: 9 + 1 = 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d3c8cc4b2a84345448b5e0ef",
       "year": 1,
       "subject": "math",
-      "prompt": "加法 Addition：6 + 3 = ？",
+      "prompt": "What is 6 + 3?",
       "options": [
         "6",
         "12",
@@ -329,14 +329,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "把两组合起来：6 + 3 = 9。",
+      "explanation": "Add the two amounts: 6 + 3 = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f89671310b0877d2a4e26084",
       "year": 1,
       "subject": "math",
-      "prompt": "减法 Subtraction：16 − 7 = ？",
+      "prompt": "What is 16 − 7?",
       "options": [
         "8",
         "12",
@@ -344,14 +344,14 @@
         "10"
       ],
       "answer": 2,
-      "explanation": "从 16 减去 7，剩下 9。",
+      "explanation": "Take 7 away from 16: 16 − 7 = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5084ad5442ef238f89b6626e",
       "year": 1,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 14、1、11 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 14, 1 and 11 objects. How many objects are in the largest group?",
       "options": [
         "15",
         "12",
@@ -359,14 +359,14 @@
         "18"
       ],
       "answer": 2,
-      "explanation": "逐个比较三个数量，最大的数为 14。",
+      "explanation": "Compare the three numbers. The largest number is 14.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-c5e7827582ac42ce86e1759e",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：75 有几个十？",
+      "prompt": "How many tens are in 75?",
       "options": [
         "4",
         "5",
@@ -374,14 +374,14 @@
         "7"
       ],
       "answer": 3,
-      "explanation": "75 = 7 个十加 5 个一。",
+      "explanation": "75 has 7 tens and 5 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ace09a35dbb162dd1a0001f2",
       "year": 1,
       "subject": "math",
-      "prompt": "加法 Addition：2 + 3 = ？",
+      "prompt": "What is 2 + 3?",
       "options": [
         "7",
         "5",
@@ -389,14 +389,14 @@
         "3"
       ],
       "answer": 1,
-      "explanation": "把两组合起来：2 + 3 = 5。",
+      "explanation": "Add the two amounts: 2 + 3 = 5.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-abe11b3ba402271f49376829",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：46 有几个十？",
+      "prompt": "How many tens are in 46?",
       "options": [
         "4",
         "7",
@@ -404,14 +404,14 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "46 = 4 个十加 6 个一。",
+      "explanation": "46 has 4 tens and 6 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-877ead3472b3b91e890b9fdd",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：93 有几个十？",
+      "prompt": "How many tens are in 93?",
       "options": [
         "12",
         "7",
@@ -419,14 +419,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "93 = 9 个十加 3 个一。",
+      "explanation": "93 has 9 tens and 3 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-8bd49527527ca2367d209cfb",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：12 有几个十？",
+      "prompt": "How many tens are in 12?",
       "options": [
         "-1",
         "0",
@@ -434,14 +434,14 @@
         "-2"
       ],
       "answer": 2,
-      "explanation": "12 = 1 个十加 2 个一。",
+      "explanation": "12 has 1 tens and 2 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-85b05ba01e3a5f81ed192b27",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：14 有几个十？",
+      "prompt": "How many tens are in 14?",
       "options": [
         "0",
         "-2",
@@ -449,14 +449,14 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "14 = 1 个十加 4 个一。",
+      "explanation": "14 has 1 tens and 4 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9a4d12218f9d432602ea45cf",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：34 有几个十？",
+      "prompt": "How many tens are in 34?",
       "options": [
         "5",
         "3",
@@ -464,14 +464,14 @@
         "4"
       ],
       "answer": 1,
-      "explanation": "34 = 3 个十加 4 个一。",
+      "explanation": "34 has 3 tens and 4 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b569ff9fd083090c3090d8bc",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：39 有几个十？",
+      "prompt": "How many tens are in 39?",
       "options": [
         "0",
         "2",
@@ -479,14 +479,14 @@
         "4"
       ],
       "answer": 2,
-      "explanation": "39 = 3 个十加 9 个一。",
+      "explanation": "39 has 3 tens and 9 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-390cd2c8152ceeafc272b963",
       "year": 1,
       "subject": "math",
-      "prompt": "加法 Addition：6 + 6 = ？",
+      "prompt": "What is 6 + 6?",
       "options": [
         "8",
         "10",
@@ -494,14 +494,14 @@
         "14"
       ],
       "answer": 2,
-      "explanation": "把两组合起来：6 + 6 = 12。",
+      "explanation": "Add the two amounts: 6 + 6 = 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-917c9e6133078c0ab8aa6f75",
       "year": 1,
       "subject": "math",
-      "prompt": "平均分 Sharing：12 颗葡萄平均分给2人，每人几颗？",
+      "prompt": "12 grapes are shared equally between 2 children. How many grapes does each child get?",
       "options": [
         "6",
         "4",
@@ -509,14 +509,14 @@
         "9"
       ],
       "answer": 0,
-      "explanation": "把 12 分成两组，每组 6。",
+      "explanation": "Divide into two equal groups: 12 ÷ 2 = 6.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-6180cd7e84dfcbf39f060235",
       "year": 1,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 3、4、20 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 3, 4 and 20 objects. How many objects are in the largest group?",
       "options": [
         "20",
         "24",
@@ -524,14 +524,14 @@
         "17"
       ],
       "answer": 0,
-      "explanation": "逐个比较三个数量，最大的数为 20。",
+      "explanation": "Compare the three numbers. The largest number is 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d40cb9eede073651e40e7faf",
       "year": 1,
       "subject": "math",
-      "prompt": "位值 Place value：26 有几个十？",
+      "prompt": "How many tens are in 26?",
       "options": [
         "-1",
         "2",
@@ -539,14 +539,14 @@
         "5"
       ],
       "answer": 1,
-      "explanation": "26 = 2 个十加 6 个一。",
+      "explanation": "26 has 2 tens and 6 ones.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1ec2bee803925fe546894aa6",
       "year": 1,
       "subject": "math",
-      "prompt": "平均分 Sharing：16 颗葡萄平均分给2人，每人几颗？",
+      "prompt": "16 grapes are shared equally between 2 children. How many grapes does each child get?",
       "options": [
         "8",
         "5",
@@ -554,14 +554,14 @@
         "9"
       ],
       "answer": 0,
-      "explanation": "把 16 分成两组，每组 8。",
+      "explanation": "Divide into two equal groups: 16 ÷ 2 = 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-dd49f039acb5bc318a6b840e",
       "year": 1,
       "subject": "math",
-      "prompt": "平均分 Sharing：8 颗葡萄平均分给2人，每人几颗？",
+      "prompt": "8 grapes are shared equally between 2 children. How many grapes does each child get?",
       "options": [
         "5",
         "4",
@@ -569,14 +569,14 @@
         "7"
       ],
       "answer": 1,
-      "explanation": "把 8 分成两组，每组 4。",
+      "explanation": "Divide into two equal groups: 8 ÷ 2 = 4.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a0065f1518a5dff1293cd458",
       "year": 1,
       "subject": "math",
-      "prompt": "加法 Addition：7 + 7 = ？",
+      "prompt": "What is 7 + 7?",
       "options": [
         "16",
         "14",
@@ -584,14 +584,14 @@
         "17"
       ],
       "answer": 1,
-      "explanation": "把两组合起来：7 + 7 = 14。",
+      "explanation": "Add the two amounts: 7 + 7 = 14.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ec0d310ba6b3b038f7d5fd9c",
       "year": 1,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 16、19、3 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 16, 19 and 3 objects. How many objects are in the largest group?",
       "options": [
         "16",
         "19",
@@ -599,14 +599,14 @@
         "15"
       ],
       "answer": 1,
-      "explanation": "逐个比较三个数量，最大的数为 19。",
+      "explanation": "Compare the three numbers. The largest number is 19.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-26f08ce52254d3b5b8287ae1",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：60 + 8 = ？",
+      "prompt": "What is 60 + 8?",
       "options": [
         "70",
         "65",
@@ -614,14 +614,14 @@
         "68"
       ],
       "answer": 3,
-      "explanation": "先算整十再加个位，60 + 8 = 68。",
+      "explanation": "Add 8 to 60: 60 + 8 = 68.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f7e32df6eec0524e0ffff5b7",
       "year": 2,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 80、99、16 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 80, 99 and 16 objects. How many objects are in the largest group?",
       "options": [
         "73",
         "125",
@@ -629,14 +629,14 @@
         "99"
       ],
       "answer": 3,
-      "explanation": "逐个比较三个数量，最大的数为 99。",
+      "explanation": "Compare the three numbers. The largest number is 99.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4141b8c340c67a329e8387ea",
       "year": 2,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 53、11、60 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 53, 11 and 60 objects. How many objects are in the largest group?",
       "options": [
         "73",
         "60",
@@ -644,14 +644,14 @@
         "67"
       ],
       "answer": 1,
-      "explanation": "逐个比较三个数量，最大的数为 60。",
+      "explanation": "Compare the three numbers. The largest number is 60.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-c1a32697ba28274bbf5c6eab",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：40 + 7 = ？",
+      "prompt": "What is 40 + 7?",
       "options": [
         "56",
         "37",
@@ -659,14 +659,14 @@
         "59"
       ],
       "answer": 2,
-      "explanation": "先算整十再加个位，40 + 7 = 47。",
+      "explanation": "Add 7 to 40: 40 + 7 = 47.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-83e10efc65832b17995a85f6",
       "year": 2,
       "subject": "math",
-      "prompt": "数据 Data：三组分别有 98、9、15 个物品，最多的一组有几个？",
+      "prompt": "Three groups contain 98, 9 and 15 objects. How many objects are in the largest group?",
       "options": [
         "106",
         "96",
@@ -674,14 +674,14 @@
         "78"
       ],
       "answer": 2,
-      "explanation": "逐个比较三个数量，最大的数为 98。",
+      "explanation": "Compare the three numbers. The largest number is 98.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7f131df78b1b22b3e6424826",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：40 + 6 = ？",
+      "prompt": "What is 40 + 6?",
       "options": [
         "54",
         "44",
@@ -689,14 +689,14 @@
         "46"
       ],
       "answer": 3,
-      "explanation": "先算整十再加个位，40 + 6 = 46。",
+      "explanation": "Add 6 to 40: 40 + 6 = 46.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5465bb0f8fd80cbc92ae65ae",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：10 + 5 = ？",
+      "prompt": "What is 10 + 5?",
       "options": [
         "13",
         "15",
@@ -704,14 +704,14 @@
         "12"
       ],
       "answer": 1,
-      "explanation": "先算整十再加个位，10 + 5 = 15。",
+      "explanation": "Add 5 to 10: 10 + 5 = 15.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e64d842dddf5d1ca56c92133",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：50 + 4 = ？",
+      "prompt": "What is 50 + 4?",
       "options": [
         "55",
         "41",
@@ -719,14 +719,14 @@
         "68"
       ],
       "answer": 2,
-      "explanation": "先算整十再加个位，50 + 4 = 54。",
+      "explanation": "Add 4 to 50: 50 + 4 = 54.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ff5cd9b434d18a761d55ceea",
       "year": 2,
       "subject": "math",
-      "prompt": "等组 Equal groups：9 组，每组5个，一共有几个？",
+      "prompt": "There are 9 groups of 5 counters. How many counters are there altogether?",
       "options": [
         "57",
         "45",
@@ -734,14 +734,14 @@
         "32"
       ],
       "answer": 1,
-      "explanation": "每组5个，9 × 5 = 45。",
+      "explanation": "9 × 5 = 45 counters.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-07dd3818b0d205fb246f48f5",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：60 + 2 = ？",
+      "prompt": "What is 60 + 2?",
       "options": [
         "52",
         "62",
@@ -749,14 +749,14 @@
         "58"
       ],
       "answer": 1,
-      "explanation": "先算整十再加个位，60 + 2 = 62。",
+      "explanation": "Add 2 to 60: 60 + 2 = 62.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-77a46efefaa7ec88c348072b",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：15 + 8 = ？",
+      "prompt": "What is 15 + 8?",
       "options": [
         "21",
         "18",
@@ -764,14 +764,14 @@
         "23"
       ],
       "answer": 3,
-      "explanation": "先算整十再加个位，15 + 8 = 23。",
+      "explanation": "Add 8 to 15: 15 + 8 = 23.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9412ab1fb45299e5f0919975",
       "year": 2,
       "subject": "math",
-      "prompt": "钱币 Money：2 枚10澳分硬币共多少澳分？",
+      "prompt": "What is the total value of 2 ten-cent coins, in Australian cents?",
       "options": [
         "20",
         "16",
@@ -779,14 +779,14 @@
         "18"
       ],
       "answer": 0,
-      "explanation": "2 × 10 = 20 澳分。",
+      "explanation": "2 × 10 = 20 cents.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ac152c9b770edbf976740bb6",
       "year": 2,
       "subject": "math",
-      "prompt": "钱币 Money：11 枚10澳分硬币共多少澳分？",
+      "prompt": "What is the total value of 11 ten-cent coins, in Australian cents?",
       "options": [
         "114",
         "110",
@@ -794,14 +794,14 @@
         "131"
       ],
       "answer": 1,
-      "explanation": "11 × 10 = 110 澳分。",
+      "explanation": "11 × 10 = 110 cents.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e84bfb9ae726c268d2f6a01c",
       "year": 2,
       "subject": "math",
-      "prompt": "跳数 Skip counting：12、14、16，下一个数是？",
+      "prompt": "What comes next: 12, 14, 16, ___?",
       "options": [
         "24",
         "18",
@@ -809,14 +809,14 @@
         "21"
       ],
       "answer": 1,
-      "explanation": "每次增加2，所以再加2。",
+      "explanation": "The pattern increases by 2. Add 2 again to get 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-2eea91624b1909f24783f064",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：35 + 3 = ？",
+      "prompt": "What is 35 + 3?",
       "options": [
         "31",
         "38",
@@ -824,14 +824,14 @@
         "48"
       ],
       "answer": 1,
-      "explanation": "先算整十再加个位，35 + 3 = 38。",
+      "explanation": "Add 3 to 35: 35 + 3 = 38.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-cd0725d807d5ad204eb0f319",
       "year": 2,
       "subject": "math",
-      "prompt": "跳数 Skip counting：14、16、18，下一个数是？",
+      "prompt": "What comes next: 14, 16, 18, ___?",
       "options": [
         "20",
         "26",
@@ -839,14 +839,14 @@
         "22"
       ],
       "answer": 0,
-      "explanation": "每次增加2，所以再加2。",
+      "explanation": "The pattern increases by 2. Add 2 again to get 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a1bbddf99ff250b08e3a6018",
       "year": 2,
       "subject": "math",
-      "prompt": "加法 Addition：10 + 2 = ？",
+      "prompt": "What is 10 + 2?",
       "options": [
         "12",
         "8",
@@ -854,14 +854,14 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "先算整十再加个位，10 + 2 = 12。",
+      "explanation": "Add 2 to 10: 10 + 2 = 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-88f62349ecf8e4be73a4eaa8",
       "year": 2,
       "subject": "math",
-      "prompt": "跳数 Skip counting：22、24、26，下一个数是？",
+      "prompt": "What comes next: 22, 24, 26, ___?",
       "options": [
         "25",
         "33",
@@ -869,14 +869,14 @@
         "28"
       ],
       "answer": 3,
-      "explanation": "每次增加2，所以再加2。",
+      "explanation": "The pattern increases by 2. Add 2 again to get 28.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d6af2d841c47ae8e7c04cdb5",
       "year": 2,
       "subject": "math",
-      "prompt": "钱币 Money：3 枚10澳分硬币共多少澳分？",
+      "prompt": "What is the total value of 3 ten-cent coins, in Australian cents?",
       "options": [
         "34",
         "33",
@@ -884,14 +884,14 @@
         "22"
       ],
       "answer": 2,
-      "explanation": "3 × 10 = 30 澳分。",
+      "explanation": "3 × 10 = 30 cents.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9cbe2e9f2142d2b862b23197",
       "year": 2,
       "subject": "math",
-      "prompt": "等组 Equal groups：6 组，每组5个，一共有几个？",
+      "prompt": "There are 6 groups of 5 counters. How many counters are there altogether?",
       "options": [
         "26",
         "28",
@@ -899,14 +899,14 @@
         "30"
       ],
       "answer": 3,
-      "explanation": "每组5个，6 × 5 = 30。",
+      "explanation": "6 × 5 = 30 counters.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3c432b172f42d7a3ba63da9a",
       "year": 3,
       "subject": "math",
-      "prompt": "数据 Data：三天分别收集 56、89、76 个回收瓶，一共收集多少个？",
+      "prompt": "A class collects 56, 89 and 76 bottles over three days. How many bottles are collected altogether?",
       "options": [
         "221",
         "263",
@@ -914,14 +914,14 @@
         "273"
       ],
       "answer": 0,
-      "explanation": "把三天的数量相加：56 + 89 + 76 = 221。",
+      "explanation": "Add the three amounts: 56 + 89 + 76 = 221.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-30d9d208a95811b34f6a7100",
       "year": 3,
       "subject": "math",
-      "prompt": "单位 Length：10 米等于多少厘米？",
+      "prompt": "How many centimetres are in 10 metres?",
       "options": [
         "828",
         "1020",
@@ -929,14 +929,14 @@
         "835"
       ],
       "answer": 2,
-      "explanation": "1米 = 100厘米，所以 10 × 100 = 1000。",
+      "explanation": "1 metre = 100 centimetres, so 10 × 100 = 1000 centimetres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-860fa3b73fa21d6772c7dd0d",
       "year": 3,
       "subject": "math",
-      "prompt": "数据 Data：三天分别收集 33、19、94 个回收瓶，一共收集多少个？",
+      "prompt": "A class collects 33, 19 and 94 bottles over three days. How many bottles are collected altogether?",
       "options": [
         "180",
         "162",
@@ -944,14 +944,14 @@
         "138"
       ],
       "answer": 2,
-      "explanation": "把三天的数量相加：33 + 19 + 94 = 146。",
+      "explanation": "Add the three amounts: 33 + 19 + 94 = 146.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-782313697e1b4b89ecfcc480",
       "year": 3,
       "subject": "math",
-      "prompt": "数据 Data：三天分别收集 89、37、98 个回收瓶，一共收集多少个？",
+      "prompt": "A class collects 89, 37 and 98 bottles over three days. How many bottles are collected altogether?",
       "options": [
         "228",
         "224",
@@ -959,14 +959,14 @@
         "186"
       ],
       "answer": 1,
-      "explanation": "把三天的数量相加：89 + 37 + 98 = 224。",
+      "explanation": "Add the three amounts: 89 + 37 + 98 = 224.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a2938d50bf4ce5d665402a6f",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：4 × 9 = ？",
+      "prompt": "What is 4 × 9?",
       "options": [
         "46",
         "25",
@@ -974,14 +974,14 @@
         "35"
       ],
       "answer": 2,
-      "explanation": "4 组 9，合计 36。",
+      "explanation": "4 groups of 9 make 4 × 9 = 36.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-371f0d4c702f22fe9f184c8c",
       "year": 3,
       "subject": "math",
-      "prompt": "除法 Division：36 ÷ 9 = ？",
+      "prompt": "What is 36 ÷ 9?",
       "options": [
         "3",
         "4",
@@ -989,14 +989,14 @@
         "7"
       ],
       "answer": 1,
-      "explanation": "因为 4 × 9 = 36，所以商为 4。",
+      "explanation": "Since 4 × 9 = 36, the quotient is 4.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-83e31b03c5d11f284ac9cf76",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：10 × 9 = ？",
+      "prompt": "What is 10 × 9?",
       "options": [
         "71",
         "84",
@@ -1004,14 +1004,14 @@
         "109"
       ],
       "answer": 2,
-      "explanation": "10 组 9，合计 90。",
+      "explanation": "10 groups of 9 make 10 × 9 = 90.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-48cd96a36f8ede7c0580deaf",
       "year": 3,
       "subject": "math",
-      "prompt": "除法 Division：12 ÷ 3 = ？",
+      "prompt": "What is 12 ÷ 3?",
       "options": [
         "4",
         "1",
@@ -1019,14 +1019,14 @@
         "2"
       ],
       "answer": 0,
-      "explanation": "因为 4 × 3 = 12，所以商为 4。",
+      "explanation": "Since 4 × 3 = 12, the quotient is 4.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-bf3c225329b96ec38f70b384",
       "year": 3,
       "subject": "math",
-      "prompt": "分数 Fraction：32 个草莓的四分之一是几个？",
+      "prompt": "What is one quarter of 32 strawberries?",
       "options": [
         "8",
         "9",
@@ -1034,14 +1034,14 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "四分之一表示平均分成4份取1份：32 ÷ 4 = 8。",
+      "explanation": "Divide the total into four equal parts: 32 ÷ 4 = 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9bed4c8fc314097b7c24b805",
       "year": 3,
       "subject": "math",
-      "prompt": "数据 Data：三天分别收集 39、28、89 个回收瓶，一共收集多少个？",
+      "prompt": "A class collects 39, 28 and 89 bottles over three days. How many bottles are collected altogether?",
       "options": [
         "125",
         "156",
@@ -1049,14 +1049,14 @@
         "191"
       ],
       "answer": 1,
-      "explanation": "把三天的数量相加：39 + 28 + 89 = 156。",
+      "explanation": "Add the three amounts: 39 + 28 + 89 = 156.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-da0cf16c6c16c5ec5f8b82c4",
       "year": 3,
       "subject": "math",
-      "prompt": "除法 Division：56 ÷ 7 = ？",
+      "prompt": "What is 56 ÷ 7?",
       "options": [
         "8",
         "9",
@@ -1064,14 +1064,14 @@
         "5"
       ],
       "answer": 0,
-      "explanation": "因为 8 × 7 = 56，所以商为 8。",
+      "explanation": "Since 8 × 7 = 56, the quotient is 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-21259e03568e9127fe4b751b",
       "year": 3,
       "subject": "math",
-      "prompt": "除法 Division：80 ÷ 8 = ？",
+      "prompt": "What is 80 ÷ 8?",
       "options": [
         "12",
         "10",
@@ -1079,14 +1079,14 @@
         "8"
       ],
       "answer": 1,
-      "explanation": "因为 10 × 8 = 80，所以商为 10。",
+      "explanation": "Since 10 × 8 = 80, the quotient is 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d11fcaef9a52fd3220501352",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：11 × 7 = ？",
+      "prompt": "What is 11 × 7?",
       "options": [
         "62",
         "63",
@@ -1094,14 +1094,14 @@
         "77"
       ],
       "answer": 3,
-      "explanation": "11 组 7，合计 77。",
+      "explanation": "11 groups of 7 make 11 × 7 = 77.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-8c312548a1a48eefc522dfbd",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：10 × 8 = ？",
+      "prompt": "What is 10 × 8?",
       "options": [
         "85",
         "87",
@@ -1109,14 +1109,14 @@
         "65"
       ],
       "answer": 2,
-      "explanation": "10 组 8，合计 80。",
+      "explanation": "10 groups of 8 make 10 × 8 = 80.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-cdf2c0cb6b3115e5ec9184e9",
       "year": 3,
       "subject": "math",
-      "prompt": "单位 Length：4 米等于多少厘米？",
+      "prompt": "How many centimetres are in 4 metres?",
       "options": [
         "400",
         "330",
@@ -1124,14 +1124,14 @@
         "354"
       ],
       "answer": 0,
-      "explanation": "1米 = 100厘米，所以 4 × 100 = 400。",
+      "explanation": "1 metre = 100 centimetres, so 4 × 100 = 400 centimetres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1ce6ae07fbf624445db03680",
       "year": 3,
       "subject": "math",
-      "prompt": "单位 Length：3 米等于多少厘米？",
+      "prompt": "How many centimetres are in 3 metres?",
       "options": [
         "208",
         "297",
@@ -1139,14 +1139,14 @@
         "300"
       ],
       "answer": 3,
-      "explanation": "1米 = 100厘米，所以 3 × 100 = 300。",
+      "explanation": "1 metre = 100 centimetres, so 3 × 100 = 300 centimetres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-8c493b8998581ab79616624a",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：9 × 5 = ？",
+      "prompt": "What is 9 × 5?",
       "options": [
         "40",
         "45",
@@ -1154,14 +1154,14 @@
         "39"
       ],
       "answer": 1,
-      "explanation": "9 组 5，合计 45。",
+      "explanation": "9 groups of 5 make 9 × 5 = 45.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7f8b847c906987d61e1c2266",
       "year": 3,
       "subject": "math",
-      "prompt": "除法 Division：15 ÷ 5 = ？",
+      "prompt": "What is 15 ÷ 5?",
       "options": [
         "5",
         "1",
@@ -1169,14 +1169,14 @@
         "0"
       ],
       "answer": 2,
-      "explanation": "因为 3 × 5 = 15，所以商为 3。",
+      "explanation": "Since 3 × 5 = 15, the quotient is 3.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f9ec8978afbfba4bddb90fd6",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：4 × 2 = ？",
+      "prompt": "What is 4 × 2?",
       "options": [
         "11",
         "8",
@@ -1184,14 +1184,14 @@
         "6"
       ],
       "answer": 1,
-      "explanation": "4 组 2，合计 8。",
+      "explanation": "4 groups of 2 make 4 × 2 = 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-afc4d5c265e0003c953a4f1d",
       "year": 3,
       "subject": "math",
-      "prompt": "乘法 Multiplication：12 × 5 = ？",
+      "prompt": "What is 12 × 5?",
       "options": [
         "65",
         "68",
@@ -1199,14 +1199,14 @@
         "55"
       ],
       "answer": 2,
-      "explanation": "12 组 5，合计 60。",
+      "explanation": "12 groups of 5 make 12 × 5 = 60.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7c51bb917053b3d0a3ed5797",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 2 米、宽 4 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 2 m long and 4 m wide. What is its area in square metres?",
       "options": [
         "10",
         "7",
@@ -1214,14 +1214,14 @@
         "8"
       ],
       "answer": 3,
-      "explanation": "面积 = 长 × 宽 = 2 × 4 = 8 平方米。",
+      "explanation": "Area = length × width = 2 × 4 = 8 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ffd2656aeac31eb4bfccf94a",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 3 米、宽 4 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 3 m long and 4 m wide. What is its area in square metres?",
       "options": [
         "15",
         "13",
@@ -1229,14 +1229,14 @@
         "16"
       ],
       "answer": 2,
-      "explanation": "面积 = 长 × 宽 = 3 × 4 = 12 平方米。",
+      "explanation": "Area = length × width = 3 × 4 = 12 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-715ab81cba0ac2b72d513ebc",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 12 米、宽 7 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 12 m long and 7 m wide. What is its area in square metres?",
       "options": [
         "84",
         "94",
@@ -1244,14 +1244,14 @@
         "101"
       ],
       "answer": 0,
-      "explanation": "面积 = 长 × 宽 = 12 × 7 = 84 平方米。",
+      "explanation": "Area = length × width = 12 × 7 = 84 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d5cb140c0d52bc24912bf769",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 11 米、宽 2 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 11 m long and 2 m wide. What is its area in square metres?",
       "options": [
         "24",
         "15",
@@ -1259,14 +1259,14 @@
         "22"
       ],
       "answer": 3,
-      "explanation": "面积 = 长 × 宽 = 11 × 2 = 22 平方米。",
+      "explanation": "Area = length × width = 11 × 2 = 22 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1d1f9c357915fd3dfe69f36a",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 11 米、宽 4 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 11 m long and 4 m wide. What is its area in square metres?",
       "options": [
         "44",
         "36",
@@ -1274,14 +1274,14 @@
         "55"
       ],
       "answer": 0,
-      "explanation": "面积 = 长 × 宽 = 11 × 4 = 44 平方米。",
+      "explanation": "Area = length × width = 11 × 4 = 44 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5f63c83766cb96fb7c51b713",
       "year": 4,
       "subject": "math",
-      "prompt": "分数 Fraction：16 的八分之三是多少？",
+      "prompt": "What is three eighths of 16?",
       "options": [
         "4",
         "6",
@@ -1289,14 +1289,14 @@
         "7"
       ],
       "answer": 1,
-      "explanation": "先除以8，再乘3：16 ÷ 8 × 3 = 6。",
+      "explanation": "Divide by 8, then multiply by 3: 16 ÷ 8 × 3 = 6.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-240e99a254151106e7ee7c45",
       "year": 4,
       "subject": "math",
-      "prompt": "分数 Fraction：48 的八分之三是多少？",
+      "prompt": "What is three eighths of 48?",
       "options": [
         "15",
         "18",
@@ -1304,14 +1304,14 @@
         "13"
       ],
       "answer": 1,
-      "explanation": "先除以8，再乘3：48 ÷ 8 × 3 = 18。",
+      "explanation": "Divide by 8, then multiply by 3: 48 ÷ 8 × 3 = 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e9e63416aca3283a7908c1fd",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 89、72、67 本，最多比最少多几本？",
+      "prompt": "Three groups read 89, 72 and 67 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "29",
         "22",
@@ -1319,14 +1319,14 @@
         "16"
       ],
       "answer": 1,
-      "explanation": "最大数减最小数：89 − 67 = 22。",
+      "explanation": "Subtract the smallest total from the largest: 89 − 67 = 22.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-602ed1e0c24fe9cdf528d86b",
       "year": 4,
       "subject": "math",
-      "prompt": "分数 Fraction：80 的八分之三是多少？",
+      "prompt": "What is three eighths of 80?",
       "options": [
         "24",
         "30",
@@ -1334,14 +1334,14 @@
         "23"
       ],
       "answer": 1,
-      "explanation": "先除以8，再乘3：80 ÷ 8 × 3 = 30。",
+      "explanation": "Divide by 8, then multiply by 3: 80 ÷ 8 × 3 = 30.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5af7680e8712dada00600dda",
       "year": 4,
       "subject": "math",
-      "prompt": "找零 Money：用20澳元购买 6 澳元的午餐，应找回多少澳元？",
+      "prompt": "You pay A$20 for lunch costing A$6. How much change do you receive, in Australian dollars?",
       "options": [
         "10",
         "14",
@@ -1349,14 +1349,14 @@
         "17"
       ],
       "answer": 1,
-      "explanation": "找零 = 付出的钱 − 价格 = 20 − 6 = 14 澳元。",
+      "explanation": "Change = amount paid − cost = 20 − 6 = A$14.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a8d8fa1e4768d88d1156c15b",
       "year": 4,
       "subject": "math",
-      "prompt": "面积 Area：长 4 米、宽 5 米的长方形，面积是多少平方米？",
+      "prompt": "A rectangle is 4 m long and 5 m wide. What is its area in square metres?",
       "options": [
         "18",
         "20",
@@ -1364,14 +1364,14 @@
         "15"
       ],
       "answer": 1,
-      "explanation": "面积 = 长 × 宽 = 4 × 5 = 20 平方米。",
+      "explanation": "Area = length × width = 4 × 5 = 20 m².",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-df61c91d9f3a4e57a27c66d5",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 80、9、98 本，最多比最少多几本？",
+      "prompt": "Three groups read 80, 9 and 98 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "89",
         "67",
@@ -1379,14 +1379,14 @@
         "74"
       ],
       "answer": 0,
-      "explanation": "最大数减最小数：98 − 9 = 89。",
+      "explanation": "Subtract the smallest total from the largest: 98 − 9 = 89.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d7e0689eda1d0a6647e6c747",
       "year": 4,
       "subject": "math",
-      "prompt": "分数 Fraction：56 的八分之三是多少？",
+      "prompt": "What is three eighths of 56?",
       "options": [
         "19",
         "21",
@@ -1394,14 +1394,14 @@
         "25"
       ],
       "answer": 1,
-      "explanation": "先除以8，再乘3：56 ÷ 8 × 3 = 21。",
+      "explanation": "Divide by 8, then multiply by 3: 56 ÷ 8 × 3 = 21.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-30938cc82978944edcccc4ef",
       "year": 4,
       "subject": "math",
-      "prompt": "分数 Fraction：72 的八分之三是多少？",
+      "prompt": "What is three eighths of 72?",
       "options": [
         "20",
         "22",
@@ -1409,14 +1409,14 @@
         "33"
       ],
       "answer": 2,
-      "explanation": "先除以8，再乘3：72 ÷ 8 × 3 = 27。",
+      "explanation": "Divide by 8, then multiply by 3: 72 ÷ 8 × 3 = 27.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f0d4a970dc56480afd322908",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 88、81、11 本，最多比最少多几本？",
+      "prompt": "Three groups read 88, 81 and 11 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "68",
         "79",
@@ -1424,14 +1424,14 @@
         "77"
       ],
       "answer": 3,
-      "explanation": "最大数减最小数：88 − 11 = 77。",
+      "explanation": "Subtract the smallest total from the largest: 88 − 11 = 77.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f3a1733199be9db1111703de",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 54、66、25 本，最多比最少多几本？",
+      "prompt": "Three groups read 54, 66 and 25 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "45",
         "53",
@@ -1439,14 +1439,14 @@
         "41"
       ],
       "answer": 3,
-      "explanation": "最大数减最小数：66 − 25 = 41。",
+      "explanation": "Subtract the smallest total from the largest: 66 − 25 = 41.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a54dead3b1469c067d200f07",
       "year": 4,
       "subject": "math",
-      "prompt": "周长 Perimeter：长 11 厘米、宽 7 厘米的长方形周长多少厘米？",
+      "prompt": "A rectangle is 11 cm long and 7 cm wide. What is its perimeter in centimetres?",
       "options": [
         "40",
         "26",
@@ -1454,14 +1454,14 @@
         "35"
       ],
       "answer": 2,
-      "explanation": "周长 = 2 ×（长 + 宽）= 36 厘米。",
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (11 + 7) = 36 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-991ff75ee9a2b7b080736115",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 94、57、16 本，最多比最少多几本？",
+      "prompt": "Three groups read 94, 57 and 16 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "76",
         "81",
@@ -1469,14 +1469,14 @@
         "78"
       ],
       "answer": 3,
-      "explanation": "最大数减最小数：94 − 16 = 78。",
+      "explanation": "Subtract the smallest total from the largest: 94 − 16 = 78.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-73f432ad0ccc4c74710fe41a",
       "year": 4,
       "subject": "math",
-      "prompt": "周长 Perimeter：长 4 厘米、宽 4 厘米的长方形周长多少厘米？",
+      "prompt": "A rectangle is 4 cm long and 4 cm wide. What is its perimeter in centimetres?",
       "options": [
         "18",
         "20",
@@ -1484,14 +1484,14 @@
         "13"
       ],
       "answer": 2,
-      "explanation": "周长 = 2 ×（长 + 宽）= 16 厘米。",
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (4 + 4) = 16 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-074966440a67763ccdcd2aea",
       "year": 4,
       "subject": "math",
-      "prompt": "数据 Data：三组读书数量是 12、47、75 本，最多比最少多几本？",
+      "prompt": "Three groups read 12, 47 and 75 books. How many more books does the largest total have than the smallest total?",
       "options": [
         "67",
         "76",
@@ -1499,14 +1499,14 @@
         "83"
       ],
       "answer": 2,
-      "explanation": "最大数减最小数：75 − 12 = 63。",
+      "explanation": "Subtract the smallest total from the largest: 75 − 12 = 63.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-62a9b9f7e56e11e9189b1066",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：79、34、115 的平均数是多少？",
+      "prompt": "What is the mean of 79, 34 and 115?",
       "options": [
         "54",
         "85",
@@ -1514,14 +1514,14 @@
         "55"
       ],
       "answer": 2,
-      "explanation": "总和除以个数：228 ÷ 3 = 76。",
+      "explanation": "Add the values, then divide by 3: 228 ÷ 3 = 76.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3b07449fbf567e90292d7eb2",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：9、11、13 的平均数是多少？",
+      "prompt": "What is the mean of 9, 11 and 13?",
       "options": [
         "12",
         "11",
@@ -1529,14 +1529,14 @@
         "14"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：(9+11+13) ÷ 3 = 11。",
+      "explanation": "Add the values and divide by 3: (9 + 11 + 13) ÷ 3 = 11.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d659fc0ba61564914db93b4c",
       "year": 5,
       "subject": "math",
-      "prompt": "小数 Decimal：8.5 + 0.5 = ？",
+      "prompt": "What is 8.5 + 0.5?",
       "options": [
         "9",
         "12",
@@ -1544,14 +1544,14 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "explanation": "The tenths add to one whole, so the result is 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-51a26892c641398e8fb76e9b",
       "year": 5,
       "subject": "math",
-      "prompt": "小数 Decimal：2.2 + 0.8 = ？",
+      "prompt": "What is 2.2 + 0.8?",
       "options": [
         "0",
         "1",
@@ -1559,14 +1559,14 @@
         "6"
       ],
       "answer": 2,
-      "explanation": "十分位合计10个十分之一，进1，结果为 3。",
+      "explanation": "The tenths add to one whole, so the result is 3.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b00fdf46efa88bb37b6d949e",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：12、90、183 的平均数是多少？",
+      "prompt": "What is the mean of 12, 90 and 183?",
       "options": [
         "96",
         "95",
@@ -1574,14 +1574,14 @@
         "64"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：285 ÷ 3 = 95。",
+      "explanation": "Add the values, then divide by 3: 285 ÷ 3 = 95.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1e6f70890d9e8a7c2da6d6de",
       "year": 5,
       "subject": "math",
-      "prompt": "百分数 Percentage：80 的25%是多少？",
+      "prompt": "What is 25% of 80?",
       "options": [
         "22",
         "21",
@@ -1589,14 +1589,14 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "25% = 四分之一：80 ÷ 4 = 20。",
+      "explanation": "25% is one quarter: 80 ÷ 4 = 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-2fdd3d19569f0252863e36e6",
       "year": 5,
       "subject": "math",
-      "prompt": "体积 Volume：长 7、宽 7、高2厘米的长方体体积多少立方厘米？",
+      "prompt": "A rectangular prism is 7 cm long, 7 cm wide and 2 cm high. What is its volume in cubic centimetres?",
       "options": [
         "98",
         "87",
@@ -1604,14 +1604,14 @@
         "88"
       ],
       "answer": 0,
-      "explanation": "体积 = 长 × 宽 × 高 = 7 × 7 × 2 = 98。",
+      "explanation": "Volume = length × width × height = 7 × 7 × 2 = 98 cm³.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ea4f629a1fee972aceb8a8fc",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：95、135、178 的平均数是多少？",
+      "prompt": "What is the mean of 95, 135 and 178?",
       "options": [
         "158",
         "136",
@@ -1619,14 +1619,14 @@
         "133"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：408 ÷ 3 = 136。",
+      "explanation": "Add the values, then divide by 3: 408 ÷ 3 = 136.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-73ec64f104c886de2f5d6f48",
       "year": 5,
       "subject": "math",
-      "prompt": "百分数 Percentage：240 的25%是多少？",
+      "prompt": "What is 25% of 240?",
       "options": [
         "63",
         "51",
@@ -1634,14 +1634,14 @@
         "60"
       ],
       "answer": 3,
-      "explanation": "25% = 四分之一：240 ÷ 4 = 60。",
+      "explanation": "25% is one quarter: 240 ÷ 4 = 60.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-33de32bd8c5ca00e704647fa",
       "year": 5,
       "subject": "math",
-      "prompt": "百分数 Percentage：120 的25%是多少？",
+      "prompt": "What is 25% of 120?",
       "options": [
         "38",
         "36",
@@ -1649,14 +1649,14 @@
         "30"
       ],
       "answer": 3,
-      "explanation": "25% = 四分之一：120 ÷ 4 = 30。",
+      "explanation": "25% is one quarter: 120 ÷ 4 = 30.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b01b817b26aa217d595c2260",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：6、8、10 的平均数是多少？",
+      "prompt": "What is the mean of 6, 8 and 10?",
       "options": [
         "10",
         "5",
@@ -1664,14 +1664,14 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "总和除以个数：(6+8+10) ÷ 3 = 8。",
+      "explanation": "Add the values and divide by 3: (6 + 8 + 10) ÷ 3 = 8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9384425f84351f6c6e12af5b",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：49、188、105 的平均数是多少？",
+      "prompt": "What is the mean of 49, 188 and 105?",
       "options": [
         "130",
         "114",
@@ -1679,14 +1679,14 @@
         "145"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：342 ÷ 3 = 114。",
+      "explanation": "Add the values, then divide by 3: 342 ÷ 3 = 114.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-fbd7462724666dcfdf11c89a",
       "year": 5,
       "subject": "math",
-      "prompt": "百分数 Percentage：100 的25%是多少？",
+      "prompt": "What is 25% of 100?",
       "options": [
         "19",
         "27",
@@ -1694,14 +1694,14 @@
         "20"
       ],
       "answer": 2,
-      "explanation": "25% = 四分之一：100 ÷ 4 = 25。",
+      "explanation": "25% is one quarter: 100 ÷ 4 = 25.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1e5452d4f858ced68ebf088e",
       "year": 5,
       "subject": "math",
-      "prompt": "小数 Decimal：8.7 + 0.3 = ？",
+      "prompt": "What is 8.7 + 0.3?",
       "options": [
         "9",
         "8",
@@ -1709,14 +1709,14 @@
         "7"
       ],
       "answer": 0,
-      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "explanation": "The tenths add to one whole, so the result is 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-bf1bd6b5e9cbc7d12bafd40d",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：11、13、15 的平均数是多少？",
+      "prompt": "What is the mean of 11, 13 and 15?",
       "options": [
         "16",
         "13",
@@ -1724,14 +1724,14 @@
         "9"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：(11+13+15) ÷ 3 = 13。",
+      "explanation": "Add the values and divide by 3: (11 + 13 + 15) ÷ 3 = 13.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-eb2b5dd18324cb19e7cb2c24",
       "year": 5,
       "subject": "math",
-      "prompt": "小数 Decimal：5.3 + 0.7 = ？",
+      "prompt": "What is 5.3 + 0.7?",
       "options": [
         "8",
         "6",
@@ -1739,14 +1739,14 @@
         "9"
       ],
       "answer": 1,
-      "explanation": "十分位合计10个十分之一，进1，结果为 6。",
+      "explanation": "The tenths add to one whole, so the result is 6.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-720d3285c0eee324d1783fb5",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：39、92、172 的平均数是多少？",
+      "prompt": "What is the mean of 39, 92 and 172?",
       "options": [
         "101",
         "134",
@@ -1754,14 +1754,14 @@
         "118"
       ],
       "answer": 0,
-      "explanation": "总和除以个数：303 ÷ 3 = 101。",
+      "explanation": "Add the values, then divide by 3: 303 ÷ 3 = 101.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3c8769975cd6c0aebff62eb5",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：62、36、76 的平均数是多少？",
+      "prompt": "What is the mean of 62, 36 and 76?",
       "options": [
         "42",
         "56",
@@ -1769,14 +1769,14 @@
         "48"
       ],
       "answer": 2,
-      "explanation": "总和除以个数：174 ÷ 3 = 58。",
+      "explanation": "Add the values, then divide by 3: 174 ÷ 3 = 58.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-70786de22a91a7cc134b2d6b",
       "year": 5,
       "subject": "math",
-      "prompt": "小数 Decimal：8.6 + 0.4 = ？",
+      "prompt": "What is 8.6 + 0.4?",
       "options": [
         "10",
         "9",
@@ -1784,14 +1784,14 @@
         "6"
       ],
       "answer": 1,
-      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "explanation": "The tenths add to one whole, so the result is 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9d4c955a23140ad912a78152",
       "year": 5,
       "subject": "math",
-      "prompt": "平均数 Mean：8、10、12 的平均数是多少？",
+      "prompt": "What is the mean of 8, 10 and 12?",
       "options": [
         "13",
         "10",
@@ -1799,14 +1799,14 @@
         "8"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：(8+10+12) ÷ 3 = 10。",
+      "explanation": "Add the values and divide by 3: (8 + 10 + 12) ÷ 3 = 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4396eb0fed930ab3a3f0882d",
       "year": 6,
       "subject": "math",
-      "prompt": "分数运算 Fractions：24 的三分之二是多少？",
+      "prompt": "What is two thirds of 24?",
       "options": [
         "17",
         "16",
@@ -1814,14 +1814,14 @@
         "20"
       ],
       "answer": 1,
-      "explanation": "先除以3再乘2：24 ÷ 3 × 2 = 16。",
+      "explanation": "Divide by 3, then multiply by 2: 24 ÷ 3 × 2 = 16.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-45c9609f732b0c3420d0fa98",
       "year": 6,
       "subject": "math",
-      "prompt": "整数 Integers：气温 −4°C 上升 13°C 后是多少°C？",
+      "prompt": "The temperature is −4°C. It rises by 13°C. What is the new temperature in degrees Celsius?",
       "options": [
         "8",
         "6",
@@ -1829,14 +1829,14 @@
         "12"
       ],
       "answer": 2,
-      "explanation": "−4 + 13 = 9。",
+      "explanation": "−4 + 13 = 9°C.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b24c39ee52f8bf1b963b7cbe",
       "year": 6,
       "subject": "math",
-      "prompt": "概率 Probability：袋内有 5 红球和 5 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "prompt": "A bag contains 5 red balls and 5 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
       "options": [
         "8",
         "9",
@@ -1844,14 +1844,14 @@
         "10"
       ],
       "answer": 3,
-      "explanation": "每个球是一个结果，合计 5 + 5 = 10。",
+      "explanation": "Each ball is one possible outcome: 5 + 5 = 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-dc1d388cac43f800457279a0",
       "year": 6,
       "subject": "math",
-      "prompt": "概率 Probability：袋内有 10 红球和 8 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "prompt": "A bag contains 10 red balls and 8 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
       "options": [
         "23",
         "14",
@@ -1859,14 +1859,14 @@
         "20"
       ],
       "answer": 2,
-      "explanation": "每个球是一个结果，合计 10 + 8 = 18。",
+      "explanation": "Each ball is one possible outcome: 10 + 8 = 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ce90daef46553e264aed4bc0",
       "year": 6,
       "subject": "math",
-      "prompt": "中位数 Median：87、194、77 的中位数是多少？",
+      "prompt": "What is the median of 87, 194 and 77?",
       "options": [
         "73",
         "87",
@@ -1874,14 +1874,14 @@
         "108"
       ],
       "answer": 1,
-      "explanation": "从小到大排列：77、87、194；中间的数是 87。",
+      "explanation": "Put the numbers in order: 77, 87, 194. The middle number is 87.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-44b6cd5622175942a7e5ebcb",
       "year": 6,
       "subject": "math",
-      "prompt": "折扣 Discount：140 澳元的书包打八折，售价多少澳元？",
+      "prompt": "A school bag costs A$140 before a 20% discount. What is the sale price, in Australian dollars?",
       "options": [
         "112",
         "149",
@@ -1889,14 +1889,14 @@
         "111"
       ],
       "answer": 0,
-      "explanation": "付原价的80%：140 × 0.8 = 112 澳元。",
+      "explanation": "Pay 80% of the original price: 140 × 0.8 = A$112.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-638e3795d724ee840828f412",
       "year": 6,
       "subject": "math",
-      "prompt": "折扣 Discount：220 澳元的书包打八折，售价多少澳元？",
+      "prompt": "A school bag costs A$220 before a 20% discount. What is the sale price, in Australian dollars?",
       "options": [
         "154",
         "176",
@@ -1904,14 +1904,14 @@
         "217"
       ],
       "answer": 1,
-      "explanation": "付原价的80%：220 × 0.8 = 176 澳元。",
+      "explanation": "Pay 80% of the original price: 220 × 0.8 = A$176.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-11387563899fa480f2b98cea",
       "year": 6,
       "subject": "math",
-      "prompt": "概率 Probability：袋内有 7 红球和 6 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "prompt": "A bag contains 7 red balls and 6 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
       "options": [
         "15",
         "13",
@@ -1919,14 +1919,14 @@
         "11"
       ],
       "answer": 1,
-      "explanation": "每个球是一个结果，合计 7 + 6 = 13。",
+      "explanation": "Each ball is one possible outcome: 7 + 6 = 13.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ff49e40e45083021fb2599f3",
       "year": 6,
       "subject": "math",
-      "prompt": "分数运算 Fractions：144 的三分之二是多少？",
+      "prompt": "What is two thirds of 144?",
       "options": [
         "122",
         "96",
@@ -1934,14 +1934,14 @@
         "79"
       ],
       "answer": 1,
-      "explanation": "先除以3再乘2：144 ÷ 3 × 2 = 96。",
+      "explanation": "Divide by 3, then multiply by 2: 144 ÷ 3 × 2 = 96.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-151f25fd57da1e841cd58d04",
       "year": 6,
       "subject": "math",
-      "prompt": "分数运算 Fractions：60 的三分之二是多少？",
+      "prompt": "What is two thirds of 60?",
       "options": [
         "28",
         "36",
@@ -1949,14 +1949,14 @@
         "40"
       ],
       "answer": 3,
-      "explanation": "先除以3再乘2：60 ÷ 3 × 2 = 40。",
+      "explanation": "Divide by 3, then multiply by 2: 60 ÷ 3 × 2 = 40.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-99ddadfaf221de8b88544af7",
       "year": 6,
       "subject": "math",
-      "prompt": "分数运算 Fractions：36 的三分之二是多少？",
+      "prompt": "What is two thirds of 36?",
       "options": [
         "21",
         "28",
@@ -1964,14 +1964,14 @@
         "27"
       ],
       "answer": 2,
-      "explanation": "先除以3再乘2：36 ÷ 3 × 2 = 24。",
+      "explanation": "Divide by 3, then multiply by 2: 36 ÷ 3 × 2 = 24.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-165ac146c8f9a9cacf7bc8f7",
       "year": 6,
       "subject": "math",
-      "prompt": "概率 Probability：袋内有 4 红球和 6 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "prompt": "A bag contains 4 red balls and 6 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
       "options": [
         "8",
         "9",
@@ -1979,14 +1979,14 @@
         "10"
       ],
       "answer": 3,
-      "explanation": "每个球是一个结果，合计 4 + 6 = 10。",
+      "explanation": "Each ball is one possible outcome: 4 + 6 = 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1f1c847e432e0622956947dd",
       "year": 6,
       "subject": "math",
-      "prompt": "中位数 Median：63、68、166 的中位数是多少？",
+      "prompt": "What is the median of 63, 68 and 166?",
       "options": [
         "78",
         "67",
@@ -1994,14 +1994,14 @@
         "50"
       ],
       "answer": 2,
-      "explanation": "从小到大排列：63、68、166；中间的数是 68。",
+      "explanation": "Put the numbers in order: 63, 68, 166. The middle number is 68.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-bb4d8151e3781ca6dff67e65",
       "year": 6,
       "subject": "math",
-      "prompt": "中位数 Median：36、75、35 的中位数是多少？",
+      "prompt": "What is the median of 36, 75 and 35?",
       "options": [
         "42",
         "35",
@@ -2009,14 +2009,14 @@
         "36"
       ],
       "answer": 3,
-      "explanation": "从小到大排列：35、36、75；中间的数是 36。",
+      "explanation": "Put the numbers in order: 35, 36, 75. The middle number is 36.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-403b70ada01f7c97493056d4",
       "year": 6,
       "subject": "math",
-      "prompt": "中位数 Median：46、30、94 的中位数是多少？",
+      "prompt": "What is the median of 46, 30 and 94?",
       "options": [
         "55",
         "46",
@@ -2024,14 +2024,14 @@
         "57"
       ],
       "answer": 1,
-      "explanation": "从小到大排列：30、46、94；中间的数是 46。",
+      "explanation": "Put the numbers in order: 30, 46, 94. The middle number is 46.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-11eddfba3c6a484b4c0c4ac9",
       "year": 6,
       "subject": "math",
-      "prompt": "分数运算 Fractions：72 的三分之二是多少？",
+      "prompt": "What is two thirds of 72?",
       "options": [
         "56",
         "52",
@@ -2039,14 +2039,14 @@
         "49"
       ],
       "answer": 2,
-      "explanation": "先除以3再乘2：72 ÷ 3 × 2 = 48。",
+      "explanation": "Divide by 3, then multiply by 2: 72 ÷ 3 × 2 = 48.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e3cccf57fd5e0681dca18e84",
       "year": 6,
       "subject": "math",
-      "prompt": "整数 Integers：气温 −4°C 上升 9°C 后是多少°C？",
+      "prompt": "The temperature is −4°C. It rises by 9°C. What is the new temperature in degrees Celsius?",
       "options": [
         "4",
         "6",
@@ -2054,14 +2054,14 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "−4 + 9 = 5。",
+      "explanation": "−4 + 9 = 5°C.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-eef6f3f3d21ef8ef2afbeb92",
       "year": 6,
       "subject": "math",
-      "prompt": "概率 Probability：袋内有 2 红球和 7 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "prompt": "A bag contains 2 red balls and 7 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
       "options": [
         "11",
         "12",
@@ -2069,14 +2069,14 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "每个球是一个结果，合计 2 + 7 = 9。",
+      "explanation": "Each ball is one possible outcome: 2 + 7 = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f177461eab086c5c195d913b",
       "year": 6,
       "subject": "math",
-      "prompt": "中位数 Median：82、179、134 的中位数是多少？",
+      "prompt": "What is the median of 82, 179 and 134?",
       "options": [
         "108",
         "134",
@@ -2084,14 +2084,14 @@
         "136"
       ],
       "answer": 1,
-      "explanation": "从小到大排列：82、134、179；中间的数是 134。",
+      "explanation": "Put the numbers in order: 82, 134, 179. The middle number is 134.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b322e9c978988d5c321c811b",
       "year": 6,
       "subject": "math",
-      "prompt": "折扣 Discount：240 澳元的书包打八折，售价多少澳元？",
+      "prompt": "A school bag costs A$240 before a 20% discount. What is the sale price, in Australian dollars?",
       "options": [
         "192",
         "161",
@@ -2099,14 +2099,14 @@
         "248"
       ],
       "answer": 0,
-      "explanation": "付原价的80%：240 × 0.8 = 192 澳元。",
+      "explanation": "Pay 80% of the original price: 240 × 0.8 = A$192.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d635d03309b714155e81aa5e",
       "year": 7,
       "subject": "math",
-      "prompt": "极差 Range：172、79、17 的极差是多少？",
+      "prompt": "What is the range of 172, 79 and 17?",
       "options": [
         "191",
         "109",
@@ -2114,14 +2114,14 @@
         "119"
       ],
       "answer": 2,
-      "explanation": "最大值 − 最小值 = 172 − 17 = 155。",
+      "explanation": "Range = largest − smallest = 172 − 17 = 155.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-35105e2b8a1acc7f65934675",
       "year": 7,
       "subject": "math",
-      "prompt": "角 Angles：三角形两个内角为 25° 和 40°，第三个角多少度？",
+      "prompt": "Two angles of a triangle are 25° and 40°. What is the third angle, in degrees?",
       "options": [
         "80",
         "115",
@@ -2129,14 +2129,14 @@
         "121"
       ],
       "answer": 1,
-      "explanation": "三角形内角和180°：180 − 25 − 40 = 115°。",
+      "explanation": "Triangle angles add to 180°: 180 − 25 − 40 = 115°.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4ce7b56fa217b66293df0810",
       "year": 7,
       "subject": "math",
-      "prompt": "比 Ratio：果汁和水为1:2，用 4 升果汁需多少升水？",
+      "prompt": "Juice and water are mixed in the ratio 1:2. How many litres of water are needed for 4 litres of juice?",
       "options": [
         "5",
         "10",
@@ -2144,14 +2144,14 @@
         "9"
       ],
       "answer": 2,
-      "explanation": "水是果汁的 2 倍：4 × 2 = 8 升。",
+      "explanation": "The water amount is 2 times the juice amount: 4 × 2 = 8 litres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f9c711a8002ec909f6c2dc7d",
       "year": 7,
       "subject": "math",
-      "prompt": "代数 Algebra：x + 8 = 19，x = ？",
+      "prompt": "Solve for x: x + 8 = 19.",
       "options": [
         "13",
         "12",
@@ -2159,14 +2159,14 @@
         "11"
       ],
       "answer": 3,
-      "explanation": "等式两边减 8，得 x = 11。",
+      "explanation": "Subtract 8 from both sides to get x = 11.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-dd3e453355c39284d24094f6",
       "year": 7,
       "subject": "math",
-      "prompt": "极差 Range：196、25、122 的极差是多少？",
+      "prompt": "What is the range of 196, 25 and 122?",
       "options": [
         "116",
         "171",
@@ -2174,14 +2174,14 @@
         "130"
       ],
       "answer": 1,
-      "explanation": "最大值 − 最小值 = 196 − 25 = 171。",
+      "explanation": "Range = largest − smallest = 196 − 25 = 171.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5a55da96e71a0ab8a5ce4bd5",
       "year": 7,
       "subject": "math",
-      "prompt": "整数 Integers：−11 × 5 = ？",
+      "prompt": "What is −11 × 5?",
       "options": [
         "-69",
         "-58",
@@ -2189,14 +2189,14 @@
         "-55"
       ],
       "answer": 3,
-      "explanation": "负数乘正数为负数，绝对值为 11 × 5 = 55。",
+      "explanation": "A negative number times a positive number is negative: −(11 × 5) = -55.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-eda147fe1ae8b02f75eb49ab",
       "year": 7,
       "subject": "math",
-      "prompt": "代数 Algebra：x + 2 = 13，x = ？",
+      "prompt": "Solve for x: x + 2 = 13.",
       "options": [
         "11",
         "14",
@@ -2204,14 +2204,14 @@
         "12"
       ],
       "answer": 0,
-      "explanation": "等式两边减 2，得 x = 11。",
+      "explanation": "Subtract 2 from both sides to get x = 11.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-c95a7e09b208ae675da14881",
       "year": 7,
       "subject": "math",
-      "prompt": "角 Angles：三角形两个内角为 55° 和 20°，第三个角多少度？",
+      "prompt": "Two angles of a triangle are 55° and 20°. What is the third angle, in degrees?",
       "options": [
         "114",
         "96",
@@ -2219,14 +2219,14 @@
         "105"
       ],
       "answer": 3,
-      "explanation": "三角形内角和180°：180 − 55 − 20 = 105°。",
+      "explanation": "Triangle angles add to 180°: 180 − 55 − 20 = 105°.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-da4463682015c5a6ccc927f0",
       "year": 7,
       "subject": "math",
-      "prompt": "角 Angles：三角形两个内角为 25° 和 30°，第三个角多少度？",
+      "prompt": "Two angles of a triangle are 25° and 30°. What is the third angle, in degrees?",
       "options": [
         "156",
         "106",
@@ -2234,14 +2234,14 @@
         "125"
       ],
       "answer": 3,
-      "explanation": "三角形内角和180°：180 − 25 − 30 = 125°。",
+      "explanation": "Triangle angles add to 180°: 180 − 25 − 30 = 125°.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-da2fd618382ec53b0b8121b8",
       "year": 7,
       "subject": "math",
-      "prompt": "比 Ratio：果汁和水为1:5，用 12 升果汁需多少升水？",
+      "prompt": "Juice and water are mixed in the ratio 1:5. How many litres of water are needed for 12 litres of juice?",
       "options": [
         "60",
         "67",
@@ -2249,14 +2249,14 @@
         "68"
       ],
       "answer": 0,
-      "explanation": "水是果汁的 5 倍：12 × 5 = 60 升。",
+      "explanation": "The water amount is 5 times the juice amount: 12 × 5 = 60 litres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9aad456bb0d994a08fe98b41",
       "year": 7,
       "subject": "math",
-      "prompt": "比 Ratio：果汁和水为1:2，用 2 升果汁需多少升水？",
+      "prompt": "Juice and water are mixed in the ratio 1:2. How many litres of water are needed for 2 litres of juice?",
       "options": [
         "2",
         "4",
@@ -2264,14 +2264,14 @@
         "5"
       ],
       "answer": 1,
-      "explanation": "水是果汁的 2 倍：2 × 2 = 4 升。",
+      "explanation": "The water amount is 2 times the juice amount: 2 × 2 = 4 litres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-dffd85ef0133577006a10697",
       "year": 7,
       "subject": "math",
-      "prompt": "整数 Integers：−4 × 2 = ？",
+      "prompt": "What is −4 × 2?",
       "options": [
         "-9",
         "-6",
@@ -2279,14 +2279,14 @@
         "-5"
       ],
       "answer": 2,
-      "explanation": "负数乘正数为负数，绝对值为 4 × 2 = 8。",
+      "explanation": "A negative number times a positive number is negative: −(4 × 2) = -8.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-0fab66f04d9ee7058f980654",
       "year": 7,
       "subject": "math",
-      "prompt": "角 Angles：三角形两个内角为 35° 和 10°，第三个角多少度？",
+      "prompt": "Two angles of a triangle are 35° and 10°. What is the third angle, in degrees?",
       "options": [
         "102",
         "113",
@@ -2294,14 +2294,14 @@
         "135"
       ],
       "answer": 3,
-      "explanation": "三角形内角和180°：180 − 35 − 10 = 135°。",
+      "explanation": "Triangle angles add to 180°: 180 − 35 − 10 = 135°.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ba8bf5c5f70bf14f0f210384",
       "year": 7,
       "subject": "math",
-      "prompt": "比 Ratio：果汁和水为1:4，用 8 升果汁需多少升水？",
+      "prompt": "Juice and water are mixed in the ratio 1:4. How many litres of water are needed for 8 litres of juice?",
       "options": [
         "34",
         "31",
@@ -2309,14 +2309,14 @@
         "23"
       ],
       "answer": 2,
-      "explanation": "水是果汁的 4 倍：8 × 4 = 32 升。",
+      "explanation": "The water amount is 4 times the juice amount: 8 × 4 = 32 litres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a9b3409c6e69432277ffc729",
       "year": 7,
       "subject": "math",
-      "prompt": "比 Ratio：果汁和水为1:6，用 9 升果汁需多少升水？",
+      "prompt": "Juice and water are mixed in the ratio 1:6. How many litres of water are needed for 9 litres of juice?",
       "options": [
         "56",
         "50",
@@ -2324,14 +2324,14 @@
         "49"
       ],
       "answer": 2,
-      "explanation": "水是果汁的 6 倍：9 × 6 = 54 升。",
+      "explanation": "The water amount is 6 times the juice amount: 9 × 6 = 54 litres.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9557a4d7a16cfb38e7cd7fdf",
       "year": 7,
       "subject": "math",
-      "prompt": "整数 Integers：−6 × 2 = ？",
+      "prompt": "What is −6 × 2?",
       "options": [
         "-10",
         "-12",
@@ -2339,14 +2339,14 @@
         "-16"
       ],
       "answer": 1,
-      "explanation": "负数乘正数为负数，绝对值为 6 × 2 = 12。",
+      "explanation": "A negative number times a positive number is negative: −(6 × 2) = -12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-0f2c962089e91939296853df",
       "year": 7,
       "subject": "math",
-      "prompt": "极差 Range：40、25、187 的极差是多少？",
+      "prompt": "What is the range of 40, 25 and 187?",
       "options": [
         "213",
         "212",
@@ -2354,14 +2354,14 @@
         "180"
       ],
       "answer": 2,
-      "explanation": "最大值 − 最小值 = 187 − 25 = 162。",
+      "explanation": "Range = largest − smallest = 187 − 25 = 162.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-069eaea83794f1c19106f959",
       "year": 7,
       "subject": "math",
-      "prompt": "代数 Algebra：x + 2 = 11，x = ？",
+      "prompt": "Solve for x: x + 2 = 11.",
       "options": [
         "10",
         "9",
@@ -2369,14 +2369,14 @@
         "11"
       ],
       "answer": 1,
-      "explanation": "等式两边减 2，得 x = 9。",
+      "explanation": "Subtract 2 from both sides to get x = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-0bbf6484c47497c334304fe8",
       "year": 7,
       "subject": "math",
-      "prompt": "整数 Integers：−4 × 7 = ？",
+      "prompt": "What is −4 × 7?",
       "options": [
         "-21",
         "-28",
@@ -2384,14 +2384,14 @@
         "-35"
       ],
       "answer": 1,
-      "explanation": "负数乘正数为负数，绝对值为 4 × 7 = 28。",
+      "explanation": "A negative number times a positive number is negative: −(4 × 7) = -28.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-cb3bc4220d557086c1620c95",
       "year": 7,
       "subject": "math",
-      "prompt": "角 Angles：三角形两个内角为 50° 和 20°，第三个角多少度？",
+      "prompt": "Two angles of a triangle are 50° and 20°. What is the third angle, in degrees?",
       "options": [
         "110",
         "75",
@@ -2399,14 +2399,14 @@
         "123"
       ],
       "answer": 0,
-      "explanation": "三角形内角和180°：180 − 50 − 20 = 110°。",
+      "explanation": "Triangle angles add to 180°: 180 − 50 − 20 = 110°.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-552cb66aa9b03dcb73e0f84e",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：300 澳元增加 6% 后为多少澳元？",
+      "prompt": "A$300 increases by 6%. What is the new amount, in Australian dollars?",
       "options": [
         "309",
         "389",
@@ -2414,14 +2414,14 @@
         "219"
       ],
       "answer": 2,
-      "explanation": "新值 = 原值 × (1 + 6/100) = 318 澳元。",
+      "explanation": "New amount = 300 × (1 + 6/100) = A$318.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-9200555d9ff07ee455071a81",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：117、129、108 的平均数是多少？",
+      "prompt": "What is the mean of 117, 129 and 108?",
       "options": [
         "110",
         "106",
@@ -2429,14 +2429,14 @@
         "104"
       ],
       "answer": 2,
-      "explanation": "总和除以个数：354 ÷ 3 = 118。",
+      "explanation": "Add the values, then divide by 3: 354 ÷ 3 = 118.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3829a19c32a1fe45a38c1882",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：600 澳元增加 5% 后为多少澳元？",
+      "prompt": "A$600 increases by 5%. What is the new amount, in Australian dollars?",
       "options": [
         "727",
         "770",
@@ -2444,14 +2444,14 @@
         "557"
       ],
       "answer": 2,
-      "explanation": "新值 = 原值 × (1 + 5/100) = 630 澳元。",
+      "explanation": "New amount = 600 × (1 + 5/100) = A$630.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-eedc7bf73eb8f25ea2bc4ed9",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：93、167、190 的平均数是多少？",
+      "prompt": "What is the mean of 93, 167 and 190?",
       "options": [
         "150",
         "109",
@@ -2459,14 +2459,14 @@
         "161"
       ],
       "answer": 0,
-      "explanation": "总和除以个数：450 ÷ 3 = 150。",
+      "explanation": "Add the values, then divide by 3: 450 ÷ 3 = 150.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3dcde4e9b6f1d6560415bbb9",
       "year": 8,
       "subject": "math",
-      "prompt": "速率 Rate：4 小时行驶 160 公里，平均时速多少公里？",
+      "prompt": "A vehicle travels 160 km in 4 hours. What is its average speed in km/h?",
       "options": [
         "41",
         "40",
@@ -2474,14 +2474,14 @@
         "52"
       ],
       "answer": 1,
-      "explanation": "速率 = 路程 ÷ 时间 = 160 ÷ 4 = 40 公里/小时。",
+      "explanation": "Speed = distance ÷ time = 160 ÷ 4 = 40 km/h.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-310628d3c200cbe378324346",
       "year": 8,
       "subject": "math",
-      "prompt": "指数 Indices：12² = ？",
+      "prompt": "What is 12²?",
       "options": [
         "164",
         "144",
@@ -2489,14 +2489,14 @@
         "154"
       ],
       "answer": 1,
-      "explanation": "平方就是自身相乘：12 × 12 = 144。",
+      "explanation": "Squaring means multiplying a number by itself: 12 × 12 = 144.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7aae8f5cd1b22e54c99a5f1c",
       "year": 8,
       "subject": "math",
-      "prompt": "速率 Rate：7 小时行驶 840 公里，平均时速多少公里？",
+      "prompt": "A vehicle travels 840 km in 7 hours. What is its average speed in km/h?",
       "options": [
         "141",
         "120",
@@ -2504,14 +2504,14 @@
         "119"
       ],
       "answer": 1,
-      "explanation": "速率 = 路程 ÷ 时间 = 840 ÷ 7 = 120 公里/小时。",
+      "explanation": "Speed = distance ÷ time = 840 ÷ 7 = 120 km/h.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1c4d8da01075984f9bc39097",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：200 澳元增加 9% 后为多少澳元？",
+      "prompt": "A$200 increases by 9%. What is the new amount, in Australian dollars?",
       "options": [
         "250",
         "222",
@@ -2519,14 +2519,14 @@
         "212"
       ],
       "answer": 2,
-      "explanation": "新值 = 原值 × (1 + 9/100) = 218 澳元。",
+      "explanation": "New amount = 200 × (1 + 9/100) = A$218.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-03db9237322884485a87804f",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：900 澳元增加 2% 后为多少澳元？",
+      "prompt": "A$900 increases by 2%. What is the new amount, in Australian dollars?",
       "options": [
         "1202",
         "918",
@@ -2534,14 +2534,14 @@
         "1137"
       ],
       "answer": 1,
-      "explanation": "新值 = 原值 × (1 + 2/100) = 918 澳元。",
+      "explanation": "New amount = 900 × (1 + 2/100) = A$918.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ffab57e87afe61ff18145141",
       "year": 8,
       "subject": "math",
-      "prompt": "方程 Equation：2x + 5 = 15，x = ？",
+      "prompt": "Solve for x: 2x + 5 = 15.",
       "options": [
         "2",
         "8",
@@ -2549,14 +2549,14 @@
         "6"
       ],
       "answer": 2,
-      "explanation": "两边减 5，再除以 2，得 x = 5。",
+      "explanation": "Subtract 5 from both sides, then divide by 2: x = 5.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1185b22c0e660135da547636",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：200 澳元增加 4% 后为多少澳元？",
+      "prompt": "A$200 increases by 4%. What is the new amount, in Australian dollars?",
       "options": [
         "194",
         "254",
@@ -2564,14 +2564,14 @@
         "275"
       ],
       "answer": 2,
-      "explanation": "新值 = 原值 × (1 + 4/100) = 208 澳元。",
+      "explanation": "New amount = 200 × (1 + 4/100) = A$208.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a83d079fae23c89ed3f080da",
       "year": 8,
       "subject": "math",
-      "prompt": "方程 Equation：6x + 9 = 63，x = ？",
+      "prompt": "Solve for x: 6x + 9 = 63.",
       "options": [
         "6",
         "12",
@@ -2579,14 +2579,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "两边减 9，再除以 6，得 x = 9。",
+      "explanation": "Subtract 9 from both sides, then divide by 6: x = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-aea17e8c73ee25810850f2cf",
       "year": 8,
       "subject": "math",
-      "prompt": "指数 Indices：11² = ？",
+      "prompt": "What is 11²?",
       "options": [
         "82",
         "110",
@@ -2594,14 +2594,14 @@
         "86"
       ],
       "answer": 2,
-      "explanation": "平方就是自身相乘：11 × 11 = 121。",
+      "explanation": "Squaring means multiplying a number by itself: 11 × 11 = 121.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5b80aa5f88c1f35bafe469bd",
       "year": 8,
       "subject": "math",
-      "prompt": "指数 Indices：6² = ？",
+      "prompt": "What is 6²?",
       "options": [
         "29",
         "43",
@@ -2609,14 +2609,14 @@
         "36"
       ],
       "answer": 3,
-      "explanation": "平方就是自身相乘：6 × 6 = 36。",
+      "explanation": "Squaring means multiplying a number by itself: 6 × 6 = 36.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-8b6c207869f1233df2463e38",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：30、88、140 的平均数是多少？",
+      "prompt": "What is the mean of 30, 88 and 140?",
       "options": [
         "86",
         "79",
@@ -2624,14 +2624,14 @@
         "89"
       ],
       "answer": 0,
-      "explanation": "总和除以个数：258 ÷ 3 = 86。",
+      "explanation": "Add the values, then divide by 3: 258 ÷ 3 = 86.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-87c7e312af0b9824788d6dd6",
       "year": 8,
       "subject": "math",
-      "prompt": "百分数 Percentage：200 澳元增加 6% 后为多少澳元？",
+      "prompt": "A$200 increases by 6%. What is the new amount, in Australian dollars?",
       "options": [
         "212",
         "239",
@@ -2639,14 +2639,14 @@
         "261"
       ],
       "answer": 0,
-      "explanation": "新值 = 原值 × (1 + 6/100) = 212 澳元。",
+      "explanation": "New amount = 200 × (1 + 6/100) = A$212.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5b7b3a13d5571a8f16e1fa08",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：127、21、128 的平均数是多少？",
+      "prompt": "What is the mean of 127, 21 and 128?",
       "options": [
         "111",
         "92",
@@ -2654,14 +2654,14 @@
         "117"
       ],
       "answer": 1,
-      "explanation": "总和除以个数：276 ÷ 3 = 92。",
+      "explanation": "Add the values, then divide by 3: 276 ÷ 3 = 92.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e0fdace542a8a3d02348e980",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：118、92、78 的平均数是多少？",
+      "prompt": "What is the mean of 118, 92 and 78?",
       "options": [
         "127",
         "80",
@@ -2669,14 +2669,14 @@
         "96"
       ],
       "answer": 3,
-      "explanation": "总和除以个数：288 ÷ 3 = 96。",
+      "explanation": "Add the values, then divide by 3: 288 ÷ 3 = 96.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-90a5e5da3eb457a84bc3877d",
       "year": 8,
       "subject": "math",
-      "prompt": "速率 Rate：2 小时行驶 240 公里，平均时速多少公里？",
+      "prompt": "A vehicle travels 240 km in 2 hours. What is its average speed in km/h?",
       "options": [
         "118",
         "149",
@@ -2684,14 +2684,14 @@
         "157"
       ],
       "answer": 2,
-      "explanation": "速率 = 路程 ÷ 时间 = 240 ÷ 2 = 120 公里/小时。",
+      "explanation": "Speed = distance ÷ time = 240 ÷ 2 = 120 km/h.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-e7b444600f3541eeca27e65e",
       "year": 8,
       "subject": "math",
-      "prompt": "平均数 Mean：101、121、159 的平均数是多少？",
+      "prompt": "What is the mean of 101, 121 and 159?",
       "options": [
         "119",
         "124",
@@ -2699,14 +2699,14 @@
         "109"
       ],
       "answer": 2,
-      "explanation": "总和除以个数：381 ÷ 3 = 127。",
+      "explanation": "Add the values, then divide by 3: 381 ÷ 3 = 127.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a5f0d7300fd1ba2a6b320922",
       "year": 9,
       "subject": "math",
-      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 6 和 8 厘米，斜边多长？",
+      "prompt": "A right-angled triangle has shorter sides of 6 cm and 8 cm. How long is the hypotenuse, in centimetres?",
       "options": [
         "12",
         "10",
@@ -2714,14 +2714,14 @@
         "11"
       ],
       "answer": 1,
-      "explanation": "斜边² = 6² + 8² = 100，开平方得 10 厘米。",
+      "explanation": "By Pythagoras, c² = 6² + 8² = 100. The positive square root is 10 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-be3d3e1c96814aeb8bda6f9f",
       "year": 9,
       "subject": "math",
-      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 27 和 36 厘米，斜边多长？",
+      "prompt": "A right-angled triangle has shorter sides of 27 cm and 36 cm. How long is the hypotenuse, in centimetres?",
       "options": [
         "36",
         "42",
@@ -2729,14 +2729,14 @@
         "34"
       ],
       "answer": 2,
-      "explanation": "斜边² = 27² + 36² = 2025，开平方得 45 厘米。",
+      "explanation": "By Pythagoras, c² = 27² + 36² = 2025. The positive square root is 45 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-a2f2f7f084f0d3c6632f914c",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 5x − 9，x = 9 时 y = ？",
+      "prompt": "If y = 5x − 9, what is y when x = 9?",
       "options": [
         "33",
         "36",
@@ -2744,14 +2744,14 @@
         "46"
       ],
       "answer": 1,
-      "explanation": "代入 x：5 × 9 − 9 = 36。",
+      "explanation": "Substitute x = 9: 5 × 9 − 9 = 36.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4607968f512fa7a0fea6fa22",
       "year": 9,
       "subject": "math",
-      "prompt": "科学计数 Scientific notation：4 × 10³ 等于多少？",
+      "prompt": "Write 4 × 10³ as an ordinary number.",
       "options": [
         "3283",
         "4000",
@@ -2759,14 +2759,14 @@
         "3101"
       ],
       "answer": 1,
-      "explanation": "10³ = 1000，故 4 × 1000 = 4000。",
+      "explanation": "10³ = 1000, so 4 × 1000 = 4000.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-f6a335dee5a9c128f1dd59f3",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 3x − 6，x = 6 时 y = ？",
+      "prompt": "If y = 3x − 6, what is y when x = 6?",
       "options": [
         "11",
         "14",
@@ -2774,14 +2774,14 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "代入 x：3 × 6 − 6 = 12。",
+      "explanation": "Substitute x = 6: 3 × 6 − 6 = 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-ca9e36c120b86e74d607990a",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 3x − 9，x = 9 时 y = ？",
+      "prompt": "If y = 3x − 9, what is y when x = 9?",
       "options": [
         "18",
         "21",
@@ -2789,14 +2789,14 @@
         "15"
       ],
       "answer": 0,
-      "explanation": "代入 x：3 × 9 − 9 = 18。",
+      "explanation": "Substitute x = 9: 3 × 9 − 9 = 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-88e35ce13953b04cae017261",
       "year": 9,
       "subject": "math",
-      "prompt": "线性关系 Linear：直线经过 (37, 24) 和 (40, -3)，斜率是多少？",
+      "prompt": "A straight line passes through (37, 24) and (40, -3). What is its gradient?",
       "options": [
         "-9",
         "-10",
@@ -2804,14 +2804,14 @@
         "-6"
       ],
       "answer": 0,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (-3 − 24) ÷ (40 − 37) = -9。",
+      "explanation": "Gradient = change in y ÷ change in x = (-3 − 24) ÷ (40 − 37) = -9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d863dfd7c835785a751ede97",
       "year": 9,
       "subject": "math",
-      "prompt": "展开 Expand：(x + 2)(x + 3) 展开后 x 的系数是？",
+      "prompt": "When (x + 2)(x + 3) is expanded, what is the coefficient of x?",
       "options": [
         "2",
         "8",
@@ -2819,14 +2819,14 @@
         "5"
       ],
       "answer": 3,
-      "explanation": "x² + (2+3)x + 6，所以系数为 5。",
+      "explanation": "The expansion is x² + (2 + 3)x + 6. The coefficient of x is 5.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-df733857dcb75505a77019e5",
       "year": 9,
       "subject": "math",
-      "prompt": "线性关系 Linear：直线经过 (50, 72) 和 (57, 205)，斜率是多少？",
+      "prompt": "A straight line passes through (50, 72) and (57, 205). What is its gradient?",
       "options": [
         "19",
         "18",
@@ -2834,14 +2834,14 @@
         "23"
       ],
       "answer": 0,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (205 − 72) ÷ (57 − 50) = 19。",
+      "explanation": "Gradient = change in y ÷ change in x = (205 − 72) ÷ (57 − 50) = 19.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-6f999456a8eefc616b1c4f48",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 3x − 10，x = 10 时 y = ？",
+      "prompt": "If y = 3x − 10, what is y when x = 10?",
       "options": [
         "17",
         "21",
@@ -2849,14 +2849,14 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "代入 x：3 × 10 − 10 = 20。",
+      "explanation": "Substitute x = 10: 3 × 10 − 10 = 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b8adb1247ef6d065133cb9c6",
       "year": 9,
       "subject": "math",
-      "prompt": "科学计数 Scientific notation：12 × 10³ 等于多少？",
+      "prompt": "Write 12 × 10³ as an ordinary number.",
       "options": [
         "9282",
         "12221",
@@ -2864,14 +2864,14 @@
         "12000"
       ],
       "answer": 3,
-      "explanation": "10³ = 1000，故 12 × 1000 = 12000。",
+      "explanation": "10³ = 1000, so 12 × 1000 = 12000.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d9b33a291d8d96b8d2313836",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 2x − 4，x = 4 时 y = ？",
+      "prompt": "If y = 2x − 4, what is y when x = 4?",
       "options": [
         "6",
         "4",
@@ -2879,14 +2879,14 @@
         "3"
       ],
       "answer": 1,
-      "explanation": "代入 x：2 × 4 − 4 = 4。",
+      "explanation": "Substitute x = 4: 2 × 4 − 4 = 4.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-bd3c2365dc5d995e0b6fe246",
       "year": 9,
       "subject": "math",
-      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 21 和 28 厘米，斜边多长？",
+      "prompt": "A right-angled triangle has shorter sides of 21 cm and 28 cm. How long is the hypotenuse, in centimetres?",
       "options": [
         "35",
         "43",
@@ -2894,14 +2894,14 @@
         "33"
       ],
       "answer": 0,
-      "explanation": "斜边² = 21² + 28² = 1225，开平方得 35 厘米。",
+      "explanation": "By Pythagoras, c² = 21² + 28² = 1225. The positive square root is 35 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-c2e64394dfd550c3b86d1424",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 5x − 5，x = 5 时 y = ？",
+      "prompt": "If y = 5x − 5, what is y when x = 5?",
       "options": [
         "18",
         "23",
@@ -2909,14 +2909,14 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "代入 x：5 × 5 − 5 = 20。",
+      "explanation": "Substitute x = 5: 5 × 5 − 5 = 20.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b77b551fc1eb955a3c424e4a",
       "year": 9,
       "subject": "math",
-      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 9 和 12 厘米，斜边多长？",
+      "prompt": "A right-angled triangle has shorter sides of 9 cm and 12 cm. How long is the hypotenuse, in centimetres?",
       "options": [
         "12",
         "14",
@@ -2924,14 +2924,14 @@
         "15"
       ],
       "answer": 3,
-      "explanation": "斜边² = 9² + 12² = 225，开平方得 15 厘米。",
+      "explanation": "By Pythagoras, c² = 9² + 12² = 225. The positive square root is 15 cm.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7e682de721c43152870595b6",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 7x − 7，x = 7 时 y = ？",
+      "prompt": "If y = 7x − 7, what is y when x = 7?",
       "options": [
         "34",
         "48",
@@ -2939,14 +2939,14 @@
         "56"
       ],
       "answer": 2,
-      "explanation": "代入 x：7 × 7 − 7 = 42。",
+      "explanation": "Substitute x = 7: 7 × 7 − 7 = 42.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-041df5ab38b410415fc363ec",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 7x − 11，x = 11 时 y = ？",
+      "prompt": "If y = 7x − 11, what is y when x = 11?",
       "options": [
         "66",
         "56",
@@ -2954,14 +2954,14 @@
         "71"
       ],
       "answer": 0,
-      "explanation": "代入 x：7 × 11 − 11 = 66。",
+      "explanation": "Substitute x = 11: 7 × 11 − 11 = 66.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-3ccbd893fd9f0d78f0b5985c",
       "year": 9,
       "subject": "math",
-      "prompt": "科学计数 Scientific notation：2 × 10³ 等于多少？",
+      "prompt": "Write 2 × 10³ as an ordinary number.",
       "options": [
         "1719",
         "2542",
@@ -2969,14 +2969,14 @@
         "2283"
       ],
       "answer": 2,
-      "explanation": "10³ = 1000，故 2 × 1000 = 2000。",
+      "explanation": "10³ = 1000, so 2 × 1000 = 2000.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-2cec117cba8a401cb8a23e9a",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 6x − 8，x = 8 时 y = ？",
+      "prompt": "If y = 6x − 8, what is y when x = 8?",
       "options": [
         "28",
         "51",
@@ -2984,14 +2984,14 @@
         "27"
       ],
       "answer": 2,
-      "explanation": "代入 x：6 × 8 − 8 = 40。",
+      "explanation": "Substitute x = 8: 6 × 8 − 8 = 40.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-149df53dfb4ca0b1aa81172b",
       "year": 9,
       "subject": "math",
-      "prompt": "线性函数 Linear：y = 2x − 3，x = 3 时 y = ？",
+      "prompt": "If y = 2x − 3, what is y when x = 3?",
       "options": [
         "1",
         "3",
@@ -2999,14 +2999,14 @@
         "5"
       ],
       "answer": 1,
-      "explanation": "代入 x：2 × 3 − 3 = 3。",
+      "explanation": "Substitute x = 3: 2 × 3 − 3 = 3.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-fe3b290a0e1ea79ed32c7f44",
       "year": 10,
       "subject": "math",
-      "prompt": "线性关系 Linear：直线经过 (29, 27) 和 (39, 207)，斜率是多少？",
+      "prompt": "A straight line passes through (29, 27) and (39, 207). What is its gradient?",
       "options": [
         "23",
         "12",
@@ -3014,14 +3014,14 @@
         "16"
       ],
       "answer": 2,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (207 − 27) ÷ (39 − 29) = 18。",
+      "explanation": "Gradient = change in y ÷ change in x = (207 − 27) ÷ (39 − 29) = 18.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-855906aa5c59c81883ed59c4",
       "year": 10,
       "subject": "math",
-      "prompt": "直线 Slope：经过 (0, 5) 和 (2, 23) 的直线斜率是多少？",
+      "prompt": "What is the gradient of the line through (0, 5) and (2, 23)?",
       "options": [
         "8",
         "12",
@@ -3029,14 +3029,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (23 − 5) ÷ 2 = 9。",
+      "explanation": "Gradient = change in y ÷ change in x = (23 − 5) ÷ 2 = 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-88c3200f9d18691838ec1798",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 144 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 144?",
       "options": [
         "15",
         "10",
@@ -3044,14 +3044,14 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "x = ±12，题目要求正根，所以是 12。",
+      "explanation": "The solutions are x = ±12. The positive solution is 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4c95a80477006eb9f1a304df",
       "year": 10,
       "subject": "math",
-      "prompt": "复利 Compound interest：本金 6000 澳元，年利率10%，两年后本息多少澳元？",
+      "prompt": "A$6000 earns 10% compound interest per year. What is the balance after 2 years, in Australian dollars?",
       "options": [
         "5538",
         "5391",
@@ -3059,14 +3059,14 @@
         "7260"
       ],
       "answer": 3,
-      "explanation": "本息 = 6000 × 1.1² = 7260 澳元。",
+      "explanation": "Balance = 6000 × 1.1² = A$7260.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1f56cd031f1e868494cb91a6",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 81 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 81?",
       "options": [
         "12",
         "10",
@@ -3074,14 +3074,14 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "x = ±9，题目要求正根，所以是 9。",
+      "explanation": "The solutions are x = ±9. The positive solution is 9.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-91180f69d187ddfd379c228e",
       "year": 10,
       "subject": "math",
-      "prompt": "复利 Compound interest：本金 7000 澳元，年利率10%，两年后本息多少澳元？",
+      "prompt": "A$7000 earns 10% compound interest per year. What is the balance after 2 years, in Australian dollars?",
       "options": [
         "9572",
         "8108",
@@ -3089,14 +3089,14 @@
         "8470"
       ],
       "answer": 3,
-      "explanation": "本息 = 7000 × 1.1² = 8470 澳元。",
+      "explanation": "Balance = 7000 × 1.1² = A$8470.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-910b0fc9775588b4d0ee9a60",
       "year": 10,
       "subject": "math",
-      "prompt": "线性关系 Linear：直线经过 (45, 61) 和 (50, 31)，斜率是多少？",
+      "prompt": "A straight line passes through (45, 61) and (50, 31). What is its gradient?",
       "options": [
         "-6",
         "-4",
@@ -3104,14 +3104,14 @@
         "-5"
       ],
       "answer": 0,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (31 − 61) ÷ (50 − 45) = -6。",
+      "explanation": "Gradient = change in y ÷ change in x = (31 − 61) ÷ (50 − 45) = -6.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-7f0d9db1494fc3ae64c351bd",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 49 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 49?",
       "options": [
         "4",
         "6",
@@ -3119,14 +3119,14 @@
         "5"
       ],
       "answer": 2,
-      "explanation": "x = ±7，题目要求正根，所以是 7。",
+      "explanation": "The solutions are x = ±7. The positive solution is 7.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-565781b6c56f4e7201185730",
       "year": 10,
       "subject": "math",
-      "prompt": "概率 Probability：独立投掷 7 枚公平硬币，共有多少种等可能的正反面组合？",
+      "prompt": "7 fair coins are tossed independently. How many equally likely sequences of heads and tails are possible?",
       "options": [
         "139",
         "128",
@@ -3134,14 +3134,14 @@
         "91"
       ],
       "answer": 1,
-      "explanation": "每枚有2种结果，独立相乘：2^7 = 128。",
+      "explanation": "Each coin has 2 outcomes. Multiply for independent tosses: 2^7 = 128.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-b7b0c310a81da1b38866090d",
       "year": 10,
       "subject": "math",
-      "prompt": "线性关系 Linear：直线经过 (42, 14) 和 (44, 22)，斜率是多少？",
+      "prompt": "A straight line passes through (42, 14) and (44, 22). What is its gradient?",
       "options": [
         "7",
         "4",
@@ -3149,14 +3149,14 @@
         "2"
       ],
       "answer": 1,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (22 − 14) ÷ (44 − 42) = 4。",
+      "explanation": "Gradient = change in y ÷ change in x = (22 − 14) ÷ (44 − 42) = 4.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-962dc2f1a63144ccd2320a7c",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 100 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 100?",
       "options": [
         "10",
         "7",
@@ -3164,14 +3164,14 @@
         "11"
       ],
       "answer": 0,
-      "explanation": "x = ±10，题目要求正根，所以是 10。",
+      "explanation": "The solutions are x = ±10. The positive solution is 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-38f03179e87dffdf7776b818",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 25 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 25?",
       "options": [
         "2",
         "7",
@@ -3179,14 +3179,14 @@
         "4"
       ],
       "answer": 2,
-      "explanation": "x = ±5，题目要求正根，所以是 5。",
+      "explanation": "The solutions are x = ±5. The positive solution is 5.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-1a5beb75d8e9f855c77e6b40",
       "year": 10,
       "subject": "math",
-      "prompt": "直线 Slope：经过 (0, 3) 和 (2, 23) 的直线斜率是多少？",
+      "prompt": "What is the gradient of the line through (0, 3) and (2, 23)?",
       "options": [
         "9",
         "10",
@@ -3194,14 +3194,14 @@
         "13"
       ],
       "answer": 1,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (23 − 3) ÷ 2 = 10。",
+      "explanation": "Gradient = change in y ÷ change in x = (23 − 3) ÷ 2 = 10.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-2db97b8645c24400a7bce0ce",
       "year": 10,
       "subject": "math",
-      "prompt": "直线 Slope：经过 (0, 2) 和 (2, 26) 的直线斜率是多少？",
+      "prompt": "What is the gradient of the line through (0, 2) and (2, 26)?",
       "options": [
         "12",
         "13",
@@ -3209,14 +3209,14 @@
         "11"
       ],
       "answer": 0,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (26 − 2) ÷ 2 = 12。",
+      "explanation": "Gradient = change in y ÷ change in x = (26 − 2) ÷ 2 = 12.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-bf12d4a43ed442b96f8eb921",
       "year": 10,
       "subject": "math",
-      "prompt": "概率 Probability：独立投掷 9 枚公平硬币，共有多少种等可能的正反面组合？",
+      "prompt": "9 fair coins are tossed independently. How many equally likely sequences of heads and tails are possible?",
       "options": [
         "512",
         "462",
@@ -3224,14 +3224,14 @@
         "447"
       ],
       "answer": 0,
-      "explanation": "每枚有2种结果，独立相乘：2^9 = 512。",
+      "explanation": "Each coin has 2 outcomes. Multiply for independent tosses: 2^9 = 512.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-abb0e9ee94114c9ba334cba8",
       "year": 10,
       "subject": "math",
-      "prompt": "复利 Compound interest：本金 10000 澳元，年利率10%，两年后本息多少澳元？",
+      "prompt": "A$10000 earns 10% compound interest per year. What is the balance after 2 years, in Australian dollars?",
       "options": [
         "14792",
         "9402",
@@ -3239,14 +3239,14 @@
         "10446"
       ],
       "answer": 2,
-      "explanation": "本息 = 10000 × 1.1² = 12100 澳元。",
+      "explanation": "Balance = 10000 × 1.1² = A$12100.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-d22e5a64d4a92c3be5ae8b28",
       "year": 10,
       "subject": "math",
-      "prompt": "二次方程 Quadratic：x² = 9 的正根是多少？",
+      "prompt": "What is the positive solution of x² = 9?",
       "options": [
         "0",
         "1",
@@ -3254,14 +3254,14 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "x = ±3，题目要求正根，所以是 3。",
+      "explanation": "The solutions are x = ±3. The positive solution is 3.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-5a1ec1924a2579f648024d53",
       "year": 10,
       "subject": "math",
-      "prompt": "复利 Compound interest：本金 2000 澳元，年利率10%，两年后本息多少澳元？",
+      "prompt": "A$2000 earns 10% compound interest per year. What is the balance after 2 years, in Australian dollars?",
       "options": [
         "2420",
         "3123",
@@ -3269,14 +3269,14 @@
         "2417"
       ],
       "answer": 0,
-      "explanation": "本息 = 2000 × 1.1² = 2420 澳元。",
+      "explanation": "Balance = 2000 × 1.1² = A$2420.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-4a2f0097483396d3359625e8",
       "year": 10,
       "subject": "math",
-      "prompt": "直线 Slope：经过 (0, 3) 和 (2, 15) 的直线斜率是多少？",
+      "prompt": "What is the gradient of the line through (0, 3) and (2, 15)?",
       "options": [
         "4",
         "5",
@@ -3284,14 +3284,14 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (15 − 3) ÷ 2 = 6。",
+      "explanation": "Gradient = change in y ÷ change in x = (15 − 3) ÷ 2 = 6.",
       "published": "2026-11-06"
     },
     {
       "id": "math-v1-2b174ce3ce979b5777957a6a",
       "year": 10,
       "subject": "math",
-      "prompt": "直线 Slope：经过 (0, 9) 和 (2, 19) 的直线斜率是多少？",
+      "prompt": "What is the gradient of the line through (0, 9) and (2, 19)?",
       "options": [
         "6",
         "2",
@@ -3299,7 +3299,7 @@
         "5"
       ],
       "answer": 3,
-      "explanation": "斜率 = y变化量 ÷ x变化量 = (19 − 9) ÷ 2 = 5。",
+      "explanation": "Gradient = change in y ÷ change in x = (19 − 9) ÷ 2 = 5.",
       "published": "2026-11-06"
     }
   ],
@@ -3308,5 +3308,6 @@
   ],
   "source": "https://www.qcaa.qld.edu.au/p-10/aciq/version-9/learning-areas/p-10-mathematics",
   "curriculum": "Australian Curriculum v9 practice; approximate year alignment, not an assessment",
-  "updated": "2026-11-06"
+  "updated": "2026-11-06",
+  "language": "en-AU"
 }

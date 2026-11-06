@@ -1,0 +1,3312 @@
+{
+  "schema": 1,
+  "subject": "math",
+  "questions": [
+    {
+      "id": "math-v1-3bcf99c7ff3b39b95ad4544e",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数数 Counting：有 8 只考拉，又来了 4 只，一共有几只？",
+      "options": [
+        "10",
+        "9",
+        "16",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "从 8 接着数 4 个，共 12 只。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4c9fc49647c0d9816196a044",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数序 Counting：2、3、4，下一个数是几？",
+      "options": [
+        "5",
+        "8",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "每次数多 1：4 后面是 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-165953a7a71011190fb9dfae",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 10、8、7 个物品，最多的一组有几个？",
+      "options": [
+        "13",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "逐个比较三个数量，最大的数为 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a4e6b388c21bf4b51817745a",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数数 Counting：有 1 只考拉，又来了 2 只，一共有几只？",
+      "options": [
+        "0",
+        "5",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "从 1 接着数 2 个，共 3 只。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-789f1397e9e3883c8ee60266",
+      "year": 0,
+      "subject": "math",
+      "prompt": "拿走 Take away：12 个贝壳拿走 4 个，还剩几个？",
+      "options": [
+        "8",
+        "9",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "12 − 4 = 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9a9c7c86f57456a513d9860a",
+      "year": 0,
+      "subject": "math",
+      "prompt": "拿走 Take away：11 个贝壳拿走 5 个，还剩几个？",
+      "options": [
+        "4",
+        "9",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "11 − 5 = 6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-371d2b2a2f6648e5f03ebb76",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 4、18、12 个物品，最多的一组有几个？",
+      "options": [
+        "13",
+        "19",
+        "20",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "逐个比较三个数量，最大的数为 18。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4938fe84a15388dc119631b9",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数数 Counting：有 1 只考拉，又来了 4 只，一共有几只？",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "从 1 接着数 4 个，共 5 只。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-81f5d53918c20e0571296631",
+      "year": 0,
+      "subject": "math",
+      "prompt": "拿走 Take away：10 个贝壳拿走 1 个，还剩几个？",
+      "options": [
+        "7",
+        "12",
+        "11",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "10 − 1 = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5359c55b078d0f5b86c68318",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 12、4、6 个物品，最多的一组有几个？",
+      "options": [
+        "16",
+        "12",
+        "8",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "逐个比较三个数量，最大的数为 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b8ee352470cdb73b98dfd802",
+      "year": 0,
+      "subject": "math",
+      "prompt": "拿走 Take away：10 个贝壳拿走 5 个，还剩几个？",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "10 − 5 = 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-44f5479843f8ca560528dcdf",
+      "year": 0,
+      "subject": "math",
+      "prompt": "比较大小 Compare：9 和 14 哪一个更大？",
+      "options": [
+        "14",
+        "16",
+        "17",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "14 比 9 多 5，所以更大。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-61f41279e66ba78fb35faf74",
+      "year": 0,
+      "subject": "math",
+      "prompt": "比较大小 Compare：6 和 11 哪一个更大？",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "11 比 6 多 5，所以更大。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-83c4422f1c13c65d0d31d509",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数数 Counting：有 7 只考拉，又来了 3 只，一共有几只？",
+      "options": [
+        "7",
+        "11",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "从 7 接着数 3 个，共 10 只。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-018e20057a3b2e1a7bd8daac",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数序 Counting：5、6、7，下一个数是几？",
+      "options": [
+        "11",
+        "7",
+        "8",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "每次数多 1：7 后面是 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7f9f39cfe5af80ac1da5dc70",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数序 Counting：8、9、10，下一个数是几？",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "每次数多 1：10 后面是 11。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-fe9ccd0782d3e8496f8439db",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 6、19、8 个物品，最多的一组有几个？",
+      "options": [
+        "23",
+        "25",
+        "22",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "逐个比较三个数量，最大的数为 19。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-747a1ba3e7d29f9461ded092",
+      "year": 0,
+      "subject": "math",
+      "prompt": "比较大小 Compare：1 和 4 哪一个更大？",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "4 比 1 多 3，所以更大。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-29dd18590259370e0a5fe4ba",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 6、12、11 个物品，最多的一组有几个？",
+      "options": [
+        "16",
+        "12",
+        "15",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "逐个比较三个数量，最大的数为 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5d6c331d001b4baf2b024c63",
+      "year": 0,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 20、14、16 个物品，最多的一组有几个？",
+      "options": [
+        "25",
+        "21",
+        "18",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "逐个比较三个数量，最大的数为 20。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-c6c19d9ede8f107b99d2b588",
+      "year": 1,
+      "subject": "math",
+      "prompt": "加法 Addition：9 + 1 = ？",
+      "options": [
+        "10",
+        "7",
+        "9",
+        "13"
+      ],
+      "answer": 0,
+      "explanation": "把两组合起来：9 + 1 = 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d3c8cc4b2a84345448b5e0ef",
+      "year": 1,
+      "subject": "math",
+      "prompt": "加法 Addition：6 + 3 = ？",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "把两组合起来：6 + 3 = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f89671310b0877d2a4e26084",
+      "year": 1,
+      "subject": "math",
+      "prompt": "减法 Subtraction：16 − 7 = ？",
+      "options": [
+        "8",
+        "12",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "从 16 减去 7，剩下 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5084ad5442ef238f89b6626e",
+      "year": 1,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 14、1、11 个物品，最多的一组有几个？",
+      "options": [
+        "15",
+        "12",
+        "14",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "逐个比较三个数量，最大的数为 14。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-c5e7827582ac42ce86e1759e",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：75 有几个十？",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "75 = 7 个十加 5 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ace09a35dbb162dd1a0001f2",
+      "year": 1,
+      "subject": "math",
+      "prompt": "加法 Addition：2 + 3 = ？",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "把两组合起来：2 + 3 = 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-abe11b3ba402271f49376829",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：46 有几个十？",
+      "options": [
+        "4",
+        "7",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "46 = 4 个十加 6 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-877ead3472b3b91e890b9fdd",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：93 有几个十？",
+      "options": [
+        "12",
+        "7",
+        "10",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "93 = 9 个十加 3 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-8bd49527527ca2367d209cfb",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：12 有几个十？",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "-2"
+      ],
+      "answer": 2,
+      "explanation": "12 = 1 个十加 2 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-85b05ba01e3a5f81ed192b27",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：14 有几个十？",
+      "options": [
+        "0",
+        "-2",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "14 = 1 个十加 4 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9a4d12218f9d432602ea45cf",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：34 有几个十？",
+      "options": [
+        "5",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "34 = 3 个十加 4 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b569ff9fd083090c3090d8bc",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：39 有几个十？",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "39 = 3 个十加 9 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-390cd2c8152ceeafc272b963",
+      "year": 1,
+      "subject": "math",
+      "prompt": "加法 Addition：6 + 6 = ？",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "把两组合起来：6 + 6 = 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-917c9e6133078c0ab8aa6f75",
+      "year": 1,
+      "subject": "math",
+      "prompt": "平均分 Sharing：12 颗葡萄平均分给2人，每人几颗？",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "把 12 分成两组，每组 6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-6180cd7e84dfcbf39f060235",
+      "year": 1,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 3、4、20 个物品，最多的一组有几个？",
+      "options": [
+        "20",
+        "24",
+        "15",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "逐个比较三个数量，最大的数为 20。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d40cb9eede073651e40e7faf",
+      "year": 1,
+      "subject": "math",
+      "prompt": "位值 Place value：26 有几个十？",
+      "options": [
+        "-1",
+        "2",
+        "1",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "26 = 2 个十加 6 个一。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1ec2bee803925fe546894aa6",
+      "year": 1,
+      "subject": "math",
+      "prompt": "平均分 Sharing：16 颗葡萄平均分给2人，每人几颗？",
+      "options": [
+        "8",
+        "5",
+        "11",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "把 16 分成两组，每组 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-dd49f039acb5bc318a6b840e",
+      "year": 1,
+      "subject": "math",
+      "prompt": "平均分 Sharing：8 颗葡萄平均分给2人，每人几颗？",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "把 8 分成两组，每组 4。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a0065f1518a5dff1293cd458",
+      "year": 1,
+      "subject": "math",
+      "prompt": "加法 Addition：7 + 7 = ？",
+      "options": [
+        "16",
+        "14",
+        "12",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "把两组合起来：7 + 7 = 14。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ec0d310ba6b3b038f7d5fd9c",
+      "year": 1,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 16、19、3 个物品，最多的一组有几个？",
+      "options": [
+        "16",
+        "19",
+        "18",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "逐个比较三个数量，最大的数为 19。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-26f08ce52254d3b5b8287ae1",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：60 + 8 = ？",
+      "options": [
+        "70",
+        "65",
+        "69",
+        "68"
+      ],
+      "answer": 3,
+      "explanation": "先算整十再加个位，60 + 8 = 68。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f7e32df6eec0524e0ffff5b7",
+      "year": 2,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 80、99、16 个物品，最多的一组有几个？",
+      "options": [
+        "73",
+        "125",
+        "75",
+        "99"
+      ],
+      "answer": 3,
+      "explanation": "逐个比较三个数量，最大的数为 99。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4141b8c340c67a329e8387ea",
+      "year": 2,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 53、11、60 个物品，最多的一组有几个？",
+      "options": [
+        "73",
+        "60",
+        "69",
+        "67"
+      ],
+      "answer": 1,
+      "explanation": "逐个比较三个数量，最大的数为 60。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-c1a32697ba28274bbf5c6eab",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：40 + 7 = ？",
+      "options": [
+        "56",
+        "37",
+        "47",
+        "59"
+      ],
+      "answer": 2,
+      "explanation": "先算整十再加个位，40 + 7 = 47。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-83e10efc65832b17995a85f6",
+      "year": 2,
+      "subject": "math",
+      "prompt": "数据 Data：三组分别有 98、9、15 个物品，最多的一组有几个？",
+      "options": [
+        "106",
+        "96",
+        "98",
+        "78"
+      ],
+      "answer": 2,
+      "explanation": "逐个比较三个数量，最大的数为 98。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7f131df78b1b22b3e6424826",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：40 + 6 = ？",
+      "options": [
+        "54",
+        "44",
+        "50",
+        "46"
+      ],
+      "answer": 3,
+      "explanation": "先算整十再加个位，40 + 6 = 46。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5465bb0f8fd80cbc92ae65ae",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：10 + 5 = ？",
+      "options": [
+        "13",
+        "15",
+        "14",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "先算整十再加个位，10 + 5 = 15。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e64d842dddf5d1ca56c92133",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：50 + 4 = ？",
+      "options": [
+        "55",
+        "41",
+        "54",
+        "68"
+      ],
+      "answer": 2,
+      "explanation": "先算整十再加个位，50 + 4 = 54。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ff5cd9b434d18a761d55ceea",
+      "year": 2,
+      "subject": "math",
+      "prompt": "等组 Equal groups：9 组，每组5个，一共有几个？",
+      "options": [
+        "57",
+        "45",
+        "33",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "每组5个，9 × 5 = 45。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-07dd3818b0d205fb246f48f5",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：60 + 2 = ？",
+      "options": [
+        "52",
+        "62",
+        "56",
+        "58"
+      ],
+      "answer": 1,
+      "explanation": "先算整十再加个位，60 + 2 = 62。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-77a46efefaa7ec88c348072b",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：15 + 8 = ？",
+      "options": [
+        "21",
+        "18",
+        "29",
+        "23"
+      ],
+      "answer": 3,
+      "explanation": "先算整十再加个位，15 + 8 = 23。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9412ab1fb45299e5f0919975",
+      "year": 2,
+      "subject": "math",
+      "prompt": "钱币 Money：2 枚10澳分硬币共多少澳分？",
+      "options": [
+        "20",
+        "16",
+        "26",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "2 × 10 = 20 澳分。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ac152c9b770edbf976740bb6",
+      "year": 2,
+      "subject": "math",
+      "prompt": "钱币 Money：11 枚10澳分硬币共多少澳分？",
+      "options": [
+        "114",
+        "110",
+        "138",
+        "131"
+      ],
+      "answer": 1,
+      "explanation": "11 × 10 = 110 澳分。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e84bfb9ae726c268d2f6a01c",
+      "year": 2,
+      "subject": "math",
+      "prompt": "跳数 Skip counting：12、14、16，下一个数是？",
+      "options": [
+        "24",
+        "18",
+        "17",
+        "21"
+      ],
+      "answer": 1,
+      "explanation": "每次增加2，所以再加2。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-2eea91624b1909f24783f064",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：35 + 3 = ？",
+      "options": [
+        "31",
+        "38",
+        "26",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "先算整十再加个位，35 + 3 = 38。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-cd0725d807d5ad204eb0f319",
+      "year": 2,
+      "subject": "math",
+      "prompt": "跳数 Skip counting：14、16、18，下一个数是？",
+      "options": [
+        "20",
+        "26",
+        "16",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "每次增加2，所以再加2。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a1bbddf99ff250b08e3a6018",
+      "year": 2,
+      "subject": "math",
+      "prompt": "加法 Addition：10 + 2 = ？",
+      "options": [
+        "12",
+        "8",
+        "13",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "先算整十再加个位，10 + 2 = 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-88f62349ecf8e4be73a4eaa8",
+      "year": 2,
+      "subject": "math",
+      "prompt": "跳数 Skip counting：22、24、26，下一个数是？",
+      "options": [
+        "25",
+        "33",
+        "34",
+        "28"
+      ],
+      "answer": 3,
+      "explanation": "每次增加2，所以再加2。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d6af2d841c47ae8e7c04cdb5",
+      "year": 2,
+      "subject": "math",
+      "prompt": "钱币 Money：3 枚10澳分硬币共多少澳分？",
+      "options": [
+        "34",
+        "33",
+        "30",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "3 × 10 = 30 澳分。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9cbe2e9f2142d2b862b23197",
+      "year": 2,
+      "subject": "math",
+      "prompt": "等组 Equal groups：6 组，每组5个，一共有几个？",
+      "options": [
+        "26",
+        "28",
+        "31",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "每组5个，6 × 5 = 30。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3c432b172f42d7a3ba63da9a",
+      "year": 3,
+      "subject": "math",
+      "prompt": "数据 Data：三天分别收集 56、89、76 个回收瓶，一共收集多少个？",
+      "options": [
+        "221",
+        "263",
+        "203",
+        "273"
+      ],
+      "answer": 0,
+      "explanation": "把三天的数量相加：56 + 89 + 76 = 221。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-30d9d208a95811b34f6a7100",
+      "year": 3,
+      "subject": "math",
+      "prompt": "单位 Length：10 米等于多少厘米？",
+      "options": [
+        "828",
+        "1020",
+        "1000",
+        "835"
+      ],
+      "answer": 2,
+      "explanation": "1米 = 100厘米，所以 10 × 100 = 1000。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-860fa3b73fa21d6772c7dd0d",
+      "year": 3,
+      "subject": "math",
+      "prompt": "数据 Data：三天分别收集 33、19、94 个回收瓶，一共收集多少个？",
+      "options": [
+        "180",
+        "162",
+        "146",
+        "138"
+      ],
+      "answer": 2,
+      "explanation": "把三天的数量相加：33 + 19 + 94 = 146。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-782313697e1b4b89ecfcc480",
+      "year": 3,
+      "subject": "math",
+      "prompt": "数据 Data：三天分别收集 89、37、98 个回收瓶，一共收集多少个？",
+      "options": [
+        "228",
+        "224",
+        "215",
+        "186"
+      ],
+      "answer": 1,
+      "explanation": "把三天的数量相加：89 + 37 + 98 = 224。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a2938d50bf4ce5d665402a6f",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：4 × 9 = ？",
+      "options": [
+        "46",
+        "25",
+        "36",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "4 组 9，合计 36。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-371f0d4c702f22fe9f184c8c",
+      "year": 3,
+      "subject": "math",
+      "prompt": "除法 Division：36 ÷ 9 = ？",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "因为 4 × 9 = 36，所以商为 4。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-83e31b03c5d11f284ac9cf76",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：10 × 9 = ？",
+      "options": [
+        "71",
+        "84",
+        "90",
+        "109"
+      ],
+      "answer": 2,
+      "explanation": "10 组 9，合计 90。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-48cd96a36f8ede7c0580deaf",
+      "year": 3,
+      "subject": "math",
+      "prompt": "除法 Division：12 ÷ 3 = ？",
+      "options": [
+        "4",
+        "1",
+        "5",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "因为 4 × 3 = 12，所以商为 4。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-bf3c225329b96ec38f70b384",
+      "year": 3,
+      "subject": "math",
+      "prompt": "分数 Fraction：32 个草莓的四分之一是几个？",
+      "options": [
+        "8",
+        "9",
+        "5",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "四分之一表示平均分成4份取1份：32 ÷ 4 = 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9bed4c8fc314097b7c24b805",
+      "year": 3,
+      "subject": "math",
+      "prompt": "数据 Data：三天分别收集 39、28、89 个回收瓶，一共收集多少个？",
+      "options": [
+        "125",
+        "156",
+        "199",
+        "191"
+      ],
+      "answer": 1,
+      "explanation": "把三天的数量相加：39 + 28 + 89 = 156。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-da0cf16c6c16c5ec5f8b82c4",
+      "year": 3,
+      "subject": "math",
+      "prompt": "除法 Division：56 ÷ 7 = ？",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "因为 8 × 7 = 56，所以商为 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-21259e03568e9127fe4b751b",
+      "year": 3,
+      "subject": "math",
+      "prompt": "除法 Division：80 ÷ 8 = ？",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "因为 10 × 8 = 80，所以商为 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d11fcaef9a52fd3220501352",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：11 × 7 = ？",
+      "options": [
+        "62",
+        "63",
+        "78",
+        "77"
+      ],
+      "answer": 3,
+      "explanation": "11 组 7，合计 77。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-8c312548a1a48eefc522dfbd",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：10 × 8 = ？",
+      "options": [
+        "85",
+        "87",
+        "80",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "10 组 8，合计 80。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-cdf2c0cb6b3115e5ec9184e9",
+      "year": 3,
+      "subject": "math",
+      "prompt": "单位 Length：4 米等于多少厘米？",
+      "options": [
+        "400",
+        "330",
+        "479",
+        "354"
+      ],
+      "answer": 0,
+      "explanation": "1米 = 100厘米，所以 4 × 100 = 400。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1ce6ae07fbf624445db03680",
+      "year": 3,
+      "subject": "math",
+      "prompt": "单位 Length：3 米等于多少厘米？",
+      "options": [
+        "208",
+        "297",
+        "221",
+        "300"
+      ],
+      "answer": 3,
+      "explanation": "1米 = 100厘米，所以 3 × 100 = 300。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-8c493b8998581ab79616624a",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：9 × 5 = ？",
+      "options": [
+        "40",
+        "45",
+        "54",
+        "39"
+      ],
+      "answer": 1,
+      "explanation": "9 组 5，合计 45。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7f8b847c906987d61e1c2266",
+      "year": 3,
+      "subject": "math",
+      "prompt": "除法 Division：15 ÷ 5 = ？",
+      "options": [
+        "5",
+        "1",
+        "3",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "因为 3 × 5 = 15，所以商为 3。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f9ec8978afbfba4bddb90fd6",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：4 × 2 = ？",
+      "options": [
+        "11",
+        "8",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "4 组 2，合计 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-afc4d5c265e0003c953a4f1d",
+      "year": 3,
+      "subject": "math",
+      "prompt": "乘法 Multiplication：12 × 5 = ？",
+      "options": [
+        "65",
+        "68",
+        "60",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "12 组 5，合计 60。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7c51bb917053b3d0a3ed5797",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 2 米、宽 4 米的长方形，面积是多少平方米？",
+      "options": [
+        "10",
+        "7",
+        "11",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "面积 = 长 × 宽 = 2 × 4 = 8 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ffd2656aeac31eb4bfccf94a",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 3 米、宽 4 米的长方形，面积是多少平方米？",
+      "options": [
+        "15",
+        "13",
+        "12",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "面积 = 长 × 宽 = 3 × 4 = 12 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-715ab81cba0ac2b72d513ebc",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 12 米、宽 7 米的长方形，面积是多少平方米？",
+      "options": [
+        "84",
+        "94",
+        "74",
+        "101"
+      ],
+      "answer": 0,
+      "explanation": "面积 = 长 × 宽 = 12 × 7 = 84 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d5cb140c0d52bc24912bf769",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 11 米、宽 2 米的长方形，面积是多少平方米？",
+      "options": [
+        "24",
+        "15",
+        "27",
+        "22"
+      ],
+      "answer": 3,
+      "explanation": "面积 = 长 × 宽 = 11 × 2 = 22 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1d1f9c357915fd3dfe69f36a",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 11 米、宽 4 米的长方形，面积是多少平方米？",
+      "options": [
+        "44",
+        "36",
+        "42",
+        "55"
+      ],
+      "answer": 0,
+      "explanation": "面积 = 长 × 宽 = 11 × 4 = 44 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5f63c83766cb96fb7c51b713",
+      "year": 4,
+      "subject": "math",
+      "prompt": "分数 Fraction：16 的八分之三是多少？",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "先除以8，再乘3：16 ÷ 8 × 3 = 6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-240e99a254151106e7ee7c45",
+      "year": 4,
+      "subject": "math",
+      "prompt": "分数 Fraction：48 的八分之三是多少？",
+      "options": [
+        "15",
+        "18",
+        "23",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "先除以8，再乘3：48 ÷ 8 × 3 = 18。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e9e63416aca3283a7908c1fd",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 89、72、67 本，最多比最少多几本？",
+      "options": [
+        "29",
+        "22",
+        "26",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "最大数减最小数：89 − 67 = 22。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-602ed1e0c24fe9cdf528d86b",
+      "year": 4,
+      "subject": "math",
+      "prompt": "分数 Fraction：80 的八分之三是多少？",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "23"
+      ],
+      "answer": 1,
+      "explanation": "先除以8，再乘3：80 ÷ 8 × 3 = 30。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5af7680e8712dada00600dda",
+      "year": 4,
+      "subject": "math",
+      "prompt": "找零 Money：用20澳元购买 6 澳元的午餐，应找回多少澳元？",
+      "options": [
+        "10",
+        "14",
+        "16",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "找零 = 付出的钱 − 价格 = 20 − 6 = 14 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a8d8fa1e4768d88d1156c15b",
+      "year": 4,
+      "subject": "math",
+      "prompt": "面积 Area：长 4 米、宽 5 米的长方形，面积是多少平方米？",
+      "options": [
+        "18",
+        "20",
+        "26",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "面积 = 长 × 宽 = 4 × 5 = 20 平方米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-df61c91d9f3a4e57a27c66d5",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 80、9、98 本，最多比最少多几本？",
+      "options": [
+        "89",
+        "67",
+        "98",
+        "74"
+      ],
+      "answer": 0,
+      "explanation": "最大数减最小数：98 − 9 = 89。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d7e0689eda1d0a6647e6c747",
+      "year": 4,
+      "subject": "math",
+      "prompt": "分数 Fraction：56 的八分之三是多少？",
+      "options": [
+        "19",
+        "21",
+        "26",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "先除以8，再乘3：56 ÷ 8 × 3 = 21。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-30938cc82978944edcccc4ef",
+      "year": 4,
+      "subject": "math",
+      "prompt": "分数 Fraction：72 的八分之三是多少？",
+      "options": [
+        "20",
+        "22",
+        "27",
+        "33"
+      ],
+      "answer": 2,
+      "explanation": "先除以8，再乘3：72 ÷ 8 × 3 = 27。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f0d4a970dc56480afd322908",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 88、81、11 本，最多比最少多几本？",
+      "options": [
+        "68",
+        "79",
+        "98",
+        "77"
+      ],
+      "answer": 3,
+      "explanation": "最大数减最小数：88 − 11 = 77。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f3a1733199be9db1111703de",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 54、66、25 本，最多比最少多几本？",
+      "options": [
+        "45",
+        "53",
+        "29",
+        "41"
+      ],
+      "answer": 3,
+      "explanation": "最大数减最小数：66 − 25 = 41。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a54dead3b1469c067d200f07",
+      "year": 4,
+      "subject": "math",
+      "prompt": "周长 Perimeter：长 11 厘米、宽 7 厘米的长方形周长多少厘米？",
+      "options": [
+        "40",
+        "26",
+        "36",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "周长 = 2 ×（长 + 宽）= 36 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-991ff75ee9a2b7b080736115",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 94、57、16 本，最多比最少多几本？",
+      "options": [
+        "76",
+        "81",
+        "55",
+        "78"
+      ],
+      "answer": 3,
+      "explanation": "最大数减最小数：94 − 16 = 78。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-73f432ad0ccc4c74710fe41a",
+      "year": 4,
+      "subject": "math",
+      "prompt": "周长 Perimeter：长 4 厘米、宽 4 厘米的长方形周长多少厘米？",
+      "options": [
+        "18",
+        "20",
+        "16",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "周长 = 2 ×（长 + 宽）= 16 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-074966440a67763ccdcd2aea",
+      "year": 4,
+      "subject": "math",
+      "prompt": "数据 Data：三组读书数量是 12、47、75 本，最多比最少多几本？",
+      "options": [
+        "67",
+        "76",
+        "63",
+        "83"
+      ],
+      "answer": 2,
+      "explanation": "最大数减最小数：75 − 12 = 63。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-62a9b9f7e56e11e9189b1066",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：79、34、115 的平均数是多少？",
+      "options": [
+        "54",
+        "85",
+        "76",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "总和除以个数：228 ÷ 3 = 76。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3b07449fbf567e90292d7eb2",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：9、11、13 的平均数是多少？",
+      "options": [
+        "12",
+        "11",
+        "8",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：(9+11+13) ÷ 3 = 11。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d659fc0ba61564914db93b4c",
+      "year": 5,
+      "subject": "math",
+      "prompt": "小数 Decimal：8.5 + 0.5 = ？",
+      "options": [
+        "9",
+        "12",
+        "10",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-51a26892c641398e8fb76e9b",
+      "year": 5,
+      "subject": "math",
+      "prompt": "小数 Decimal：2.2 + 0.8 = ？",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "十分位合计10个十分之一，进1，结果为 3。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b00fdf46efa88bb37b6d949e",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：12、90、183 的平均数是多少？",
+      "options": [
+        "96",
+        "95",
+        "93",
+        "64"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：285 ÷ 3 = 95。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1e6f70890d9e8a7c2da6d6de",
+      "year": 5,
+      "subject": "math",
+      "prompt": "百分数 Percentage：80 的25%是多少？",
+      "options": [
+        "22",
+        "21",
+        "16",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "25% = 四分之一：80 ÷ 4 = 20。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-2fdd3d19569f0252863e36e6",
+      "year": 5,
+      "subject": "math",
+      "prompt": "体积 Volume：长 7、宽 7、高2厘米的长方体体积多少立方厘米？",
+      "options": [
+        "98",
+        "87",
+        "122",
+        "88"
+      ],
+      "answer": 0,
+      "explanation": "体积 = 长 × 宽 × 高 = 7 × 7 × 2 = 98。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ea4f629a1fee972aceb8a8fc",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：95、135、178 的平均数是多少？",
+      "options": [
+        "158",
+        "136",
+        "169",
+        "133"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：408 ÷ 3 = 136。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-73ec64f104c886de2f5d6f48",
+      "year": 5,
+      "subject": "math",
+      "prompt": "百分数 Percentage：240 的25%是多少？",
+      "options": [
+        "63",
+        "51",
+        "69",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "25% = 四分之一：240 ÷ 4 = 60。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-33de32bd8c5ca00e704647fa",
+      "year": 5,
+      "subject": "math",
+      "prompt": "百分数 Percentage：120 的25%是多少？",
+      "options": [
+        "38",
+        "36",
+        "33",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "25% = 四分之一：120 ÷ 4 = 30。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b01b817b26aa217d595c2260",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：6、8、10 的平均数是多少？",
+      "options": [
+        "10",
+        "5",
+        "8",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "总和除以个数：(6+8+10) ÷ 3 = 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9384425f84351f6c6e12af5b",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：49、188、105 的平均数是多少？",
+      "options": [
+        "130",
+        "114",
+        "81",
+        "145"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：342 ÷ 3 = 114。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-fbd7462724666dcfdf11c89a",
+      "year": 5,
+      "subject": "math",
+      "prompt": "百分数 Percentage：100 的25%是多少？",
+      "options": [
+        "19",
+        "27",
+        "25",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "25% = 四分之一：100 ÷ 4 = 25。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1e5452d4f858ced68ebf088e",
+      "year": 5,
+      "subject": "math",
+      "prompt": "小数 Decimal：8.7 + 0.3 = ？",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-bf1bd6b5e9cbc7d12bafd40d",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：11、13、15 的平均数是多少？",
+      "options": [
+        "16",
+        "13",
+        "17",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：(11+13+15) ÷ 3 = 13。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-eb2b5dd18324cb19e7cb2c24",
+      "year": 5,
+      "subject": "math",
+      "prompt": "小数 Decimal：5.3 + 0.7 = ？",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "十分位合计10个十分之一，进1，结果为 6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-720d3285c0eee324d1783fb5",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：39、92、172 的平均数是多少？",
+      "options": [
+        "101",
+        "134",
+        "108",
+        "118"
+      ],
+      "answer": 0,
+      "explanation": "总和除以个数：303 ÷ 3 = 101。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3c8769975cd6c0aebff62eb5",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：62、36、76 的平均数是多少？",
+      "options": [
+        "42",
+        "56",
+        "58",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "总和除以个数：174 ÷ 3 = 58。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-70786de22a91a7cc134b2d6b",
+      "year": 5,
+      "subject": "math",
+      "prompt": "小数 Decimal：8.6 + 0.4 = ？",
+      "options": [
+        "10",
+        "9",
+        "7",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "十分位合计10个十分之一，进1，结果为 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9d4c955a23140ad912a78152",
+      "year": 5,
+      "subject": "math",
+      "prompt": "平均数 Mean：8、10、12 的平均数是多少？",
+      "options": [
+        "13",
+        "10",
+        "12",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：(8+10+12) ÷ 3 = 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4396eb0fed930ab3a3f0882d",
+      "year": 6,
+      "subject": "math",
+      "prompt": "分数运算 Fractions：24 的三分之二是多少？",
+      "options": [
+        "17",
+        "16",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "先除以3再乘2：24 ÷ 3 × 2 = 16。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-45c9609f732b0c3420d0fa98",
+      "year": 6,
+      "subject": "math",
+      "prompt": "整数 Integers：气温 −4°C 上升 13°C 后是多少°C？",
+      "options": [
+        "8",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "−4 + 13 = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b24c39ee52f8bf1b963b7cbe",
+      "year": 6,
+      "subject": "math",
+      "prompt": "概率 Probability：袋内有 5 红球和 5 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "options": [
+        "8",
+        "9",
+        "13",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "每个球是一个结果，合计 5 + 5 = 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-dc1d388cac43f800457279a0",
+      "year": 6,
+      "subject": "math",
+      "prompt": "概率 Probability：袋内有 10 红球和 8 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "options": [
+        "23",
+        "14",
+        "18",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "每个球是一个结果，合计 10 + 8 = 18。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ce90daef46553e264aed4bc0",
+      "year": 6,
+      "subject": "math",
+      "prompt": "中位数 Median：87、194、77 的中位数是多少？",
+      "options": [
+        "73",
+        "87",
+        "77",
+        "108"
+      ],
+      "answer": 1,
+      "explanation": "从小到大排列：77、87、194；中间的数是 87。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-44b6cd5622175942a7e5ebcb",
+      "year": 6,
+      "subject": "math",
+      "prompt": "折扣 Discount：140 澳元的书包打八折，售价多少澳元？",
+      "options": [
+        "112",
+        "149",
+        "144",
+        "111"
+      ],
+      "answer": 0,
+      "explanation": "付原价的80%：140 × 0.8 = 112 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-638e3795d724ee840828f412",
+      "year": 6,
+      "subject": "math",
+      "prompt": "折扣 Discount：220 澳元的书包打八折，售价多少澳元？",
+      "options": [
+        "154",
+        "176",
+        "177",
+        "217"
+      ],
+      "answer": 1,
+      "explanation": "付原价的80%：220 × 0.8 = 176 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-11387563899fa480f2b98cea",
+      "year": 6,
+      "subject": "math",
+      "prompt": "概率 Probability：袋内有 7 红球和 6 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "options": [
+        "15",
+        "13",
+        "17",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "每个球是一个结果，合计 7 + 6 = 13。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ff49e40e45083021fb2599f3",
+      "year": 6,
+      "subject": "math",
+      "prompt": "分数运算 Fractions：144 的三分之二是多少？",
+      "options": [
+        "122",
+        "96",
+        "105",
+        "79"
+      ],
+      "answer": 1,
+      "explanation": "先除以3再乘2：144 ÷ 3 × 2 = 96。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-151f25fd57da1e841cd58d04",
+      "year": 6,
+      "subject": "math",
+      "prompt": "分数运算 Fractions：60 的三分之二是多少？",
+      "options": [
+        "28",
+        "36",
+        "29",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "先除以3再乘2：60 ÷ 3 × 2 = 40。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-99ddadfaf221de8b88544af7",
+      "year": 6,
+      "subject": "math",
+      "prompt": "分数运算 Fractions：36 的三分之二是多少？",
+      "options": [
+        "21",
+        "28",
+        "24",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "先除以3再乘2：36 ÷ 3 × 2 = 24。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-165ac146c8f9a9cacf7bc8f7",
+      "year": 6,
+      "subject": "math",
+      "prompt": "概率 Probability：袋内有 4 红球和 6 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "options": [
+        "8",
+        "9",
+        "13",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "每个球是一个结果，合计 4 + 6 = 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1f1c847e432e0622956947dd",
+      "year": 6,
+      "subject": "math",
+      "prompt": "中位数 Median：63、68、166 的中位数是多少？",
+      "options": [
+        "78",
+        "67",
+        "68",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "从小到大排列：63、68、166；中间的数是 68。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-bb4d8151e3781ca6dff67e65",
+      "year": 6,
+      "subject": "math",
+      "prompt": "中位数 Median：36、75、35 的中位数是多少？",
+      "options": [
+        "42",
+        "35",
+        "32",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "从小到大排列：35、36、75；中间的数是 36。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-403b70ada01f7c97493056d4",
+      "year": 6,
+      "subject": "math",
+      "prompt": "中位数 Median：46、30、94 的中位数是多少？",
+      "options": [
+        "55",
+        "46",
+        "45",
+        "57"
+      ],
+      "answer": 1,
+      "explanation": "从小到大排列：30、46、94；中间的数是 46。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-11eddfba3c6a484b4c0c4ac9",
+      "year": 6,
+      "subject": "math",
+      "prompt": "分数运算 Fractions：72 的三分之二是多少？",
+      "options": [
+        "56",
+        "52",
+        "48",
+        "49"
+      ],
+      "answer": 2,
+      "explanation": "先除以3再乘2：72 ÷ 3 × 2 = 48。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e3cccf57fd5e0681dca18e84",
+      "year": 6,
+      "subject": "math",
+      "prompt": "整数 Integers：气温 −4°C 上升 9°C 后是多少°C？",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "−4 + 9 = 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-eef6f3f3d21ef8ef2afbeb92",
+      "year": 6,
+      "subject": "math",
+      "prompt": "概率 Probability：袋内有 2 红球和 7 蓝球，共有几种等可能的单球抽取结果（按球计）？",
+      "options": [
+        "11",
+        "12",
+        "9",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "每个球是一个结果，合计 2 + 7 = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f177461eab086c5c195d913b",
+      "year": 6,
+      "subject": "math",
+      "prompt": "中位数 Median：82、179、134 的中位数是多少？",
+      "options": [
+        "108",
+        "134",
+        "149",
+        "136"
+      ],
+      "answer": 1,
+      "explanation": "从小到大排列：82、134、179；中间的数是 134。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b322e9c978988d5c321c811b",
+      "year": 6,
+      "subject": "math",
+      "prompt": "折扣 Discount：240 澳元的书包打八折，售价多少澳元？",
+      "options": [
+        "192",
+        "161",
+        "256",
+        "248"
+      ],
+      "answer": 0,
+      "explanation": "付原价的80%：240 × 0.8 = 192 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d635d03309b714155e81aa5e",
+      "year": 7,
+      "subject": "math",
+      "prompt": "极差 Range：172、79、17 的极差是多少？",
+      "options": [
+        "191",
+        "109",
+        "155",
+        "119"
+      ],
+      "answer": 2,
+      "explanation": "最大值 − 最小值 = 172 − 17 = 155。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-35105e2b8a1acc7f65934675",
+      "year": 7,
+      "subject": "math",
+      "prompt": "角 Angles：三角形两个内角为 25° 和 40°，第三个角多少度？",
+      "options": [
+        "80",
+        "115",
+        "142",
+        "121"
+      ],
+      "answer": 1,
+      "explanation": "三角形内角和180°：180 − 25 − 40 = 115°。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4ce7b56fa217b66293df0810",
+      "year": 7,
+      "subject": "math",
+      "prompt": "比 Ratio：果汁和水为1:2，用 4 升果汁需多少升水？",
+      "options": [
+        "5",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "水是果汁的 2 倍：4 × 2 = 8 升。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f9c711a8002ec909f6c2dc7d",
+      "year": 7,
+      "subject": "math",
+      "prompt": "代数 Algebra：x + 8 = 19，x = ？",
+      "options": [
+        "13",
+        "12",
+        "9",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "等式两边减 8，得 x = 11。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-dd3e453355c39284d24094f6",
+      "year": 7,
+      "subject": "math",
+      "prompt": "极差 Range：196、25、122 的极差是多少？",
+      "options": [
+        "116",
+        "171",
+        "137",
+        "130"
+      ],
+      "answer": 1,
+      "explanation": "最大值 − 最小值 = 196 − 25 = 171。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5a55da96e71a0ab8a5ce4bd5",
+      "year": 7,
+      "subject": "math",
+      "prompt": "整数 Integers：−11 × 5 = ？",
+      "options": [
+        "-69",
+        "-58",
+        "-54",
+        "-55"
+      ],
+      "answer": 3,
+      "explanation": "负数乘正数为负数，绝对值为 11 × 5 = 55。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-eda147fe1ae8b02f75eb49ab",
+      "year": 7,
+      "subject": "math",
+      "prompt": "代数 Algebra：x + 2 = 13，x = ？",
+      "options": [
+        "11",
+        "14",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "等式两边减 2，得 x = 11。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-c95a7e09b208ae675da14881",
+      "year": 7,
+      "subject": "math",
+      "prompt": "角 Angles：三角形两个内角为 55° 和 20°，第三个角多少度？",
+      "options": [
+        "114",
+        "96",
+        "109",
+        "105"
+      ],
+      "answer": 3,
+      "explanation": "三角形内角和180°：180 − 55 − 20 = 105°。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-da4463682015c5a6ccc927f0",
+      "year": 7,
+      "subject": "math",
+      "prompt": "角 Angles：三角形两个内角为 25° 和 30°，第三个角多少度？",
+      "options": [
+        "156",
+        "106",
+        "103",
+        "125"
+      ],
+      "answer": 3,
+      "explanation": "三角形内角和180°：180 − 25 − 30 = 125°。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-da2fd618382ec53b0b8121b8",
+      "year": 7,
+      "subject": "math",
+      "prompt": "比 Ratio：果汁和水为1:5，用 12 升果汁需多少升水？",
+      "options": [
+        "60",
+        "67",
+        "48",
+        "68"
+      ],
+      "answer": 0,
+      "explanation": "水是果汁的 5 倍：12 × 5 = 60 升。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9aad456bb0d994a08fe98b41",
+      "year": 7,
+      "subject": "math",
+      "prompt": "比 Ratio：果汁和水为1:2，用 2 升果汁需多少升水？",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "水是果汁的 2 倍：2 × 2 = 4 升。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-dffd85ef0133577006a10697",
+      "year": 7,
+      "subject": "math",
+      "prompt": "整数 Integers：−4 × 2 = ？",
+      "options": [
+        "-9",
+        "-6",
+        "-8",
+        "-5"
+      ],
+      "answer": 2,
+      "explanation": "负数乘正数为负数，绝对值为 4 × 2 = 8。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-0fab66f04d9ee7058f980654",
+      "year": 7,
+      "subject": "math",
+      "prompt": "角 Angles：三角形两个内角为 35° 和 10°，第三个角多少度？",
+      "options": [
+        "102",
+        "113",
+        "132",
+        "135"
+      ],
+      "answer": 3,
+      "explanation": "三角形内角和180°：180 − 35 − 10 = 135°。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ba8bf5c5f70bf14f0f210384",
+      "year": 7,
+      "subject": "math",
+      "prompt": "比 Ratio：果汁和水为1:4，用 8 升果汁需多少升水？",
+      "options": [
+        "34",
+        "31",
+        "32",
+        "23"
+      ],
+      "answer": 2,
+      "explanation": "水是果汁的 4 倍：8 × 4 = 32 升。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a9b3409c6e69432277ffc729",
+      "year": 7,
+      "subject": "math",
+      "prompt": "比 Ratio：果汁和水为1:6，用 9 升果汁需多少升水？",
+      "options": [
+        "56",
+        "50",
+        "54",
+        "49"
+      ],
+      "answer": 2,
+      "explanation": "水是果汁的 6 倍：9 × 6 = 54 升。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9557a4d7a16cfb38e7cd7fdf",
+      "year": 7,
+      "subject": "math",
+      "prompt": "整数 Integers：−6 × 2 = ？",
+      "options": [
+        "-10",
+        "-12",
+        "-14",
+        "-16"
+      ],
+      "answer": 1,
+      "explanation": "负数乘正数为负数，绝对值为 6 × 2 = 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-0f2c962089e91939296853df",
+      "year": 7,
+      "subject": "math",
+      "prompt": "极差 Range：40、25、187 的极差是多少？",
+      "options": [
+        "213",
+        "212",
+        "162",
+        "180"
+      ],
+      "answer": 2,
+      "explanation": "最大值 − 最小值 = 187 − 25 = 162。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-069eaea83794f1c19106f959",
+      "year": 7,
+      "subject": "math",
+      "prompt": "代数 Algebra：x + 2 = 11，x = ？",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "等式两边减 2，得 x = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-0bbf6484c47497c334304fe8",
+      "year": 7,
+      "subject": "math",
+      "prompt": "整数 Integers：−4 × 7 = ？",
+      "options": [
+        "-21",
+        "-28",
+        "-37",
+        "-35"
+      ],
+      "answer": 1,
+      "explanation": "负数乘正数为负数，绝对值为 4 × 7 = 28。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-cb3bc4220d557086c1620c95",
+      "year": 7,
+      "subject": "math",
+      "prompt": "角 Angles：三角形两个内角为 50° 和 20°，第三个角多少度？",
+      "options": [
+        "110",
+        "75",
+        "133",
+        "123"
+      ],
+      "answer": 0,
+      "explanation": "三角形内角和180°：180 − 50 − 20 = 110°。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-552cb66aa9b03dcb73e0f84e",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：300 澳元增加 6% 后为多少澳元？",
+      "options": [
+        "309",
+        "389",
+        "318",
+        "219"
+      ],
+      "answer": 2,
+      "explanation": "新值 = 原值 × (1 + 6/100) = 318 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-9200555d9ff07ee455071a81",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：117、129、108 的平均数是多少？",
+      "options": [
+        "110",
+        "106",
+        "118",
+        "104"
+      ],
+      "answer": 2,
+      "explanation": "总和除以个数：354 ÷ 3 = 118。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3829a19c32a1fe45a38c1882",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：600 澳元增加 5% 后为多少澳元？",
+      "options": [
+        "727",
+        "770",
+        "630",
+        "557"
+      ],
+      "answer": 2,
+      "explanation": "新值 = 原值 × (1 + 5/100) = 630 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-eedc7bf73eb8f25ea2bc4ed9",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：93、167、190 的平均数是多少？",
+      "options": [
+        "150",
+        "109",
+        "189",
+        "161"
+      ],
+      "answer": 0,
+      "explanation": "总和除以个数：450 ÷ 3 = 150。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3dcde4e9b6f1d6560415bbb9",
+      "year": 8,
+      "subject": "math",
+      "prompt": "速率 Rate：4 小时行驶 160 公里，平均时速多少公里？",
+      "options": [
+        "41",
+        "40",
+        "34",
+        "52"
+      ],
+      "answer": 1,
+      "explanation": "速率 = 路程 ÷ 时间 = 160 ÷ 4 = 40 公里/小时。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-310628d3c200cbe378324346",
+      "year": 8,
+      "subject": "math",
+      "prompt": "指数 Indices：12² = ？",
+      "options": [
+        "164",
+        "144",
+        "180",
+        "154"
+      ],
+      "answer": 1,
+      "explanation": "平方就是自身相乘：12 × 12 = 144。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7aae8f5cd1b22e54c99a5f1c",
+      "year": 8,
+      "subject": "math",
+      "prompt": "速率 Rate：7 小时行驶 840 公里，平均时速多少公里？",
+      "options": [
+        "141",
+        "120",
+        "101",
+        "119"
+      ],
+      "answer": 1,
+      "explanation": "速率 = 路程 ÷ 时间 = 840 ÷ 7 = 120 公里/小时。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1c4d8da01075984f9bc39097",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：200 澳元增加 9% 后为多少澳元？",
+      "options": [
+        "250",
+        "222",
+        "218",
+        "212"
+      ],
+      "answer": 2,
+      "explanation": "新值 = 原值 × (1 + 9/100) = 218 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-03db9237322884485a87804f",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：900 澳元增加 2% 后为多少澳元？",
+      "options": [
+        "1202",
+        "918",
+        "766",
+        "1137"
+      ],
+      "answer": 1,
+      "explanation": "新值 = 原值 × (1 + 2/100) = 918 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ffab57e87afe61ff18145141",
+      "year": 8,
+      "subject": "math",
+      "prompt": "方程 Equation：2x + 5 = 15，x = ？",
+      "options": [
+        "2",
+        "8",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "两边减 5，再除以 2，得 x = 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1185b22c0e660135da547636",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：200 澳元增加 4% 后为多少澳元？",
+      "options": [
+        "194",
+        "254",
+        "208",
+        "275"
+      ],
+      "answer": 2,
+      "explanation": "新值 = 原值 × (1 + 4/100) = 208 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a83d079fae23c89ed3f080da",
+      "year": 8,
+      "subject": "math",
+      "prompt": "方程 Equation：6x + 9 = 63，x = ？",
+      "options": [
+        "6",
+        "12",
+        "11",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "两边减 9，再除以 6，得 x = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-aea17e8c73ee25810850f2cf",
+      "year": 8,
+      "subject": "math",
+      "prompt": "指数 Indices：11² = ？",
+      "options": [
+        "82",
+        "110",
+        "121",
+        "86"
+      ],
+      "answer": 2,
+      "explanation": "平方就是自身相乘：11 × 11 = 121。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5b80aa5f88c1f35bafe469bd",
+      "year": 8,
+      "subject": "math",
+      "prompt": "指数 Indices：6² = ？",
+      "options": [
+        "29",
+        "43",
+        "40",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "平方就是自身相乘：6 × 6 = 36。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-8b6c207869f1233df2463e38",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：30、88、140 的平均数是多少？",
+      "options": [
+        "86",
+        "79",
+        "106",
+        "89"
+      ],
+      "answer": 0,
+      "explanation": "总和除以个数：258 ÷ 3 = 86。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-87c7e312af0b9824788d6dd6",
+      "year": 8,
+      "subject": "math",
+      "prompt": "百分数 Percentage：200 澳元增加 6% 后为多少澳元？",
+      "options": [
+        "212",
+        "239",
+        "266",
+        "261"
+      ],
+      "answer": 0,
+      "explanation": "新值 = 原值 × (1 + 6/100) = 212 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5b7b3a13d5571a8f16e1fa08",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：127、21、128 的平均数是多少？",
+      "options": [
+        "111",
+        "92",
+        "96",
+        "117"
+      ],
+      "answer": 1,
+      "explanation": "总和除以个数：276 ÷ 3 = 92。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e0fdace542a8a3d02348e980",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：118、92、78 的平均数是多少？",
+      "options": [
+        "127",
+        "80",
+        "118",
+        "96"
+      ],
+      "answer": 3,
+      "explanation": "总和除以个数：288 ÷ 3 = 96。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-90a5e5da3eb457a84bc3877d",
+      "year": 8,
+      "subject": "math",
+      "prompt": "速率 Rate：2 小时行驶 240 公里，平均时速多少公里？",
+      "options": [
+        "118",
+        "149",
+        "120",
+        "157"
+      ],
+      "answer": 2,
+      "explanation": "速率 = 路程 ÷ 时间 = 240 ÷ 2 = 120 公里/小时。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-e7b444600f3541eeca27e65e",
+      "year": 8,
+      "subject": "math",
+      "prompt": "平均数 Mean：101、121、159 的平均数是多少？",
+      "options": [
+        "119",
+        "124",
+        "127",
+        "109"
+      ],
+      "answer": 2,
+      "explanation": "总和除以个数：381 ÷ 3 = 127。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a5f0d7300fd1ba2a6b320922",
+      "year": 9,
+      "subject": "math",
+      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 6 和 8 厘米，斜边多长？",
+      "options": [
+        "12",
+        "10",
+        "7",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "斜边² = 6² + 8² = 100，开平方得 10 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-be3d3e1c96814aeb8bda6f9f",
+      "year": 9,
+      "subject": "math",
+      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 27 和 36 厘米，斜边多长？",
+      "options": [
+        "36",
+        "42",
+        "45",
+        "34"
+      ],
+      "answer": 2,
+      "explanation": "斜边² = 27² + 36² = 2025，开平方得 45 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-a2f2f7f084f0d3c6632f914c",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 5x − 9，x = 9 时 y = ？",
+      "options": [
+        "33",
+        "36",
+        "28",
+        "46"
+      ],
+      "answer": 1,
+      "explanation": "代入 x：5 × 9 − 9 = 36。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4607968f512fa7a0fea6fa22",
+      "year": 9,
+      "subject": "math",
+      "prompt": "科学计数 Scientific notation：4 × 10³ 等于多少？",
+      "options": [
+        "3283",
+        "4000",
+        "2682",
+        "3101"
+      ],
+      "answer": 1,
+      "explanation": "10³ = 1000，故 4 × 1000 = 4000。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-f6a335dee5a9c128f1dd59f3",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 3x − 6，x = 6 时 y = ？",
+      "options": [
+        "11",
+        "14",
+        "9",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "代入 x：3 × 6 − 6 = 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-ca9e36c120b86e74d607990a",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 3x − 9，x = 9 时 y = ？",
+      "options": [
+        "18",
+        "21",
+        "17",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "代入 x：3 × 9 − 9 = 18。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-88e35ce13953b04cae017261",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性关系 Linear：直线经过 (37, 24) 和 (40, -3)，斜率是多少？",
+      "options": [
+        "-9",
+        "-10",
+        "-12",
+        "-6"
+      ],
+      "answer": 0,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (-3 − 24) ÷ (40 − 37) = -9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d863dfd7c835785a751ede97",
+      "year": 9,
+      "subject": "math",
+      "prompt": "展开 Expand：(x + 2)(x + 3) 展开后 x 的系数是？",
+      "options": [
+        "2",
+        "8",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "x² + (2+3)x + 6，所以系数为 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-df733857dcb75505a77019e5",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性关系 Linear：直线经过 (50, 72) 和 (57, 205)，斜率是多少？",
+      "options": [
+        "19",
+        "18",
+        "16",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (205 − 72) ÷ (57 − 50) = 19。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-6f999456a8eefc616b1c4f48",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 3x − 10，x = 10 时 y = ？",
+      "options": [
+        "17",
+        "21",
+        "15",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "代入 x：3 × 10 − 10 = 20。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b8adb1247ef6d065133cb9c6",
+      "year": 9,
+      "subject": "math",
+      "prompt": "科学计数 Scientific notation：12 × 10³ 等于多少？",
+      "options": [
+        "9282",
+        "12221",
+        "8024",
+        "12000"
+      ],
+      "answer": 3,
+      "explanation": "10³ = 1000，故 12 × 1000 = 12000。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d9b33a291d8d96b8d2313836",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 2x − 4，x = 4 时 y = ？",
+      "options": [
+        "6",
+        "4",
+        "1",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "代入 x：2 × 4 − 4 = 4。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-bd3c2365dc5d995e0b6fe246",
+      "year": 9,
+      "subject": "math",
+      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 21 和 28 厘米，斜边多长？",
+      "options": [
+        "35",
+        "43",
+        "24",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "斜边² = 21² + 28² = 1225，开平方得 35 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-c2e64394dfd550c3b86d1424",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 5x − 5，x = 5 时 y = ？",
+      "options": [
+        "18",
+        "23",
+        "19",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "代入 x：5 × 5 − 5 = 20。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b77b551fc1eb955a3c424e4a",
+      "year": 9,
+      "subject": "math",
+      "prompt": "勾股定理 Pythagoras：直角三角形直角边为 9 和 12 厘米，斜边多长？",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "斜边² = 9² + 12² = 225，开平方得 15 厘米。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7e682de721c43152870595b6",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 7x − 7，x = 7 时 y = ？",
+      "options": [
+        "34",
+        "48",
+        "42",
+        "56"
+      ],
+      "answer": 2,
+      "explanation": "代入 x：7 × 7 − 7 = 42。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-041df5ab38b410415fc363ec",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 7x − 11，x = 11 时 y = ？",
+      "options": [
+        "66",
+        "56",
+        "55",
+        "71"
+      ],
+      "answer": 0,
+      "explanation": "代入 x：7 × 11 − 11 = 66。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-3ccbd893fd9f0d78f0b5985c",
+      "year": 9,
+      "subject": "math",
+      "prompt": "科学计数 Scientific notation：2 × 10³ 等于多少？",
+      "options": [
+        "1719",
+        "2542",
+        "2000",
+        "2283"
+      ],
+      "answer": 2,
+      "explanation": "10³ = 1000，故 2 × 1000 = 2000。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-2cec117cba8a401cb8a23e9a",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 6x − 8，x = 8 时 y = ？",
+      "options": [
+        "28",
+        "51",
+        "40",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "代入 x：6 × 8 − 8 = 40。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-149df53dfb4ca0b1aa81172b",
+      "year": 9,
+      "subject": "math",
+      "prompt": "线性函数 Linear：y = 2x − 3，x = 3 时 y = ？",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "代入 x：2 × 3 − 3 = 3。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-fe3b290a0e1ea79ed32c7f44",
+      "year": 10,
+      "subject": "math",
+      "prompt": "线性关系 Linear：直线经过 (29, 27) 和 (39, 207)，斜率是多少？",
+      "options": [
+        "23",
+        "12",
+        "18",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (207 − 27) ÷ (39 − 29) = 18。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-855906aa5c59c81883ed59c4",
+      "year": 10,
+      "subject": "math",
+      "prompt": "直线 Slope：经过 (0, 5) 和 (2, 23) 的直线斜率是多少？",
+      "options": [
+        "8",
+        "12",
+        "11",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (23 − 5) ÷ 2 = 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-88c3200f9d18691838ec1798",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 144 的正根是多少？",
+      "options": [
+        "15",
+        "10",
+        "13",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "x = ±12，题目要求正根，所以是 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4c95a80477006eb9f1a304df",
+      "year": 10,
+      "subject": "math",
+      "prompt": "复利 Compound interest：本金 6000 澳元，年利率10%，两年后本息多少澳元？",
+      "options": [
+        "5538",
+        "5391",
+        "6817",
+        "7260"
+      ],
+      "answer": 3,
+      "explanation": "本息 = 6000 × 1.1² = 7260 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1f56cd031f1e868494cb91a6",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 81 的正根是多少？",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "x = ±9，题目要求正根，所以是 9。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-91180f69d187ddfd379c228e",
+      "year": 10,
+      "subject": "math",
+      "prompt": "复利 Compound interest：本金 7000 澳元，年利率10%，两年后本息多少澳元？",
+      "options": [
+        "9572",
+        "8108",
+        "10190",
+        "8470"
+      ],
+      "answer": 3,
+      "explanation": "本息 = 7000 × 1.1² = 8470 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-910b0fc9775588b4d0ee9a60",
+      "year": 10,
+      "subject": "math",
+      "prompt": "线性关系 Linear：直线经过 (45, 61) 和 (50, 31)，斜率是多少？",
+      "options": [
+        "-6",
+        "-4",
+        "-8",
+        "-5"
+      ],
+      "answer": 0,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (31 − 61) ÷ (50 − 45) = -6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-7f0d9db1494fc3ae64c351bd",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 49 的正根是多少？",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "x = ±7，题目要求正根，所以是 7。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-565781b6c56f4e7201185730",
+      "year": 10,
+      "subject": "math",
+      "prompt": "概率 Probability：独立投掷 7 枚公平硬币，共有多少种等可能的正反面组合？",
+      "options": [
+        "139",
+        "128",
+        "93",
+        "91"
+      ],
+      "answer": 1,
+      "explanation": "每枚有2种结果，独立相乘：2^7 = 128。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-b7b0c310a81da1b38866090d",
+      "year": 10,
+      "subject": "math",
+      "prompt": "线性关系 Linear：直线经过 (42, 14) 和 (44, 22)，斜率是多少？",
+      "options": [
+        "7",
+        "4",
+        "6",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (22 − 14) ÷ (44 − 42) = 4。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-962dc2f1a63144ccd2320a7c",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 100 的正根是多少？",
+      "options": [
+        "10",
+        "7",
+        "13",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "x = ±10，题目要求正根，所以是 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-38f03179e87dffdf7776b818",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 25 的正根是多少？",
+      "options": [
+        "2",
+        "7",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "x = ±5，题目要求正根，所以是 5。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-1a5beb75d8e9f855c77e6b40",
+      "year": 10,
+      "subject": "math",
+      "prompt": "直线 Slope：经过 (0, 3) 和 (2, 23) 的直线斜率是多少？",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (23 − 3) ÷ 2 = 10。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-2db97b8645c24400a7bce0ce",
+      "year": 10,
+      "subject": "math",
+      "prompt": "直线 Slope：经过 (0, 2) 和 (2, 26) 的直线斜率是多少？",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (26 − 2) ÷ 2 = 12。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-bf12d4a43ed442b96f8eb921",
+      "year": 10,
+      "subject": "math",
+      "prompt": "概率 Probability：独立投掷 9 枚公平硬币，共有多少种等可能的正反面组合？",
+      "options": [
+        "512",
+        "462",
+        "456",
+        "447"
+      ],
+      "answer": 0,
+      "explanation": "每枚有2种结果，独立相乘：2^9 = 512。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-abb0e9ee94114c9ba334cba8",
+      "year": 10,
+      "subject": "math",
+      "prompt": "复利 Compound interest：本金 10000 澳元，年利率10%，两年后本息多少澳元？",
+      "options": [
+        "14792",
+        "9402",
+        "12100",
+        "10446"
+      ],
+      "answer": 2,
+      "explanation": "本息 = 10000 × 1.1² = 12100 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-d22e5a64d4a92c3be5ae8b28",
+      "year": 10,
+      "subject": "math",
+      "prompt": "二次方程 Quadratic：x² = 9 的正根是多少？",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "x = ±3，题目要求正根，所以是 3。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-5a1ec1924a2579f648024d53",
+      "year": 10,
+      "subject": "math",
+      "prompt": "复利 Compound interest：本金 2000 澳元，年利率10%，两年后本息多少澳元？",
+      "options": [
+        "2420",
+        "3123",
+        "1927",
+        "2417"
+      ],
+      "answer": 0,
+      "explanation": "本息 = 2000 × 1.1² = 2420 澳元。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-4a2f0097483396d3359625e8",
+      "year": 10,
+      "subject": "math",
+      "prompt": "直线 Slope：经过 (0, 3) 和 (2, 15) 的直线斜率是多少？",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (15 − 3) ÷ 2 = 6。",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "math-v1-2b174ce3ce979b5777957a6a",
+      "year": 10,
+      "subject": "math",
+      "prompt": "直线 Slope：经过 (0, 9) 和 (2, 19) 的直线斜率是多少？",
+      "options": [
+        "6",
+        "2",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "斜率 = y变化量 ÷ x变化量 = (19 − 9) ÷ 2 = 5。",
+      "published": "2026-11-06"
+    }
+  ],
+  "batches": [
+    "2026-11-06"
+  ],
+  "source": "https://www.qcaa.qld.edu.au/p-10/aciq/version-9/learning-areas/p-10-mathematics",
+  "curriculum": "Australian Curriculum v9 practice; approximate year alignment, not an assessment",
+  "updated": "2026-11-06"
+}

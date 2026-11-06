@@ -9,6 +9,7 @@ from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from learning_english import render as english_question
+from learning_visuals import illustrated_question, validate_visual
 
 START = date(2026, 11, 6)
 SOURCE = 'https://www.qcaa.qld.edu.au/p-10/aciq/version-9/learning-areas/p-10-mathematics'
@@ -126,7 +127,7 @@ def generate(bank, day):
         rng = random.Random(f'tuaotv-math-v1/{day}/{year}')
         added = 0
         for _ in range(100000):
-            q = question(year, rng)
+            q = illustrated_question(year,rng,day.toordinal()*3+added+_//200) if bank.get('visualVersion')==1 and added<3 else question(year, rng)
             if q['id'] in seen: continue
             q['published'] = day.isoformat()
             bank['questions'].append(q); seen.add(q['id']); added += 1
@@ -136,12 +137,30 @@ def generate(bank, day):
     bank['updated'] = day.isoformat()
     return bank
 
+def enrich_bank(bank, day):
+    """Append an idempotent illustrated starter pack, preserving every legacy ID and answer."""
+    if bank.get('visualVersion')==1:return bank
+    seen={q['id'] for q in bank['questions']}
+    for year in range(11):
+        rng=random.Random(f'tuaotv-visual-starter-v1/{year}')
+        for slot in range(20):
+            for _ in range(10000):
+                q=illustrated_question(year,rng,slot)
+                if q['id'] not in seen:break
+            else:raise ValueError('Illustrated starter templates exhausted')
+            q['published']=day.isoformat();bank['questions'].append(q);seen.add(q['id'])
+    bank['visualVersion']=1
+    bank['updated']=max(day.isoformat(),bank.get('updated',''))
+    return bank
+
 def validate(bank):
     assert bank.get('language') == 'en-AU'
     ids = set()
     for q in bank['questions']:
         assert q['id'] not in ids; ids.add(q['id'])
         assert 0 <= q['year'] <= 10 and len(q['options']) == len(set(q['options'])) == 4
+        if 'visual' in q:validate_visual(q['visual'])
+        if 'visualPrompt' in q:assert isinstance(q['visualPrompt'],str) and 0<len(q['visualPrompt'])<=1000 and not re.search(r'[\u3400-\u9fff]',q['visualPrompt'])
         assert 0 <= q['answer'] < 4 and q['prompt'] and q['explanation']
         assert not re.search(r'[\u3400-\u9fff]',q['prompt']+q['explanation']+''.join(q['options']))
     return bank
@@ -159,7 +178,7 @@ def main():
     parser.add_argument('--date', type=date.fromisoformat, default=datetime.now(ZoneInfo('Australia/Brisbane')).date())
     args = parser.parse_args()
     bank = json.loads(args.output.read_text()) if args.output.exists() else dict(schema=1, subject='math', curriculum='Australian Curriculum v9 practice; approximate year alignment, not an assessment', source=SOURCE, questions=[], batches=[])
-    bank = validate(generate(translate_bank(bank), args.date))
+    bank = validate(enrich_bank(generate(translate_bank(bank), args.date), args.date))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     pending = args.output.with_suffix('.pending')
     pending.write_text(json.dumps(bank, ensure_ascii=False, indent=2)+'\n')

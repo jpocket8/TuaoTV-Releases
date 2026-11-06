@@ -1,7 +1,7 @@
 name: Publish daily maths practice
 on:
   push:
-    paths: ['learning/learning-bank.py', 'learning/learning_english.py', '.github/workflows/learning.yml']
+    paths: ['learning/learning-bank.py', 'learning/learning_english.py', 'learning/learning_visuals.py', '.github/workflows/learning.yml']
   schedule:
     # Brisbane 05:15 (UTC+10, no daylight saving); hosted schedules may run late.
     - cron: '15 19 * * *'

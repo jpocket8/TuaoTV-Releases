@@ -21,9 +21,19 @@ def digest(rows):
     return hashlib.sha256(canonical(sorted(rows, key=lambda r: r['media']['id']))).hexdigest()
 
 
+def validate_android_row(row):
+    media=row['media']
+    routes=row['origins']
+    routes=routes if isinstance(routes,str) else json.dumps(routes,ensure_ascii=False,separators=(',',':'))
+    length=len(routes.replace('/',r'\/').encode('utf-16-le'))//2
+    if not isinstance(media.get('id'),str) or not media['id'].strip() or not isinstance(media.get('title'),str) or not media['title'].strip() or length>=200000:
+        raise ValueError('Programme exceeds Android import limits: '+str(media.get('id')))
+
+
 def keyed(rows):
     result = {}
     for row in rows:
+        validate_android_row(row)
         identity = row['media']['id']
         if not isinstance(identity, str) or not identity.strip() or identity in result:
             raise ValueError('Invalid/duplicate programme ID')

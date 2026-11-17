@@ -1,0 +1,23 @@
+name: Publish Quest test installer
+on:
+  push:
+    paths: ['quest-release/**', '.github/workflows/quest.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-quest
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: quest-release
+      - name: Verify and publish Quest test installer
+        run: python3 quest-release/publish.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}

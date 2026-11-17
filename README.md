@@ -2,7 +2,7 @@
 
 [官网下载](https://tuaotv.com/#download) · [全部安装包](https://github.com/jpocket8/TuaoTV-Releases/releases/latest)
 
-这里仅发布 Android 手机、电视、Windows 和 Mac 安装包，点击安装包后由浏览器管理下载。
+这里发布 Android 手机、电视、Windows、Mac 和 Meta Quest 安装包，点击安装包后由浏览器管理下载。
 
 Windows 请下载 `.exe` 安装程序；Mac 按芯片类型选择 ZIP。Android 手机选择 `mobile`，电视与电视盒选择 `tv`。
 
@@ -15,3 +15,7 @@ Windows 请下载 `.exe` 安装程序；Mac 按芯片类型选择 ZIP。Android 
 开发电脑通过 `TUAOTV_CATALOGUE_PUBLISHER=1` 启动专用电视模拟器维护脚本后，会在首页显示“持续更新已开启”，持续更新公共节目列表，并在维护时自动升级和重启发布端。直接打开的 Mac 桌面版不会自动继承这个启动环境变量。
 
 [项目源码与启动说明](https://github.com/jpocket8/ZhuijuUnified#本机电视模拟器发布端持续更新)。`catalogue-<时间戳>` Release 是独立节目列表数据；最新正式 Release 提供 App 安装包。
+
+## Meta Quest 测试版
+
+[下载 Quest 测试版与安装说明](https://github.com/jpocket8/TuaoTV-Releases/releases/tag/v0.2.151-quest.1)。开启开发者模式并允许 USB 调试后，通过 SideQuest 侧载 APK，再从「未知来源」打开「土澳TV Quest」。已在 Quest 3 安装和启动；空间交互与播放体验仍待完整验证。

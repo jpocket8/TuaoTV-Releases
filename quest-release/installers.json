@@ -1,0 +1,48 @@
+{
+  "version": "0.2.151-quest.1",
+  "notes": "Quest 独立侧载测试版，版本 0.2.151-quest.1，包名 com.tuaotv.quest。\n\n支持巨幕影院、空间阅读、阅读与收听双面板、影院与透视切换，以及坐姿和躺姿面板调整。\n\n2026-11-17 已在 Quest 3 上完成安装和启动检查；空间合成、透视、手柄/手势、播放体验及舒适度仍待完整真机验收。使用开发签名。\n\n安装：开启 Quest 开发者模式，用 USB 连接电脑，在头显内允许 USB 调试，然后通过 SideQuest 安装下方 APK；安装后从应用库“未知来源”打开“土澳TV Quest”。请保留同一签名升级；个人数据保存在此 Quest 安装中。\n\n命令行安装：`adb install -r tuaotv-quest-0.2.151-quest.1.apk`。",
+  "files": [
+    {
+      "name": "tuaotv-quest-0.2.151-quest.1.apk",
+      "bytes": 173588178,
+      "sha256": "9577d590e29e50779643fda1d532f5e4e41c032b9365beda1d563a9bbb79c806",
+      "parts": [
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/000.bin",
+          "bytes": 25165824,
+          "sha256": "b62c805fb7883e279fa35c55ae256c0862a4d22877bb17a08cd62505a2de85cd"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/001.bin",
+          "bytes": 25165824,
+          "sha256": "8c1fc1d56cd7c952d5e033e2e6374cae93284d94bec4b61c657e648b857af1e4"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/002.bin",
+          "bytes": 25165824,
+          "sha256": "3daa95139535d33272e9260418e7566737916ec9e80ec9da0d65ef1de61c4ccb"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/003.bin",
+          "bytes": 25165824,
+          "sha256": "506e07dfd6e91b6b7b387dd4a21be64a6d5350a2e039d92d46a3b21701719873"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/004.bin",
+          "bytes": 25165824,
+          "sha256": "7f2ea9d1541533bdf65dadd93986237661d47de9cc6040f8303319ed0e165430"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/005.bin",
+          "bytes": 25165824,
+          "sha256": "578bf761a556c30ffe4fc4cd94bb85452e5e405daf8f289787d3c1b497f137a1"
+        },
+        {
+          "url": "https://tuaotv.com/downloads/quest/9577d590e29e/006.bin",
+          "bytes": 22593234,
+          "sha256": "17092ddcb99da741218dcdca23f70fa4e790576f4f8b9804b07bb2924bf0dc3d"
+        }
+      ]
+    }
+  ]
+}

@@ -96662,6 +96662,3857 @@
       "answer": 0,
       "explanation": "Gradient = change in y ÷ change in x = (12 − 6) ÷ 2 = 3.",
       "published": "2026-11-26"
+    },
+    {
+      "id": "math-v1-b76d1f3c3244ea3fbbcea172",
+      "year": 0,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The pet shelter chart shows items counted: Mon 5, Tue 4, Wed 2. What is the largest daily total?",
+      "options": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Compare the bar heights and labels. The largest total is 5.",
+      "visual": {
+        "alt": "A labelled bar chart at the pet shelter: Mon 5, Tue 4, Wed 2.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Pet shelter",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            70.0,
+            75,
+            150.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            60.0,
+            "5",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            100.0,
+            75,
+            120.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            90.0,
+            "4",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            160.0,
+            75,
+            60.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            150.0,
+            "2",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the largest daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-07bff203ed405006d6af2b04",
+      "year": 0,
+      "subject": "math",
+      "topic": "count",
+      "prompt": "At the fruit stall, there are 7 apples. A delivery adds 1 more. How many apples are there now?",
+      "options": [
+        "8",
+        "11",
+        "7",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Count the apples or add: 7 + 1 = 8.",
+      "visual": {
+        "alt": "Two rows of apples at a fruit stall, showing 7 plus 1 apples.",
+        "elements": [
+          [
+            "circle",
+            65,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            65,
+            72,
+            72,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            140,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            140,
+            72,
+            147,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            215,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            215,
+            72,
+            222,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            290,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            290,
+            72,
+            297,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            365,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            365,
+            72,
+            372,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            440,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            440,
+            72,
+            447,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            515,
+            72,
+            522,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            65,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            65,
+            162,
+            72,
+            150,
+            "teal"
+          ],
+          [
+            "text",
+            30,
+            30,
+            "Fruit stall",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-ea98faf9bc3afecd4b95828e",
+      "year": 0,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The school garden chart shows items counted: Mon 2, Tue 4, Wed 10. What is the largest daily total?",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Compare the bar heights and labels. The largest total is 10.",
+      "visual": {
+        "alt": "A labelled bar chart at the school garden: Mon 2, Tue 4, Wed 10.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "School garden",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            190.0,
+            75,
+            30.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            180.0,
+            "2",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            160.0,
+            75,
+            60.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            150.0,
+            "4",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            70.0,
+            75,
+            150.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            60.0,
+            "10",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the largest daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-1d06e8d8dde5b3e399bbf3c6",
+      "year": 0,
+      "subject": "math",
+      "prompt": "Three groups contain 6, 4 and 12 objects. How many objects are in the largest group?",
+      "options": [
+        "16",
+        "8",
+        "15",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "Compare the three numbers. The largest number is 12.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-cde5a1db9cc6f683c71b377a",
+      "year": 0,
+      "subject": "math",
+      "prompt": "Which number is larger: 7 or 8?",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "8 is 1 more than 7, so 8 is larger.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-925dd3f4a8183805bc4b4987",
+      "year": 1,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The beach cleanup chart shows items counted: Mon 7, Tue 10, Wed 4. What is the largest daily total?",
+      "options": [
+        "9",
+        "8",
+        "12",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "Compare the bar heights and labels. The largest total is 10.",
+      "visual": {
+        "alt": "A labelled bar chart at the beach cleanup: Mon 7, Tue 10, Wed 4.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Beach cleanup",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            115.0,
+            75,
+            105.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            105.0,
+            "7",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            70.0,
+            75,
+            150.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            60.0,
+            "10",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            160.0,
+            75,
+            60.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            150.0,
+            "4",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the largest daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-f0efd957de9e1cb77ba4d603",
+      "year": 1,
+      "subject": "math",
+      "topic": "count",
+      "prompt": "At the fruit stall, there are 8 apples. A delivery adds 4 more. How many apples are there now?",
+      "options": [
+        "15",
+        "14",
+        "12",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "Count the apples or add: 8 + 4 = 12.",
+      "visual": {
+        "alt": "Two rows of apples at a fruit stall, showing 8 plus 4 apples.",
+        "elements": [
+          [
+            "circle",
+            65,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            65,
+            72,
+            72,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            140,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            140,
+            72,
+            147,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            215,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            215,
+            72,
+            222,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            290,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            290,
+            72,
+            297,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            365,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            365,
+            72,
+            372,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            440,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            440,
+            72,
+            447,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            90,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            515,
+            72,
+            522,
+            60,
+            "teal"
+          ],
+          [
+            "circle",
+            65,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            65,
+            162,
+            72,
+            150,
+            "teal"
+          ],
+          [
+            "circle",
+            140,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            140,
+            162,
+            147,
+            150,
+            "teal"
+          ],
+          [
+            "circle",
+            215,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            215,
+            162,
+            222,
+            150,
+            "teal"
+          ],
+          [
+            "circle",
+            290,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            290,
+            162,
+            297,
+            150,
+            "teal"
+          ],
+          [
+            "circle",
+            365,
+            180,
+            18,
+            "red"
+          ],
+          [
+            "line",
+            365,
+            162,
+            372,
+            150,
+            "teal"
+          ],
+          [
+            "text",
+            30,
+            30,
+            "Fruit stall",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-f41d2297e7c112d668d8b5e7",
+      "year": 1,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The class library chart shows items counted: Mon 3, Tue 7, Wed 4. What is the largest daily total?",
+      "options": [
+        "7",
+        "10",
+        "4",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Compare the bar heights and labels. The largest total is 7.",
+      "visual": {
+        "alt": "A labelled bar chart at the class library: Mon 3, Tue 7, Wed 4.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Class library",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            155.70999999999998,
+            75,
+            64.29,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            145.70999999999998,
+            "3",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            70.0,
+            75,
+            150.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            60.0,
+            "7",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            134.29000000000002,
+            75,
+            85.71,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            124.29,
+            "4",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the largest daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-026d74c729ba21ec7fb1346f",
+      "year": 1,
+      "subject": "math",
+      "prompt": "What is 5 − 3?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Take 3 away from 5: 5 − 3 = 2.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-95ed3161b63e4426e74ab97d",
+      "year": 1,
+      "subject": "math",
+      "prompt": "Three groups contain 18, 2 and 8 objects. How many objects are in the largest group?",
+      "options": [
+        "18",
+        "17",
+        "23",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "Compare the three numbers. The largest number is 18.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-d2aee0e5c1d2c0ea35e3a7e1",
+      "year": 2,
+      "subject": "math",
+      "topic": "clock",
+      "prompt": "The swimming lesson starts at 9:15. How many minutes past 9 is this?",
+      "options": [
+        "13",
+        "12",
+        "16",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "Each number on the clock marks 5 minutes. The minute hand shows 15 minutes past the hour.",
+      "visual": {
+        "alt": "An analogue clock showing 9:15.",
+        "elements": [
+          [
+            "circle",
+            300,
+            137,
+            103,
+            "paper"
+          ],
+          [
+            "text",
+            333.0,
+            72.99,
+            "1",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            103.0,
+            "2",
+            16
+          ],
+          [
+            "text",
+            374.0,
+            144.0,
+            "3",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            185.0,
+            "4",
+            16
+          ],
+          [
+            "text",
+            333.0,
+            215.01,
+            "5",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            226.0,
+            "6",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            215.01,
+            "7",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            185.0,
+            "8",
+            16
+          ],
+          [
+            "text",
+            210.0,
+            144.0,
+            "9",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            103.0,
+            "10",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            72.99,
+            "11",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            62.0,
+            "12",
+            16
+          ],
+          [
+            "line",
+            300,
+            137,
+            248.44,
+            130.21,
+            "ink"
+          ],
+          [
+            "line",
+            300,
+            137,
+            373.0,
+            137.0,
+            "blue"
+          ],
+          [
+            "circle",
+            300,
+            137,
+            4,
+            "ink"
+          ]
+        ]
+      },
+      "visualPrompt": "Read the clock. How many minutes past the hour does it show?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-0f21dc1fc26d06c242aa6989",
+      "year": 2,
+      "subject": "math",
+      "topic": "money",
+      "prompt": "At the school canteen, you have coins worth 20c, 5c, 50c, 50c, 50c. What is their total value in Australian cents?",
+      "options": [
+        "228",
+        "179",
+        "175",
+        "171"
+      ],
+      "answer": 2,
+      "explanation": "Add the coin values: 20 + 5 + 50 + 50 + 50 = 175 cents.",
+      "visual": {
+        "alt": "Australian coin-value counters labelled 20 cents, 5 cents, 50 cents, 50 cents, 50 cents.",
+        "elements": [
+          [
+            "circle",
+            70,
+            130,
+            40,
+            "gold"
+          ],
+          [
+            "text",
+            44,
+            138,
+            "20c",
+            20
+          ],
+          [
+            "circle",
+            175,
+            130,
+            40,
+            "gold"
+          ],
+          [
+            "text",
+            149,
+            138,
+            "5c",
+            20
+          ],
+          [
+            "circle",
+            280,
+            130,
+            40,
+            "gold"
+          ],
+          [
+            "text",
+            254,
+            138,
+            "50c",
+            20
+          ],
+          [
+            "circle",
+            385,
+            130,
+            40,
+            "gold"
+          ],
+          [
+            "text",
+            359,
+            138,
+            "50c",
+            20
+          ],
+          [
+            "circle",
+            490,
+            130,
+            40,
+            "gold"
+          ],
+          [
+            "text",
+            464,
+            138,
+            "50c",
+            20
+          ]
+        ]
+      },
+      "visualPrompt": "What is the total value of these coins, in Australian cents?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-0a8ba362b03cbcfc170e86bb",
+      "year": 2,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The fruit stall chart shows items counted: Mon 5, Tue 4, Wed 8. What is the largest daily total?",
+      "options": [
+        "7",
+        "10",
+        "6",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Compare the bar heights and labels. The largest total is 8.",
+      "visual": {
+        "alt": "A labelled bar chart at the fruit stall: Mon 5, Tue 4, Wed 8.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Fruit stall",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            126.25,
+            75,
+            93.75,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            116.25,
+            "5",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            145.0,
+            75,
+            75.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            135.0,
+            "4",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            70.0,
+            75,
+            150.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            60.0,
+            "8",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the largest daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-a45f305e0bd5a38e06bbb65b",
+      "year": 2,
+      "subject": "math",
+      "prompt": "Three groups contain 78, 40 and 84 objects. How many objects are in the largest group?",
+      "options": [
+        "71",
+        "95",
+        "106",
+        "84"
+      ],
+      "answer": 3,
+      "explanation": "Compare the three numbers. The largest number is 84.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-5e8c98844d48cc29120d1c49",
+      "year": 2,
+      "subject": "math",
+      "prompt": "What is 55 + 3?",
+      "options": [
+        "47",
+        "53",
+        "58",
+        "59"
+      ],
+      "answer": 2,
+      "explanation": "Add 3 to 55: 55 + 3 = 58.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-d95eb8ae4f148b5d975ef5b0",
+      "year": 3,
+      "subject": "math",
+      "topic": "fraction",
+      "prompt": "A garden bed has 40 seedlings. 3/8 are herbs, shown by the green equal parts. How many seedlings are herbs?",
+      "options": [
+        "10",
+        "15",
+        "13",
+        "19"
+      ],
+      "answer": 1,
+      "explanation": "One equal part has 40 ÷ 8 = 5 seedlings. Take 3 parts: 5 × 3 = 15.",
+      "visual": {
+        "alt": "A bar divided into 8 equal parts, with 3 shaded green. The whole represents 40 seedlings.",
+        "elements": [
+          [
+            "rect",
+            40.0,
+            80,
+            62.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            105.0,
+            80,
+            62.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            170.0,
+            80,
+            62.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            235.0,
+            80,
+            62.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            300.0,
+            80,
+            62.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            365.0,
+            80,
+            62.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            430.0,
+            80,
+            62.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            495.0,
+            80,
+            62.0,
+            80,
+            "muted"
+          ],
+          [
+            "text",
+            50,
+            210,
+            "Total: 40 seedlings",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-75ee3972ded7c6693f92e666",
+      "year": 3,
+      "subject": "math",
+      "topic": "clock",
+      "prompt": "The library visit starts at 11:30 and ends at 12:00, later the same day. How long is the visit, in minutes?",
+      "options": [
+        "32",
+        "31",
+        "30",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "Count forward from the start to the finish: 30 minutes.",
+      "visual": {
+        "alt": "An analogue clock showing 11:30.",
+        "elements": [
+          [
+            "circle",
+            300,
+            137,
+            103,
+            "paper"
+          ],
+          [
+            "text",
+            333.0,
+            72.99,
+            "1",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            103.0,
+            "2",
+            16
+          ],
+          [
+            "text",
+            374.0,
+            144.0,
+            "3",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            185.0,
+            "4",
+            16
+          ],
+          [
+            "text",
+            333.0,
+            215.01,
+            "5",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            226.0,
+            "6",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            215.01,
+            "7",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            185.0,
+            "8",
+            16
+          ],
+          [
+            "text",
+            210.0,
+            144.0,
+            "9",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            103.0,
+            "10",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            72.99,
+            "11",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            62.0,
+            "12",
+            16
+          ],
+          [
+            "line",
+            300,
+            137,
+            286.54,
+            86.77,
+            "ink"
+          ],
+          [
+            "line",
+            300,
+            137,
+            300.0,
+            210.0,
+            "blue"
+          ],
+          [
+            "circle",
+            300,
+            137,
+            4,
+            "ink"
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-fbaee507d6d04bd5f7a6d285",
+      "year": 3,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The recycling station chart shows items counted: Mon 26, Tue 30, Wed 10. What is the total over all three days?",
+      "options": [
+        "76",
+        "78",
+        "66",
+        "80"
+      ],
+      "answer": 2,
+      "explanation": "Add the totals: 26 + 30 + 10 = 66.",
+      "visual": {
+        "alt": "A labelled bar chart at the recycling station: Mon 26, Tue 30, Wed 10.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Recycling station",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            90.0,
+            75,
+            130.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            80.0,
+            "26",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            70.0,
+            75,
+            150.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            60.0,
+            "30",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            170.0,
+            75,
+            50.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            160.0,
+            "10",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the total over all three days?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-d2169ae6ff7561875c567a5f",
+      "year": 3,
+      "subject": "math",
+      "prompt": "A class collects 42, 28 and 61 bottles over three days. How many bottles are collected altogether?",
+      "options": [
+        "97",
+        "131",
+        "110",
+        "143"
+      ],
+      "answer": 1,
+      "explanation": "Add the three amounts: 42 + 28 + 61 = 131.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-103d770b5829b7cc4c9f5e9e",
+      "year": 3,
+      "subject": "math",
+      "prompt": "A class collects 85, 7 and 76 bottles over three days. How many bottles are collected altogether?",
+      "options": [
+        "168",
+        "167",
+        "126",
+        "132"
+      ],
+      "answer": 0,
+      "explanation": "Add the three amounts: 85 + 7 + 76 = 168.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-a6b3c15b50bf42903747fc89",
+      "year": 4,
+      "subject": "math",
+      "topic": "fraction",
+      "prompt": "A garden bed has 8 seedlings. 1/4 are herbs, shown by the green equal parts. How many seedlings are herbs?",
+      "options": [
+        "2",
+        "1",
+        "5",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "One equal part has 8 ÷ 4 = 2 seedlings. Take 1 parts: 2 × 1 = 2.",
+      "visual": {
+        "alt": "A bar divided into 4 equal parts, with 1 shaded green. The whole represents 8 seedlings.",
+        "elements": [
+          [
+            "rect",
+            40.0,
+            80,
+            127.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            170.0,
+            80,
+            127.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            300.0,
+            80,
+            127.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            430.0,
+            80,
+            127.0,
+            80,
+            "muted"
+          ],
+          [
+            "text",
+            50,
+            210,
+            "Total: 8 seedlings",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-1821da998fce7e6b1788eb48",
+      "year": 4,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The sports day chart shows items counted: Mon 24, Tue 14, Wed 27. What is the difference between the largest and smallest daily totals?",
+      "options": [
+        "13",
+        "12",
+        "16",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Subtract the smallest total from the largest: 27 − 14 = 13.",
+      "visual": {
+        "alt": "A labelled bar chart at the sports day: Mon 24, Tue 14, Wed 27.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Sports day",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            86.66999999999999,
+            75,
+            133.33,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            76.66999999999999,
+            "24",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            142.22,
+            75,
+            77.78,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            132.22,
+            "14",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            70.0,
+            75,
+            150.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            60.0,
+            "27",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the difference between the largest and smallest daily totals?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-f9b887e5cc13188f03b11aef",
+      "year": 4,
+      "subject": "math",
+      "topic": "ruler",
+      "prompt": "A pencil starts at 2 cm and ends at 7 cm on a ruler. What is its length in centimetres?",
+      "options": [
+        "2",
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Subtract the start reading from the end reading: 7 − 2 = 5 cm.",
+      "visual": {
+        "alt": "A pencil above a centimetre ruler from 2 to 7 cm.",
+        "elements": [
+          [
+            "rect",
+            40,
+            170,
+            520,
+            45,
+            "gold"
+          ],
+          [
+            "line",
+            45,
+            170,
+            45,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            40,
+            207,
+            "0",
+            14
+          ],
+          [
+            "line",
+            87,
+            170,
+            87,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            82,
+            207,
+            "1",
+            14
+          ],
+          [
+            "line",
+            129,
+            170,
+            129,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            124,
+            207,
+            "2",
+            14
+          ],
+          [
+            "line",
+            171,
+            170,
+            171,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            166,
+            207,
+            "3",
+            14
+          ],
+          [
+            "line",
+            213,
+            170,
+            213,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            208,
+            207,
+            "4",
+            14
+          ],
+          [
+            "line",
+            255,
+            170,
+            255,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            250,
+            207,
+            "5",
+            14
+          ],
+          [
+            "line",
+            297,
+            170,
+            297,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            292,
+            207,
+            "6",
+            14
+          ],
+          [
+            "line",
+            339,
+            170,
+            339,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            334,
+            207,
+            "7",
+            14
+          ],
+          [
+            "line",
+            381,
+            170,
+            381,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            376,
+            207,
+            "8",
+            14
+          ],
+          [
+            "line",
+            423,
+            170,
+            423,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            418,
+            207,
+            "9",
+            14
+          ],
+          [
+            "line",
+            465,
+            170,
+            465,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            460,
+            207,
+            "10",
+            14
+          ],
+          [
+            "line",
+            507,
+            170,
+            507,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            502,
+            207,
+            "11",
+            14
+          ],
+          [
+            "line",
+            549,
+            170,
+            549,
+            185,
+            "ink"
+          ],
+          [
+            "text",
+            544,
+            207,
+            "12",
+            14
+          ],
+          [
+            "rect",
+            129,
+            95,
+            210,
+            36,
+            "blue"
+          ],
+          [
+            "text",
+            50,
+            65,
+            "Pencil length (cm)",
+            20
+          ]
+        ]
+      },
+      "visualPrompt": "Use the ruler to find the pencil’s length, in centimetres.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-dd3f0443f184078e1a9858aa",
+      "year": 4,
+      "subject": "math",
+      "prompt": "Three groups read 4, 71 and 43 books. How many more books does the largest total have than the smallest total?",
+      "options": [
+        "65",
+        "76",
+        "67",
+        "53"
+      ],
+      "answer": 2,
+      "explanation": "Subtract the smallest total from the largest: 71 − 4 = 67.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-ff6e132f03ba1ed654e6c266",
+      "year": 4,
+      "subject": "math",
+      "prompt": "Three groups read 70, 45 and 12 books. How many more books does the largest total have than the smallest total?",
+      "options": [
+        "53",
+        "58",
+        "43",
+        "54"
+      ],
+      "answer": 1,
+      "explanation": "Subtract the smallest total from the largest: 70 − 12 = 58.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-6a89e5d69b1b20629031b7bd",
+      "year": 5,
+      "subject": "math",
+      "topic": "fraction",
+      "prompt": "A garden bed has 10 seedlings. 1/5 are herbs, shown by the green equal parts. How many seedlings are herbs?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "One equal part has 10 ÷ 5 = 2 seedlings. Take 1 parts: 2 × 1 = 2.",
+      "visual": {
+        "alt": "A bar divided into 5 equal parts, with 1 shaded green. The whole represents 10 seedlings.",
+        "elements": [
+          [
+            "rect",
+            40.0,
+            80,
+            101.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            144.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            248.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            352.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            456.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "text",
+            50,
+            210,
+            "Total: 10 seedlings",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-e7df80143d2c8eeed4548803",
+      "year": 5,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The class library chart shows items counted: Mon 18, Tue 4, Wed 8. What is the mean number per day?",
+      "options": [
+        "7",
+        "13",
+        "10",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "Mean = sum ÷ 3 = 30 ÷ 3 = 10.",
+      "visual": {
+        "alt": "A labelled bar chart at the class library: Mon 18, Tue 4, Wed 8.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Class library",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            70.0,
+            75,
+            150.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            60.0,
+            "18",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            186.67000000000002,
+            75,
+            33.33,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            176.67000000000002,
+            "4",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            153.32999999999998,
+            75,
+            66.67,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            143.32999999999998,
+            "8",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the mean number per day?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-693a8434cba2d40ba8b72cbd",
+      "year": 5,
+      "subject": "math",
+      "topic": "clock",
+      "prompt": "The library visit starts at 8:15 and ends at 8:45, later the same day. How long is the visit, in minutes?",
+      "options": [
+        "33",
+        "30",
+        "39",
+        "21"
+      ],
+      "answer": 1,
+      "explanation": "Count forward from the start to the finish: 30 minutes.",
+      "visual": {
+        "alt": "An analogue clock showing 8:15.",
+        "elements": [
+          [
+            "circle",
+            300,
+            137,
+            103,
+            "paper"
+          ],
+          [
+            "text",
+            333.0,
+            72.99,
+            "1",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            103.0,
+            "2",
+            16
+          ],
+          [
+            "text",
+            374.0,
+            144.0,
+            "3",
+            16
+          ],
+          [
+            "text",
+            363.01,
+            185.0,
+            "4",
+            16
+          ],
+          [
+            "text",
+            333.0,
+            215.01,
+            "5",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            226.0,
+            "6",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            215.01,
+            "7",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            185.0,
+            "8",
+            16
+          ],
+          [
+            "text",
+            210.0,
+            144.0,
+            "9",
+            16
+          ],
+          [
+            "text",
+            220.99,
+            103.0,
+            "10",
+            16
+          ],
+          [
+            "text",
+            251.0,
+            72.99,
+            "11",
+            16
+          ],
+          [
+            "text",
+            292.0,
+            62.0,
+            "12",
+            16
+          ],
+          [
+            "line",
+            300,
+            137,
+            251.96,
+            156.9,
+            "ink"
+          ],
+          [
+            "line",
+            300,
+            137,
+            373.0,
+            137.0,
+            "blue"
+          ],
+          [
+            "circle",
+            300,
+            137,
+            4,
+            "ink"
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-e0cb515516597ecf08986bdf",
+      "year": 5,
+      "subject": "math",
+      "prompt": "A rectangular prism is 11 cm long, 8 cm wide and 2 cm high. What is its volume in cubic centimetres?",
+      "options": [
+        "176",
+        "156",
+        "222",
+        "209"
+      ],
+      "answer": 0,
+      "explanation": "Volume = length × width × height = 11 × 8 × 2 = 176 cm³.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-3b12591eec72cb73bab5f353",
+      "year": 5,
+      "subject": "math",
+      "prompt": "What is the mean of 18, 146 and 19?",
+      "options": [
+        "59",
+        "71",
+        "61",
+        "57"
+      ],
+      "answer": 2,
+      "explanation": "Add the values, then divide by 3: 183 ÷ 3 = 61.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-de6f6f6de18bad8f3dfd7749",
+      "year": 6,
+      "subject": "math",
+      "topic": "fraction",
+      "prompt": "A garden bed has 40 seedlings. 3/5 are herbs, shown by the green equal parts. How many seedlings are herbs?",
+      "options": [
+        "16",
+        "24",
+        "27",
+        "28"
+      ],
+      "answer": 1,
+      "explanation": "One equal part has 40 ÷ 5 = 8 seedlings. Take 3 parts: 8 × 3 = 24.",
+      "visual": {
+        "alt": "A bar divided into 5 equal parts, with 3 shaded green. The whole represents 40 seedlings.",
+        "elements": [
+          [
+            "rect",
+            40.0,
+            80,
+            101.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            144.0,
+            80,
+            101.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            248.0,
+            80,
+            101.0,
+            80,
+            "teal"
+          ],
+          [
+            "rect",
+            352.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "rect",
+            456.0,
+            80,
+            101.0,
+            80,
+            "muted"
+          ],
+          [
+            "text",
+            50,
+            210,
+            "Total: 40 seedlings",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-7acb1b4aa7880f98642cc864",
+      "year": 6,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The pet shelter chart shows items counted: Mon 28, Tue 29, Wed 13. What is the median daily total?",
+      "options": [
+        "34",
+        "32",
+        "30",
+        "28"
+      ],
+      "answer": 3,
+      "explanation": "In order the totals are [13, 28, 29]. The middle value is 28.",
+      "visual": {
+        "alt": "A labelled bar chart at the pet shelter: Mon 28, Tue 29, Wed 13.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Pet shelter",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            75.16999999999999,
+            75,
+            144.83,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            65.16999999999999,
+            "28",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            70.0,
+            75,
+            150.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            60.0,
+            "29",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            152.76,
+            75,
+            67.24,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            142.76,
+            "13",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the median daily total?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-23809437dc1ec6ca995bccdd",
+      "year": 6,
+      "subject": "math",
+      "topic": "temperature",
+      "prompt": "At a mountain campsite it is -10°C. The temperature rises by 16°C. What is the new temperature in degrees Celsius?",
+      "options": [
+        "8",
+        "6",
+        "5",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Add the rise to the starting temperature: -10 + 16 = 6°C.",
+      "visual": {
+        "alt": "A schematic temperature scale showing a rise from -10°C through zero.",
+        "elements": [
+          [
+            "line",
+            300,
+            55,
+            300,
+            230,
+            "muted"
+          ],
+          [
+            "line",
+            280,
+            210,
+            320,
+            210,
+            "ink"
+          ],
+          [
+            "text",
+            335,
+            216,
+            "-10°C",
+            20
+          ],
+          [
+            "line",
+            280,
+            135,
+            320,
+            135,
+            "ink"
+          ],
+          [
+            "text",
+            335,
+            141,
+            "0°C",
+            20
+          ],
+          [
+            "line",
+            280,
+            60,
+            320,
+            60,
+            "ink"
+          ],
+          [
+            "text",
+            335,
+            66,
+            "6°C",
+            20
+          ],
+          [
+            "line",
+            250,
+            210,
+            250,
+            60,
+            "red"
+          ],
+          [
+            "text",
+            35,
+            125,
+            "Rise: 16°C",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-9f7ca3bbdf2a6bb974ebbc38",
+      "year": 6,
+      "subject": "math",
+      "prompt": "What is the median of 116, 14 and 152?",
+      "options": [
+        "86",
+        "94",
+        "119",
+        "116"
+      ],
+      "answer": 3,
+      "explanation": "Put the numbers in order: 14, 116, 152. The middle number is 116.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-ee44e03a950f93c4e9d208e8",
+      "year": 6,
+      "subject": "math",
+      "prompt": "A bag contains 10 red balls and 3 blue balls. If each individual ball is equally likely to be drawn, how many individual ball outcomes are possible?",
+      "options": [
+        "13",
+        "15",
+        "11",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "Each ball is one possible outcome: 10 + 3 = 13.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-c4f834989326c5b8527f4346",
+      "year": 7,
+      "subject": "math",
+      "topic": "ratio",
+      "prompt": "A sports-day drink uses juice and water in the ratio 1:7. For 3 litres of juice, how many litres of water are needed?",
+      "options": [
+        "21",
+        "14",
+        "24",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "Each litre of juice needs 7 litres of water: 3 × 7 = 21 litres.",
+      "visual": {
+        "alt": "One yellow juice container for every 7 blue water containers.",
+        "elements": [
+          [
+            "text",
+            30,
+            35,
+            "Sports-day drink mix",
+            20
+          ],
+          [
+            "rect",
+            45,
+            80,
+            40,
+            110,
+            "gold"
+          ],
+          [
+            "rect",
+            103,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            161,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            219,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            277,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            335,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            393,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "rect",
+            451,
+            80,
+            40,
+            110,
+            "blue"
+          ],
+          [
+            "text",
+            40,
+            240,
+            "Juice : water = 1 : 7",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-017852e6b0dcff5e9270c6f3",
+      "year": 7,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The pet shelter chart shows items counted: Mon 30, Tue 20, Wed 13. What is the difference between the largest and smallest daily totals?",
+      "options": [
+        "12",
+        "17",
+        "14",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "Subtract the smallest total from the largest: 30 − 13 = 17.",
+      "visual": {
+        "alt": "A labelled bar chart at the pet shelter: Mon 30, Tue 20, Wed 13.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Pet shelter",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            70.0,
+            75,
+            150.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            60.0,
+            "30",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            120.0,
+            75,
+            100.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            110.0,
+            "20",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            155.0,
+            75,
+            65.0,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            145.0,
+            "13",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the difference between the largest and smallest daily totals?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-873b6370c5c79b2e0424a324",
+      "year": 7,
+      "subject": "math",
+      "topic": "map",
+      "prompt": "A map shows school and a museum 3 cm apart. The scale is 1 cm to 6 km. What real distance does this represent, in kilometres?",
+      "options": [
+        "13",
+        "18",
+        "16",
+        "23"
+      ],
+      "answer": 1,
+      "explanation": "Multiply map distance by the scale: 3 × 6 = 18 km.",
+      "visual": {
+        "alt": "A school-to-museum route with its distance and map scale.",
+        "elements": [
+          [
+            "line",
+            80,
+            145,
+            515,
+            145,
+            "blue"
+          ],
+          [
+            "circle",
+            80,
+            145,
+            12,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            145,
+            12,
+            "gold"
+          ],
+          [
+            "text",
+            50,
+            110,
+            "School",
+            20
+          ],
+          [
+            "text",
+            445,
+            110,
+            "Museum",
+            20
+          ],
+          [
+            "text",
+            220,
+            85,
+            "3 cm on map",
+            20
+          ],
+          [
+            "text",
+            180,
+            205,
+            "1 cm = 6 km",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-bbb7910f5218f625bf11bc15",
+      "year": 7,
+      "subject": "math",
+      "prompt": "Juice and water are mixed in the ratio 1:9. How many litres of water are needed for 6 litres of juice?",
+      "options": [
+        "36",
+        "54",
+        "68",
+        "53"
+      ],
+      "answer": 1,
+      "explanation": "The water amount is 9 times the juice amount: 6 × 9 = 54 litres.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-2564c627b998b7698cbb43be",
+      "year": 7,
+      "subject": "math",
+      "prompt": "Juice and water are mixed in the ratio 1:4. How many litres of water are needed for 9 litres of juice?",
+      "options": [
+        "36",
+        "27",
+        "26",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "The water amount is 4 times the juice amount: 9 × 4 = 36 litres.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-ab7b7d576bb11f29bc0e2115",
+      "year": 8,
+      "subject": "math",
+      "topic": "equation",
+      "prompt": "6 equal boxes each hold x tokens, with 7 extra tokens. There are 49 tokens altogether. What is x?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Remove the extras, then divide equally: (49 − 7) ÷ 6 = 7.",
+      "visual": {
+        "alt": "6 equal boxes labelled x with 7 extra tokens and a total of 49.",
+        "elements": [
+          [
+            "rect",
+            35,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            48,
+            98,
+            "x",
+            20
+          ],
+          [
+            "rect",
+            95,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            108,
+            98,
+            "x",
+            20
+          ],
+          [
+            "rect",
+            155,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            168,
+            98,
+            "x",
+            20
+          ],
+          [
+            "rect",
+            215,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            228,
+            98,
+            "x",
+            20
+          ],
+          [
+            "rect",
+            275,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            288,
+            98,
+            "x",
+            20
+          ],
+          [
+            "rect",
+            335,
+            65,
+            48,
+            48,
+            "blue"
+          ],
+          [
+            "text",
+            348,
+            98,
+            "x",
+            20
+          ],
+          [
+            "text",
+            40,
+            170,
+            "+ 7",
+            20
+          ],
+          [
+            "text",
+            300,
+            230,
+            "Total: 49 tokens",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-42ea65d12e141afe39f0a670",
+      "year": 8,
+      "subject": "math",
+      "topic": "money",
+      "prompt": "A school bag is marked A$70, with 30% off. What is the sale price in Australian dollars?",
+      "options": [
+        "58",
+        "49",
+        "60",
+        "53"
+      ],
+      "answer": 1,
+      "explanation": "Pay 70% of A$70: 70 × 70/100 = A$49.",
+      "visual": {
+        "alt": "A school-shop price tag and discount notice.",
+        "elements": [
+          [
+            "rect",
+            75,
+            60,
+            180,
+            130,
+            "teal"
+          ],
+          [
+            "text",
+            95,
+            110,
+            "School shop",
+            20
+          ],
+          [
+            "text",
+            100,
+            155,
+            "A$70",
+            20
+          ],
+          [
+            "text",
+            335,
+            120,
+            "30% off",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-6741f64d05d4a6dffd8b9a25",
+      "year": 8,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The beach cleanup chart shows items counted: Mon 28, Tue 13, Wed 13. What is the mean number per day?",
+      "options": [
+        "18",
+        "22",
+        "21",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "Mean = sum ÷ 3 = 54 ÷ 3 = 18.",
+      "visual": {
+        "alt": "A labelled bar chart at the beach cleanup: Mon 28, Tue 13, Wed 13.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Beach cleanup",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            70.0,
+            75,
+            150.0,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            60.0,
+            "28",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            150.36,
+            75,
+            69.64,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            140.36,
+            "13",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            150.36,
+            75,
+            69.64,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            140.36,
+            "13",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the mean number per day?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-b1a2c9e46ba06f5aa07d6c72",
+      "year": 8,
+      "subject": "math",
+      "prompt": "What is the mean of 88, 81 and 164?",
+      "options": [
+        "141",
+        "126",
+        "125",
+        "111"
+      ],
+      "answer": 3,
+      "explanation": "Add the values, then divide by 3: 333 ÷ 3 = 111.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-b1f1e61992411df3f02a2dd9",
+      "year": 8,
+      "subject": "math",
+      "prompt": "What is the mean of 12, 187 and 137?",
+      "options": [
+        "134",
+        "110",
+        "112",
+        "133"
+      ],
+      "answer": 2,
+      "explanation": "Add the values, then divide by 3: 336 ÷ 3 = 112.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-56628c54c8ae42ce921686ed",
+      "year": 9,
+      "subject": "math",
+      "topic": "line",
+      "prompt": "A straight-line graph passes through A(3, 7) and B(7, 3). What is its gradient?",
+      "options": [
+        "-1",
+        "-3",
+        "-4",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "Gradient = change in y ÷ change in x = (3 − 7) ÷ (7 − 3) = -1.",
+      "visual": {
+        "alt": "A schematic straight line joining labelled points A(3, 7) and B(7, 3); use coordinates, not drawn lengths.",
+        "elements": [
+          [
+            "line",
+            75,
+            225,
+            555,
+            225,
+            "ink"
+          ],
+          [
+            "line",
+            75,
+            225,
+            75,
+            30,
+            "ink"
+          ],
+          [
+            "line",
+            140,
+            75,
+            470,
+            185,
+            "blue"
+          ],
+          [
+            "circle",
+            140,
+            75,
+            6,
+            "teal"
+          ],
+          [
+            "circle",
+            470,
+            185,
+            6,
+            "teal"
+          ],
+          [
+            "text",
+            95,
+            115,
+            "A (3, 7)",
+            18
+          ],
+          [
+            "text",
+            365,
+            160,
+            "B (7, 3)",
+            18
+          ],
+          [
+            "text",
+            25,
+            20,
+            "x-y graph · schematic, use labelled coordinates",
+            16
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-f2368c9a408c4f668be28099",
+      "year": 9,
+      "subject": "math",
+      "topic": "speed",
+      "prompt": "A bus travels 500 km from school to a museum in 5 hours. What is its average speed in km/h?",
+      "options": [
+        "100",
+        "88",
+        "113",
+        "90"
+      ],
+      "answer": 0,
+      "explanation": "Average speed = distance ÷ time = 500 ÷ 5 = 100 km/h.",
+      "visual": {
+        "alt": "A school-to-museum route with its distance and travel time.",
+        "elements": [
+          [
+            "line",
+            80,
+            145,
+            515,
+            145,
+            "blue"
+          ],
+          [
+            "circle",
+            80,
+            145,
+            12,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            145,
+            12,
+            "gold"
+          ],
+          [
+            "text",
+            50,
+            110,
+            "School",
+            20
+          ],
+          [
+            "text",
+            445,
+            110,
+            "Museum",
+            20
+          ],
+          [
+            "text",
+            220,
+            85,
+            "500 km",
+            20
+          ],
+          [
+            "text",
+            180,
+            205,
+            "5 hours",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-112854d39f81363e708a2b70",
+      "year": 9,
+      "subject": "math",
+      "topic": "bars",
+      "prompt": "The beach cleanup chart shows items counted: Mon 2, Tue 26, Wed 23. What is the difference between the largest and smallest daily totals?",
+      "options": [
+        "32",
+        "24",
+        "26",
+        "29"
+      ],
+      "answer": 1,
+      "explanation": "Subtract the smallest total from the largest: 26 − 2 = 24.",
+      "visual": {
+        "alt": "A labelled bar chart at the beach cleanup: Mon 2, Tue 26, Wed 23.",
+        "elements": [
+          [
+            "text",
+            75,
+            22,
+            "Beach cleanup",
+            16
+          ],
+          [
+            "line",
+            55,
+            220,
+            555,
+            220,
+            "ink"
+          ],
+          [
+            "line",
+            55,
+            35,
+            55,
+            220,
+            "ink"
+          ],
+          [
+            "rect",
+            100,
+            208.46,
+            75,
+            11.54,
+            "blue"
+          ],
+          [
+            "text",
+            120,
+            198.46,
+            "2",
+            18
+          ],
+          [
+            "text",
+            105,
+            250,
+            "Mon",
+            18
+          ],
+          [
+            "rect",
+            255,
+            70.0,
+            75,
+            150.0,
+            "teal"
+          ],
+          [
+            "text",
+            275,
+            60.0,
+            "26",
+            18
+          ],
+          [
+            "text",
+            260,
+            250,
+            "Tue",
+            18
+          ],
+          [
+            "rect",
+            410,
+            87.31,
+            75,
+            132.69,
+            "gold"
+          ],
+          [
+            "text",
+            430,
+            77.31,
+            "23",
+            18
+          ],
+          [
+            "text",
+            415,
+            250,
+            "Wed",
+            18
+          ]
+        ]
+      },
+      "visualPrompt": "Study the chart. What is the difference between the largest and smallest daily totals?",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-258bdf101b9456bbdf9ae3a4",
+      "year": 9,
+      "subject": "math",
+      "prompt": "A straight line passes through (40, 72) and (44, 92). What is its gradient?",
+      "options": [
+        "5",
+        "8",
+        "4",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Gradient = change in y ÷ change in x = (92 − 72) ÷ (44 − 40) = 5.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-d1dd801053d513857db99f9b",
+      "year": 9,
+      "subject": "math",
+      "prompt": "A straight line passes through (24, 10) and (28, 70). What is its gradient?",
+      "options": [
+        "20",
+        "15",
+        "16",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "Gradient = change in y ÷ change in x = (70 − 10) ÷ (28 − 24) = 15.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-f39959744e009cd8f2f78bba",
+      "year": 10,
+      "subject": "math",
+      "topic": "speed",
+      "prompt": "A bus travels 240 km from school to a museum in 3 hours. What is its average speed in km/h?",
+      "options": [
+        "91",
+        "64",
+        "80",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "Average speed = distance ÷ time = 240 ÷ 3 = 80 km/h.",
+      "visual": {
+        "alt": "A school-to-museum route with its distance and travel time.",
+        "elements": [
+          [
+            "line",
+            80,
+            145,
+            515,
+            145,
+            "blue"
+          ],
+          [
+            "circle",
+            80,
+            145,
+            12,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            145,
+            12,
+            "gold"
+          ],
+          [
+            "text",
+            50,
+            110,
+            "School",
+            20
+          ],
+          [
+            "text",
+            445,
+            110,
+            "Museum",
+            20
+          ],
+          [
+            "text",
+            220,
+            85,
+            "240 km",
+            20
+          ],
+          [
+            "text",
+            180,
+            205,
+            "3 hours",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-dbd1c46386eb7fa1b8defb9c",
+      "year": 10,
+      "subject": "math",
+      "topic": "line",
+      "prompt": "A straight-line graph passes through A(2, 6) and B(6, 6). What is its gradient?",
+      "options": [
+        "0",
+        "3",
+        "-2",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Gradient = change in y ÷ change in x = (6 − 6) ÷ (6 − 2) = 0.",
+      "visual": {
+        "alt": "A schematic straight line joining labelled points A(2, 6) and B(6, 6); use coordinates, not drawn lengths.",
+        "elements": [
+          [
+            "line",
+            75,
+            225,
+            555,
+            225,
+            "ink"
+          ],
+          [
+            "line",
+            75,
+            225,
+            75,
+            30,
+            "ink"
+          ],
+          [
+            "line",
+            140,
+            145,
+            470,
+            145,
+            "blue"
+          ],
+          [
+            "circle",
+            140,
+            145,
+            6,
+            "teal"
+          ],
+          [
+            "circle",
+            470,
+            145,
+            6,
+            "teal"
+          ],
+          [
+            "text",
+            95,
+            185,
+            "A (2, 6)",
+            18
+          ],
+          [
+            "text",
+            365,
+            120,
+            "B (6, 6)",
+            18
+          ],
+          [
+            "text",
+            25,
+            20,
+            "x-y graph · schematic, use labelled coordinates",
+            16
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-c12441dec27bc97665943063",
+      "year": 10,
+      "subject": "math",
+      "topic": "speed",
+      "prompt": "A bus travels 420 km from school to a museum in 6 hours. What is its average speed in km/h?",
+      "options": [
+        "71",
+        "49",
+        "70",
+        "81"
+      ],
+      "answer": 2,
+      "explanation": "Average speed = distance ÷ time = 420 ÷ 6 = 70 km/h.",
+      "visual": {
+        "alt": "A school-to-museum route with its distance and travel time.",
+        "elements": [
+          [
+            "line",
+            80,
+            145,
+            515,
+            145,
+            "blue"
+          ],
+          [
+            "circle",
+            80,
+            145,
+            12,
+            "teal"
+          ],
+          [
+            "circle",
+            515,
+            145,
+            12,
+            "gold"
+          ],
+          [
+            "text",
+            50,
+            110,
+            "School",
+            20
+          ],
+          [
+            "text",
+            445,
+            110,
+            "Museum",
+            20
+          ],
+          [
+            "text",
+            220,
+            85,
+            "420 km",
+            20
+          ],
+          [
+            "text",
+            180,
+            205,
+            "6 hours",
+            20
+          ]
+        ]
+      },
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-b5aaffa4bde52bb59d596ed3",
+      "year": 10,
+      "subject": "math",
+      "prompt": "A straight line passes through (6, 17) and (9, -40). What is its gradient?",
+      "options": [
+        "-19",
+        "-20",
+        "-23",
+        "-13"
+      ],
+      "answer": 0,
+      "explanation": "Gradient = change in y ÷ change in x = (-40 − 17) ÷ (9 − 6) = -19.",
+      "published": "2026-11-27"
+    },
+    {
+      "id": "math-v1-1c5c26fd58649789f4ed345c",
+      "year": 10,
+      "subject": "math",
+      "prompt": "A straight line passes through (41, 5) and (50, 14). What is its gradient?",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Gradient = change in y ÷ change in x = (14 − 5) ÷ (50 − 41) = 1.",
+      "published": "2026-11-27"
     }
   ],
   "batches": [
@@ -96685,11 +100536,12 @@
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
   "source": "https://www.qcaa.qld.edu.au/p-10/aciq/version-9/learning-areas/p-10-mathematics",
   "curriculum": "Australian Curriculum v9 practice; approximate year alignment, not an assessment",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "language": "en-AU",
   "visualVersion": 1
 }
